@@ -1,0 +1,35 @@
+{
+  "gate": "ICLOUD-YWORLD-MICRO-EXTRACTION-CLOSEOUT-GATE",
+  "generated_at": "2026-07-03T22:45:00Z",
+  "instance_id": "INST-OBS-YWORLD-ICLOUD",
+  "so_id": "SO-OBS-VAULT-0003",
+  "name": "Y-World",
+  "alias": "ICLOUD://obsidian/Y-World",
+  "sync_type": "icloud",
+  "total_md_files": 17,
+  "content_extracted": false,
+  "source_mutated": false,
+  "status": "ICLOUD_YWORLD_MICRO_EXTRACTION_CLOSEOUT_PARTIAL_REQUIRES_PATCH",
+  "directories": [
+    "Projects",
+    "Tags",
+    "TaskNotes",
+    "Test",
+    "Yyy",
+    "Excalidraw"
+  ],
+  "notable_files": [
+    {
+      "name": "yos_memory_blueprint.md",
+      "size": "42KB"
+    },
+    {
+      "name": "excalibrain.md"
+    },
+    {
+      "name": "Tool Intelligence Layer.md"
+    }
+  ],
+  "blocker": "Mac Bridge SSH connection rejected at kex level; iCloud.com requires manual login.",
+  "recommendation": "Requires manual patch or active My Browser connection to iCloud.com for full content extraction."
+}
