@@ -3,7 +3,8 @@
 **Date:** 2026-07-04
 **Status:** `YWORLD_SOURCE_OF_TRUTH_SCOPE_GATE_PASS_REQUIRES_BOUNDED_COMPARISON`
 **Author:** Manus AI
-**Commit (yos-cognitive-os):** `PENDING_COMMIT_HASH`
+**Commit (yos-cognitive-os):** `1efeb47b01c37a97149c860f00b94eabe369aba6`
+**Commit (kap-control-plane):** `2e9ad7baf51e78d8bf4ec8a53a1df624ea4e0eb1`
 
 ---
 
@@ -129,7 +130,8 @@ The metadata fingerprinting revealed that **GITHUB-YWORLD** (234 MD files) and *
 All generated Markdown and JSON files have been staged and committed to the `yos-cognitive-os` repository. The MPM has been committed to the `kap-control-plane` repository.
 
 ## 17. Commit Hash
-`PENDING_COMMIT_HASH`
+- yos-cognitive-os: `1efeb47b01c37a97149c860f00b94eabe369aba6`
+- kap-control-plane: `2e9ad7baf51e78d8bf4ec8a53a1df624ea4e0eb1`
 
 ## 18. Recommended Next Gate
 `YWORLD-BOUNDED-METADATA-COMPARISON-GATE`
