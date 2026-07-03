@@ -10,11 +10,12 @@
       "folder_name": "01_Y_OS_CORE",
       "gdrive_id": "1IOOOx9v2dGp0xtqatpGwzNsP_ga8J21O",
       "last_modified": "2026-05-04",
-      "subfolders": ["01_Projects", "02_Infrastructure", "03_Secrets_Keys"],
+      "subfolders": ["01_Projects", "02_Infrastructure", "SENSITIVE_METADATA_FOLDER_REDACTED"],
+      "redaction_note": "A sensitive-labeled subfolder was observed as metadata only. No content was accessed. Name redacted for privacy/security.",
       "subfolder_count": 3,
       "obsidian_vault_found": false,
       "assessment": "STRUCTURED_YOS_FRAGMENT",
-      "notes": "Oldest and most structured Y-OS GDrive folder. Clean 3-part hierarchy. Likely canonical operational base.",
+      "notes": "Oldest and most structured Y-OS GDrive folder. Clean 3-part hierarchy. Likely canonical operational base. One subfolder name redacted (sensitive label).",
       "status": "CANDIDATE_REQUIRES_SCOPE_DECISION"
     },
     {

@@ -47,7 +47,7 @@ GDRIVE_YOS_OBSIDIAN_LIGHT_CONTENT_PROFILING_GATE_PASS_WITH_FRAGMENTATION_BLOCKER
 
 | Folder | Last Modified | Subfolders | Assessment |
 |---|---|---|---|
-| `01_Y_OS_CORE` | 2026-05-04 | 3 (Projects, Infrastructure, Secrets_Keys) | `STRUCTURED_YOS_FRAGMENT` — oldest, most organized |
+| `01_Y_OS_CORE` | 2026-05-04 | 3 (Projects, Infrastructure, `SENSITIVE_METADATA_FOLDER_REDACTED`) | `STRUCTURED_YOS_FRAGMENT` — oldest, most organized |
 | `Y-OS` | 2026-06-15 | NOT_PROFILED | `MOST_RECENT_WORKING_FOLDER` |
 | `yOS` | 2026-05-17 | NOT_PROFILED | `INTERMEDIATE_FRAGMENT` |
 | `YOS Vision` | 2026-06-20 | NOT_PROFILED | `MOST_RECENT_VISION_DOCS` |
@@ -56,7 +56,7 @@ GDRIVE_YOS_OBSIDIAN_LIGHT_CONTENT_PROFILING_GATE_PASS_WITH_FRAGMENTATION_BLOCKER
 
 **Canonical decision:** DEFERRED_TO_GUARDIAN. No folder designated canonical at this stage.
 
-**Observation:** `01_Y_OS_CORE` has the cleanest structure (3 subfolders: Projects, Infrastructure, Secrets_Keys). `Y-OS` and `YOS Vision` are the most recently modified. Likely `01_Y_OS_CORE` = operational base, `Y-OS` = current working, `YOS Vision` = strategy docs, `yOS` = intermediate/staging.
+**Observation:** `01_Y_OS_CORE` has the cleanest structure (3 subfolders: Projects, Infrastructure, `SENSITIVE_METADATA_FOLDER_REDACTED`). A sensitive-labeled subfolder was observed as metadata only. No content was accessed. Name redacted for privacy/security. `Y-OS` and `YOS Vision` are the most recently modified. Likely `01_Y_OS_CORE` = operational base, `Y-OS` = current working, `YOS Vision` = strategy docs, `yOS` = intermediate/staging.
 
 ---
 
