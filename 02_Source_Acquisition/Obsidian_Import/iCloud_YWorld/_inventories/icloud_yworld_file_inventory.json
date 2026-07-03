@@ -1,0 +1,161 @@
+{
+  "gate": "ICLOUD-YWORLD-PATCHED-MICRO-PROBE-GATE",
+  "source": "ICLOUD://obsidian/Y-World",
+  "status": "ICLOUD_YWORLD_PATCHED_MICRO_PROBE_PASS_KEEP_FOR_FUTURE_COMPARISON",
+  "total_files": 17,
+  "files": [
+    {
+      "filename": "yos_memory_blueprint.md",
+      "size_bytes": 41884,
+      "topic_hint": "Y-OS Memory Architecture, Personal Cognitive Memory OS",
+      "value_signal": "HIGH",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "KEEP_FOR_FUTURE_COMPARISON"
+    },
+    {
+      "filename": "Tool Intelligence Layer.md",
+      "size_bytes": 653,
+      "topic_hint": "Y-OS Core Infrastructure, operational knowledge layer",
+      "value_signal": "HIGH",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "KEEP_FOR_FUTURE_COMPARISON"
+    },
+    {
+      "filename": "Excalidraw/ExcaliBrain Snapshot - Tool Intelligence Layer.excalidraw.md",
+      "size_bytes": 11408,
+      "topic_hint": "Excalidraw snapshot of Tool Intelligence Layer",
+      "value_signal": "MEDIUM",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "KEEP_FOR_FUTURE_COMPARISON"
+    },
+    {
+      "filename": "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+      "size_bytes": 12009,
+      "topic_hint": "Excalidraw plugin script",
+      "value_signal": "LOW",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "ARCHIVE_LOW_PRIORITY"
+    },
+    {
+      "filename": "excalibrain.md",
+      "size_bytes": 2483,
+      "topic_hint": "Excalibrain configuration/drawing",
+      "value_signal": "LOW",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "ARCHIVE_LOW_PRIORITY"
+    },
+    {
+      "filename": "TaskNotes/Tasks/Task1.md",
+      "size_bytes": 163,
+      "topic_hint": "Empty task template/note",
+      "value_signal": "LOW",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Ytest.md",
+      "size_bytes": 94,
+      "topic_hint": "Test file with links",
+      "value_signal": "LOW",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "2026-06-05.md",
+      "size_bytes": 24,
+      "topic_hint": "Daily note linking to yos_memory_blueprint",
+      "value_signal": "LOW",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "ARCHIVE_LOW_PRIORITY"
+    },
+    {
+      "filename": "Hum.md",
+      "size_bytes": 8,
+      "topic_hint": "Empty test file",
+      "value_signal": "LOW",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "ChatGPT.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Notion.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Obsidian Canvas.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Tana.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Ttttttty.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Vault.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "Yyy/Ttt.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    },
+    {
+      "filename": "n8n.md",
+      "size_bytes": 0,
+      "topic_hint": "Empty file",
+      "value_signal": "NONE",
+      "sensitive_flag": false,
+      "duplicate_candidate": "None",
+      "recommendation": "EXCLUDE_FROM_PIPELINE"
+    }
+  ]
+}
