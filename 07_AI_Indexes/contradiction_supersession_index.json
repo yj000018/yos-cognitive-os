@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "policy_path": "02_Architecture/Synthesis/CONTRADICTION-SUPERSESSION-POLICY.md",
+  "schema_path": "02_Architecture/Synthesis/_schemas/contradiction_supersession.schema.json",
+  "registry_path": "05_Registries/CONTRADICTION-SUPERSESSION-REGISTRY.md",
+  "records_count": 4,
+  "current_best_allowed": false,
+  "broad_acquisition_allowed": false,
+  "gate": "CONTRADICTION-SUPERSESSION-POLICY-GATE",
+  "created_at": "2026-07-03T00:00:00Z",
+  "notes": [
+    "Seeded with 4 control-plane relation records.",
+    "Real-scale contradiction/supersession extraction pending pipeline gates.",
+    "current_best_allowed will remain false until SYNTHESIS-AUTHORIZATION-GATE passes.",
+    "broad_acquisition_allowed will remain false until ACQUISITION-GATE passes."
+  ],
+  "records": [
+    {
+      "relation_id": "REL-20260703-CS01",
+      "relation_type": "supersession",
+      "source_object_id": "DT-20260703-YOS4",
+      "target_object_id": "ZIP-as-primary-corpus",
+      "supersession_type": "full_supersession",
+      "supersession_status": "supersedes_other",
+      "current_validity_effect": "rejected",
+      "resolution_status": "resolved_by_guardian"
+    },
+    {
+      "relation_id": "REL-20260703-CS02",
+      "relation_type": "supersession",
+      "source_object_id": "DT-20260703-YOS3",
+      "target_object_id": "broad-acquisition-first-workflow",
+      "supersession_type": "full_supersession",
+      "supersession_status": "supersedes_other",
+      "current_validity_effect": "rejected",
+      "resolution_status": "resolved_by_guardian"
+    },
+    {
+      "relation_id": "REL-20260703-CS03",
+      "relation_type": "supersession",
+      "source_object_id": "DT-20260703-YOS2",
+      "target_object_id": "chat-only-doctrine-persistence",
+      "supersession_type": "full_supersession",
+      "supersession_status": "supersedes_other",
+      "current_validity_effect": "deprecated",
+      "resolution_status": "resolved_by_guardian"
+    },
+    {
+      "relation_id": "REL-20260703-CS04",
+      "relation_type": "contradiction",
+      "source_object_id": "CLAIM-20260703-YOS4",
+      "target_object_id": "direct-claim-extraction-from-unregistered-source",
+      "contradiction_type": "implementation_conflict",
+      "contradiction_status": "confirmed",
+      "current_validity_effect": "rejected",
+      "resolution_status": "resolved_by_gate"
+    }
+  ]
+}
