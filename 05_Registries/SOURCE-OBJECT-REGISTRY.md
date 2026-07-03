@@ -207,3 +207,58 @@ L0 Source Channel     (SOURCE-CHANNEL-REGISTRY.md)
 | SO-NOTION-0053 | MISC YOS | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
 | SO-NOTION-0054 | Y-OS — conçu et inspiré par Y | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
 | SO-NOTION-0055 | 🧠 yOS — Cognitive Operating System | child_page | L2 | INST-NOTION-KAP | ACCESSIBLE | — |
+
+---
+
+## GitHub Source Objects (added: GITHUB-SOURCE-METADATA-PILOT-GATE)
+
+**Scan date:** 2026-07-03
+**Total repos:** 2 | **Total tree objects:** 349 (L1+L2, metadata only)
+**Scope:** yj000018/yos-cognitive-os + yj000018/Y-WORLD
+
+| SO ID | Path / Name | Type | Level | Instance | Status | Flags |
+|---|---|---|---|---|---|---|
+| SO-GITHUB-REPO-0001 | yj000018/yos-cognitive-os | repository | L0 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-REPO-0002 | yj000018/Y-WORLD | repository | L0 | INST-GITHUB-YWORLD | ACCESSIBLE | ARCHIVED_FLAG |
+| SO-GITHUB-TREE-0001 | yj000018/yos-cognitive-os/00_Control_Plane | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0002 | yj000018/yos-cognitive-os/00_Infrastructure | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0003 | yj000018/yos-cognitive-os/01_Strategy | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0004 | yj000018/yos-cognitive-os/02_Architecture | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0005 | yj000018/yos-cognitive-os/03_Modules | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0006 | yj000018/yos-cognitive-os/04_Roadmap | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0007 | yj000018/yos-cognitive-os/05_Registries | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0008 | yj000018/yos-cognitive-os/06_Reports | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0009 | yj000018/yos-cognitive-os/06_Source_Staging | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0010 | yj000018/yos-cognitive-os/07_AI_Indexes | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0011 | yj000018/yos-cognitive-os/08_Human_Views | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0012 | yj000018/yos-cognitive-os/99_Legacy | directory | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0001 | yj000018/yos-cognitive-os/README.md | file | L1 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0002 | yj000018/yos-cognitive-os/00_Control_Plane/ACTIVE-DECISION-LOG.md | file | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0003 | yj000018/yos-cognitive-os/00_Control_Plane/CANONICAL-DOCTRINE-REGISTRY.md | file | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0013 | yj000018/yos-cognitive-os/00_Control_Plane/Gates | directory | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0004 | yj000018/yos-cognitive-os/00_Control_Plane/MANUS-HANDOFF-YOS-KAP-SESSION-CAPTURE-PERSISTENCE-v2.md | file | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0005 | yj000018/yos-cognitive-os/00_Control_Plane/MANUS-HANDOFF-YOS-KAP-SESSION-CAPTURE-PERSISTENCE.md | file | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0006 | yj000018/yos-cognitive-os/00_Control_Plane/MPM-COUNT-RECONCILIATION.md | file | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0007 | yj000018/yos-cognitive-os/00_Control_Plane/SESSION-CAPTURE-INBOX.md | file | L2 | INST-GITHUB-YOS | ACCESSIBLE | — |
+| _(+71 more)_ | yos-cognitive-os tree objects | — | — | INST-GITHUB-YOS | — | see github_tree_inventory.json |
+| SO-GITHUB-TREE-0050 | yj000018/Y-WORLD/.github | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0043 | yj000018/Y-WORLD/.gitignore | file | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0051 | yj000018/Y-WORLD/.obsidian | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0052 | yj000018/Y-WORLD/00_System | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0053 | yj000018/Y-WORLD/01_Cockpit | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0054 | yj000018/Y-WORLD/02_Maps | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0055 | yj000018/Y-WORLD/03_Dashboards | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0056 | yj000018/Y-WORLD/04_Templates | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0057 | yj000018/Y-WORLD/05_Registries | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0058 | yj000018/Y-WORLD/06_Workflows | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0059 | yj000018/Y-WORLD/07_Agent_Operations | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0044 | yj000018/Y-WORLD/10_Inbox.md | file | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0060 | yj000018/Y-WORLD/10_Inbox | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0061 | yj000018/Y-WORLD/20_Life | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0062 | yj000018/Y-WORLD/30_Knowledge | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0063 | yj000018/Y-WORLD/40_K-Cards | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0064 | yj000018/Y-WORLD/50_Projects | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-FILE-0045 | yj000018/Y-WORLD/60_Y-OS.md | file | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0065 | yj000018/Y-WORLD/60_Y-OS | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| SO-GITHUB-TREE-0066 | yj000018/Y-WORLD/70_CasaTAO | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
+| _(+238 more)_ | Y-WORLD tree objects | — | — | INST-GITHUB-YWORLD | — | see github_tree_inventory.json |

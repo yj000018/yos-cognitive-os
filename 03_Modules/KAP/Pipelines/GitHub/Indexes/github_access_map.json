@@ -1,0 +1,156 @@
+{
+  "generated_at": "2026-07-03T10:10:38.502614+00:00",
+  "gate": "GITHUB-SOURCE-METADATA-PILOT-GATE",
+  "owner": "yj000018",
+  "total_repos_discovered": 24,
+  "summary": {
+    "scanned": 2,
+    "accessible": 2,
+    "inaccessible": 0,
+    "blocked": 0,
+    "archived": 11,
+    "candidate_not_scanned": 10,
+    "excluded": 0
+  },
+  "access_map": {
+    "scanned": [
+      "yj000018/yos-cognitive-os",
+      "yj000018/Y-WORLD"
+    ],
+    "accessible": [
+      {
+        "full_name": "yj000018/yos-cognitive-os",
+        "visibility": "public",
+        "archived": false,
+        "default_branch": "main"
+      },
+      {
+        "full_name": "yj000018/Y-WORLD",
+        "visibility": "private",
+        "archived": true,
+        "default_branch": "main"
+      }
+    ],
+    "inaccessible": [],
+    "blocked": [],
+    "archived": [
+      {
+        "full_name": "yj000018/daylog",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/daylog-mvp",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/manus-enhancer",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/one-galaxy",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/relevance-ai-workforce",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/y-menu",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/yos-cockpit",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/yos-manus-client",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/yos-scripts",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/yos-userscripts",
+        "reason": "archived"
+      },
+      {
+        "full_name": "yj000018/youniverse",
+        "reason": "archived"
+      }
+    ],
+    "candidate_not_scanned": [
+      {
+        "full_name": "yj000018/civilizational-awakening",
+        "private": false,
+        "description": "Civilizational Awakening — A lifelong inquiry into human flourishing in the age of AI. React + TypeScript + Tailwind + DeepL i18n (EN/FR/IT).",
+        "updated_at": "2026-07-02T08:53:41Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/elysium-book",
+        "private": false,
+        "description": "ELYSIUM Civilizational Ontology — FCS Book Repository",
+        "updated_at": "2026-06-28T14:36:36Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/elysium-civilizational-ontology",
+        "private": false,
+        "description": "ELYSIUM — Civilizational Ontology: 3 Scales x 7 Foundations x 38 Facets x 12-Step Universal Analysis Matrix.",
+        "updated_at": "2026-06-28T12:55:33Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/KAP",
+        "private": false,
+        "description": "Knowledge Acquisition Pipeline — Y-OS KAP Corpus",
+        "updated_at": "2026-07-02T23:52:09Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/UniversalChatThemeCanon",
+        "private": false,
+        "description": "UniversalChatThemeCanon",
+        "updated_at": "2026-02-07T10:28:56Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/Y-Browser-Admin",
+        "private": false,
+        "description": null,
+        "updated_at": "2025-10-16T12:44:00Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/y-llm-exporter",
+        "private": false,
+        "description": "Chrome extention to export from LLM ",
+        "updated_at": "2026-06-11T11:07:14Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/yannick",
+        "private": false,
+        "description": "Sample DatoCMS website built with GatsbyJS",
+        "updated_at": "2021-02-01T15:44:38Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/YMap",
+        "private": false,
+        "description": null,
+        "updated_at": "2025-10-22T22:46:31Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      },
+      {
+        "full_name": "yj000018/YOS",
+        "private": false,
+        "description": null,
+        "updated_at": "2026-06-06T22:14:02Z",
+        "status": "CANDIDATE_REPOSITORY_NOT_SCANNED"
+      }
+    ],
+    "excluded": []
+  }
+}

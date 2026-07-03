@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-07-03T10:10:38.502614+00:00",
+  "gate": "GITHUB-SOURCE-METADATA-PILOT-GATE",
+  "scan_type": "read_only_metadata_only",
+  "total_repositories": 2,
+  "repositories": [
+    {
+      "so_id": "SO-GITHUB-REPO-0001",
+      "full_name": "yj000018/yos-cognitive-os",
+      "owner": "yj000018",
+      "name": "yos-cognitive-os",
+      "description": "Y-OS Cognitive Operating System — Master Control Plane. KAP is a module inside YOS.",
+      "visibility": "public",
+      "archived": false,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "Python",
+      "topics": [],
+      "license": null,
+      "html_url": "https://github.com/yj000018/yos-cognitive-os",
+      "created_at": "2026-07-02T23:54:09Z",
+      "updated_at": "2026-07-03T10:01:41Z",
+      "pushed_at": "2026-07-03T10:01:34Z",
+      "size_kb": 352,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f89c35fbb7545cf90e3a84d30e9017f7c16d0081"
+        }
+      ],
+      "latest_commit_sha": "f89c35fbb754",
+      "latest_commit_message": "NOTION-METADATA-INVENTORY-GATE-REPORT v1.2: insert actual v1.2 commit hash 49a4c",
+      "latest_commit_date": "2026-07-03T10:01:33Z",
+      "releases_count": 0,
+      "tags_count": 0,
+      "readme_present": true,
+      "readme_path": "README.md",
+      "readme_size_bytes": 1876,
+      "workflows": [],
+      "access_status": "ACCESSIBLE",
+      "scan_status": "SCANNED",
+      "instance_id": "INST-GITHUB-YOS"
+    },
+    {
+      "so_id": "SO-GITHUB-REPO-0002",
+      "full_name": "yj000018/Y-WORLD",
+      "owner": "yj000018",
+      "name": "Y-WORLD",
+      "description": "Y-WORLD — World Operating System. Obsidian vault as Human Cognitive Interface.",
+      "visibility": "private",
+      "archived": true,
+      "disabled": false,
+      "default_branch": "main",
+      "language": "Python",
+      "topics": [],
+      "license": null,
+      "html_url": "https://github.com/yj000018/Y-WORLD",
+      "created_at": "2026-05-28T22:37:16Z",
+      "updated_at": "2026-06-04T15:07:47Z",
+      "pushed_at": "2026-05-29T22:35:36Z",
+      "size_kb": 4620,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7d07b459d1fcd46a1a742112f3cf7c1ff6cdc531"
+        }
+      ],
+      "latest_commit_sha": "7d07b459d1fc",
+      "latest_commit_message": "auto: compile knowledge graph [skip ci]",
+      "latest_commit_date": "2026-05-29T22:35:35Z",
+      "releases_count": 0,
+      "tags_count": 0,
+      "readme_present": false,
+      "readme_path": null,
+      "readme_size_bytes": 0,
+      "workflows": [
+        {
+          "name": "Compile Y-World Knowledge Graph",
+          "path": ".github/workflows/compile-graph.yml",
+          "state": "active"
+        }
+      ],
+      "access_status": "ACCESSIBLE",
+      "scan_status": "SCANNED",
+      "instance_id": "INST-GITHUB-YWORLD"
+    }
+  ]
+}

@@ -1,0 +1,3460 @@
+{
+  "generated_at": "2026-07-03T10:10:38.502614+00:00",
+  "gate": "GITHUB-SOURCE-METADATA-PILOT-GATE",
+  "note": "Top-level (L1) and L2 directory/file metadata only. No file body content.",
+  "total_objects": 349,
+  "trees": 74,
+  "files": 275,
+  "objects": [
+    {
+      "so_id": "SO-GITHUB-TREE-0001",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "9dbe40eb1378"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0002",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Infrastructure",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "8cfcc2966320"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0003",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "01_Strategy",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "0d07d68e6847"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0004",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "0148f76a21fa"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0005",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "a1f9b171f5cd"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0006",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "04_Roadmap",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "e7b115368fe4"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0007",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "75f173f2666d"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0008",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Reports",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "c87966d5a850"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0009",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "d50f582caf6e"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0010",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "35550a48f897"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0011",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "08_Human_Views",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "59b6c16b9e29"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0012",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "99_Legacy",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "eb89a930084f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0001",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "README.md",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 1876,
+      "sha": "0282ae923e27"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0002",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/ACTIVE-DECISION-LOG.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 6251,
+      "sha": "a3d9ee596bb5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0003",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/CANONICAL-DOCTRINE-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 13235,
+      "sha": "8bedd52ef93c"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0013",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/Gates",
+      "type": "tree",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": null,
+      "sha": "aa3fdd4f978e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0004",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/MANUS-HANDOFF-YOS-KAP-SESSION-CAPTURE-PERSISTENCE-v2.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 2866,
+      "sha": "7353a6df1012"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0005",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/MANUS-HANDOFF-YOS-KAP-SESSION-CAPTURE-PERSISTENCE.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 4660,
+      "sha": "a2d9f0526441"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0006",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/MPM-COUNT-RECONCILIATION.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 4554,
+      "sha": "f7c5b712fd79"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0007",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/SESSION-CAPTURE-INBOX.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 5772,
+      "sha": "ccfa7d49d936"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0014",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/Session_Captures",
+      "type": "tree",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": null,
+      "sha": "0839063852b5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0008",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Control_Plane/YOS-KAP-OPERATING-PROTOCOL.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_Control_Plane",
+      "size_bytes": 2861,
+      "sha": "8dffe19aadf0"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0015",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Infrastructure/Bootstrap_Temporary_Registries",
+      "type": "tree",
+      "level": 2,
+      "parent": "00_Infrastructure",
+      "size_bytes": null,
+      "sha": "6937a7a450a2"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0016",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "00_Infrastructure/Team_OS",
+      "type": "tree",
+      "level": 2,
+      "parent": "00_Infrastructure",
+      "size_bytes": null,
+      "sha": "49950f220c4f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0009",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "01_Strategy/.gitkeep",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Strategy",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0010",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "01_Strategy/ARCHITECTURE-BEFORE-ABSORPTION.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Strategy",
+      "size_bytes": 1853,
+      "sha": "90218257e131"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0011",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "01_Strategy/YOS-STRATEGIC-DOCTRINE.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Strategy",
+      "size_bytes": 1852,
+      "sha": "a7bcd41873f5"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0017",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Agents",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0018",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Capability_Expansion",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0019",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Cognitive_OS",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0020",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Connectors",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0021",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Decisions",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "b2e350a80fda"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0022",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Memory",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0023",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Routing",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0024",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Self_Improvement",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0025",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "02_Architecture/Synthesis",
+      "type": "tree",
+      "level": 2,
+      "parent": "02_Architecture",
+      "size_bytes": null,
+      "sha": "d4e7167e40c6"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0026",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/ART_Agent_Routing",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0027",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/Agent_Team_OS",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0028",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/Automation_Infrastructure",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0029",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/CRT_Model_Routing",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0030",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/CasaTAO",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0031",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/GPT_Cognitive_RAM",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0032",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/KAP",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "93b19f79235e"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0033",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/Manus_Meta_Operator",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0034",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "03_Modules/YOS_Memory",
+      "type": "tree",
+      "level": 2,
+      "parent": "03_Modules",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0012",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "04_Roadmap/.gitkeep",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Roadmap",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0013",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "04_Roadmap/YOS-KAP-COGNITIVE-ARCHITECTURE-ROADMAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Roadmap",
+      "size_bytes": 2549,
+      "sha": "59113c032a29"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0014",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/.gitkeep",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0015",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/CHANNEL-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 5955,
+      "sha": "77bfc6601887"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0016",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/CLAIM-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 3157,
+      "sha": "8bdc58647918"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0017",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/CONTRADICTION-SUPERSESSION-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 2217,
+      "sha": "bd84e49fc6d0"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0018",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/DECISION-THREAD-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 7353,
+      "sha": "8b2a72c28887"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0019",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/DOCTRINE-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 2408,
+      "sha": "a6f257563d5e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0020",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/KAP-SOURCE-MATRIX.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 8588,
+      "sha": "348721d12dee"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0021",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/KAP-STATUSMATRICE.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 4213,
+      "sha": "67de916887f9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0022",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/REPO-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 5191,
+      "sha": "d9ef63113815"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0023",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SESSION-CAPTURE-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 3945,
+      "sha": "976a1e08b321"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0024",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-ACCESS-READINESS-MATRIX.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 10963,
+      "sha": "fabcd3171792"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0025",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-CHANNEL-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 4882,
+      "sha": "ca0b5671cbdb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0026",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-FRAGMENT-ID-CROSSWALK.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 1692,
+      "sha": "b59db4792f6c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0027",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-FRAGMENT-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 4367,
+      "sha": "adc182608214"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0028",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-INSTANCE-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 15806,
+      "sha": "061b4af5e5f8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0029",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-OBJECT-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 15837,
+      "sha": "e783e4efaae9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0030",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/SOURCE-PIPELINE-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 7380,
+      "sha": "de6a0b73f543"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0031",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "05_Registries/THOUGHT-LINE-REGISTRY.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 3069,
+      "sha": "424c1573e4c1"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0035",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Reports/Gates",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Reports",
+      "size_bytes": null,
+      "sha": "90909b1d70cc"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0036",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging/ChatGPT",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Source_Staging",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0037",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging/External",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Source_Staging",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0038",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging/Git_Repos",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Source_Staging",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0039",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging/Manus",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Source_Staging",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0040",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging/Notion",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Source_Staging",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0041",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "06_Source_Staging/Obsidian",
+      "type": "tree",
+      "level": 2,
+      "parent": "06_Source_Staging",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0032",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/.gitkeep",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0033",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/claim_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 6258,
+      "sha": "15556cb52ce9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0034",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/contradiction_supersession_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 2389,
+      "sha": "1dc38ce4e18e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0035",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/decision_thread_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 6173,
+      "sha": "b549e8cb0d6f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0036",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/kap_runbook_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 1823,
+      "sha": "64ee470e1a59"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0037",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/notion_metadata_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 11485,
+      "sha": "d36602cc3c7a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0038",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/obsidian_metadata_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 3434,
+      "sha": "8aef18499dd3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0039",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/repo_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 4199,
+      "sha": "2516126e9031"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0040",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/source_access_readiness_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 6748,
+      "sha": "0909afb536e8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0041",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/source_fragment_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 11788,
+      "sha": "fab928860c34"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0042",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "07_AI_Indexes/thought_line_index.json",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_AI_Indexes",
+      "size_bytes": 5033,
+      "sha": "f0fb6c18499b"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0042",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "08_Human_Views/Current_Best",
+      "type": "tree",
+      "level": 2,
+      "parent": "08_Human_Views",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0043",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "08_Human_Views/Dashboards",
+      "type": "tree",
+      "level": 2,
+      "parent": "08_Human_Views",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0044",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "08_Human_Views/Decision_Trails",
+      "type": "tree",
+      "level": 2,
+      "parent": "08_Human_Views",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0045",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "08_Human_Views/Project_Briefs",
+      "type": "tree",
+      "level": 2,
+      "parent": "08_Human_Views",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0046",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "08_Human_Views/Review_Queues",
+      "type": "tree",
+      "level": 2,
+      "parent": "08_Human_Views",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0047",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "99_Legacy/Old_KAP",
+      "type": "tree",
+      "level": 2,
+      "parent": "99_Legacy",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0048",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "99_Legacy/Old_YOS",
+      "type": "tree",
+      "level": 2,
+      "parent": "99_Legacy",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0049",
+      "repo": "yj000018/yos-cognitive-os",
+      "path": "99_Legacy/Wild_World",
+      "type": "tree",
+      "level": 2,
+      "parent": "99_Legacy",
+      "size_bytes": null,
+      "sha": "d564d0bc3dd9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0050",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".github",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "0f85221f2d37"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0043",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".gitignore",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 438,
+      "sha": "f84b0d0757c1"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0051",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "8e6171c32d8e"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0052",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "7e2a079bc3f3"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0053",
+      "repo": "yj000018/Y-WORLD",
+      "path": "01_Cockpit",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "a4d1e0449bb9"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0054",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "be83412bf082"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0055",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "fec8636d8cc5"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0056",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "bd4d93f528a0"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0057",
+      "repo": "yj000018/Y-WORLD",
+      "path": "05_Registries",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "5b3ae8186583"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0058",
+      "repo": "yj000018/Y-WORLD",
+      "path": "06_Workflows",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "dabdceaa21db"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0059",
+      "repo": "yj000018/Y-WORLD",
+      "path": "07_Agent_Operations",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "99cadc573798"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0044",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox.md",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0060",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "0f866eea1c52"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0061",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "d1319b59c4a5"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0062",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "a0b8c6b7dd3d"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0063",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "4bcd7a547bd0"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0064",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "1b2390698d54"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0045",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS.md",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0065",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "dd1f19c72a35"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0066",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "30236a3e034e"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0067",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "d8d7e1298afa"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0068",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "573e23c693d0"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0069",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "b3a9f67ebf56"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0070",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces",
+      "type": "tree",
+      "level": 1,
+      "size_bytes": null,
+      "sha": "d978500f21f2"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0046",
+      "repo": "yj000018/Y-WORLD",
+      "path": "Untitled.canvas",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 250,
+      "sha": "c16613ddd0fa"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0047",
+      "repo": "yj000018/Y-WORLD",
+      "path": "graph_data.json",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 148770,
+      "sha": "ba5a0c1477b3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0048",
+      "repo": "yj000018/Y-WORLD",
+      "path": "parse_vault.py",
+      "type": "blob",
+      "level": 1,
+      "size_bytes": 20336,
+      "sha": "4ba06848d8c8"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0071",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".github/workflows",
+      "type": "tree",
+      "level": 2,
+      "parent": ".github",
+      "size_bytes": null,
+      "sha": "877f0680d80f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0049",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/app.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 522,
+      "sha": "8d2634c6f6e1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0050",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/appearance.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 337,
+      "sha": "aa638bc25cc3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0051",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/community-plugins.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 175,
+      "sha": "2ef05340c2e9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0052",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/core-plugins.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 694,
+      "sha": "5d70632d92d3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0053",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/daily-notes.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 128,
+      "sha": "6a4749e1c246"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0054",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/graph.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 1264,
+      "sha": "15bf5bd0e9fb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0055",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/hotkeys.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 644,
+      "sha": "4b82de68cee7"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0072",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/plugins",
+      "type": "tree",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": null,
+      "sha": "166ef6e27a33"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0056",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/templates.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 31,
+      "sha": "6b1769df9bcf"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0073",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/themes",
+      "type": "tree",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": null,
+      "sha": "526e749335f7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0057",
+      "repo": "yj000018/Y-WORLD",
+      "path": ".obsidian/types.json",
+      "type": "blob",
+      "level": 2,
+      "parent": ".obsidian",
+      "size_bytes": 1795,
+      "sha": "b992aa6c5c40"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0058",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Automation Safety Rules.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 1337,
+      "sha": "ad2f2e2b75bb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0059",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Manus Operations.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 1238,
+      "sha": "2ed8177f5079"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0060",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Metadata Schema.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 2034,
+      "sha": "8584837437a7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0061",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Naming Conventions.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 1207,
+      "sha": "721cf968dc12"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0062",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Obsidian OS Cockpit.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 1514,
+      "sha": "6e3bd65dacbe"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0063",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Obsidian Walkthrough.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 8356,
+      "sha": "2c182dbe19e7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0064",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Plugin Registry.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 3548,
+      "sha": "ca6b5d1e10e4"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0065",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Profile Strategy.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 2121,
+      "sha": "ef2e52f15ae7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0066",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Workspace Strategy.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 2087,
+      "sha": "1cafe51c98e6"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0067",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Y-WORLD Architecture.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 2831,
+      "sha": "2200d5b61d57"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0068",
+      "repo": "yj000018/Y-WORLD",
+      "path": "00_System/Y-WORLD Operating Principles.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "00_System",
+      "size_bytes": 1569,
+      "sha": "1779d49e1063"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0069",
+      "repo": "yj000018/Y-WORLD",
+      "path": "01_Cockpit/Daily Operating Surface.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Cockpit",
+      "size_bytes": 606,
+      "sha": "69b36093deb8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0070",
+      "repo": "yj000018/Y-WORLD",
+      "path": "01_Cockpit/HOME.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Cockpit",
+      "size_bytes": 2328,
+      "sha": "177407c02ec3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0071",
+      "repo": "yj000018/Y-WORLD",
+      "path": "01_Cockpit/Manus Control Surface.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Cockpit",
+      "size_bytes": 916,
+      "sha": "7bb2d3cb442e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0072",
+      "repo": "yj000018/Y-WORLD",
+      "path": "01_Cockpit/Weekly Review Surface.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Cockpit",
+      "size_bytes": 297,
+      "sha": "a0a65e760da9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0073",
+      "repo": "yj000018/Y-WORLD",
+      "path": "01_Cockpit/Y-WORLD Command Center.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "01_Cockpit",
+      "size_bytes": 766,
+      "sha": "434aaca18dcb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0074",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/AI SYSTEMS MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 262,
+      "sha": "267b032ffd23"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0075",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/ARC ANANDAZ MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 265,
+      "sha": "c229d29ed8ec"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0076",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/ARCHETYPES MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 262,
+      "sha": "51552dc4d6ab"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0077",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/CASATAO MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 253,
+      "sha": "20d485a9e8f8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0078",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/KNOWLEDGE MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 259,
+      "sha": "9820894b0296"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0079",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/LIFE MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 244,
+      "sha": "489b92d10aff"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0080",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/PROJECTS MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 256,
+      "sha": "8276038aad2a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0081",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/REALITY INTERFACES MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 286,
+      "sha": "fb94ce3a5aaf"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0082",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/Y-OS MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 244,
+      "sha": "66e0f137c631"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0083",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/Y-PUBLISHING MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 268,
+      "sha": "f4ccc8e1c1f9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0084",
+      "repo": "yj000018/Y-WORLD",
+      "path": "02_Maps/Y-WORLD ROOT MAP.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "02_Maps",
+      "size_bytes": 2061,
+      "sha": "e8fa14095268"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0085",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/AI Systems Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 271,
+      "sha": "0c92620d63e0"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0086",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/ARC Anandaz Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 274,
+      "sha": "0ebb6869320f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0087",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Archetypes Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 271,
+      "sha": "8c224f7156fb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0088",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/CasaTAO Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 262,
+      "sha": "9fcf883a42ac"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0089",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Knowledge Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 268,
+      "sha": "04c740b8a1ee"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0090",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Life Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 253,
+      "sha": "e4476cb7740a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0091",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Manus Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 256,
+      "sha": "ea6a91864c7b"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0092",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Projects Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 265,
+      "sha": "344fa34d2764"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0093",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Y-OS Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 563,
+      "sha": "a1532d6543c4"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0094",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Y-Publishing Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 277,
+      "sha": "484d6635ddca"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0095",
+      "repo": "yj000018/Y-WORLD",
+      "path": "03_Dashboards/Y-WORLD Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "03_Dashboards",
+      "size_bytes": 1568,
+      "sha": "12b0971333bc"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0096",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Agent.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 414,
+      "sha": "cb97099c2004"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0097",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Daily Note.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 338,
+      "sha": "4127bf8671f5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0098",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Dashboard.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 439,
+      "sha": "e492a6408b2a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0099",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Decision.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 442,
+      "sha": "50b03eb10202"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0100",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - K-Card.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 621,
+      "sha": "1a6193f787d7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0101",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Map Node.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 428,
+      "sha": "cd3cb581d305"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0102",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Project.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 602,
+      "sha": "0d67d4058b9c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0103",
+      "repo": "yj000018/Y-WORLD",
+      "path": "04_Templates/Template - Workflow.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "04_Templates",
+      "size_bytes": 458,
+      "sha": "a24e4b1785cc"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0104",
+      "repo": "yj000018/Y-WORLD",
+      "path": "05_Registries/Tool Registry.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "05_Registries",
+      "size_bytes": 768,
+      "sha": "55adc29468cb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0105",
+      "repo": "yj000018/Y-WORLD",
+      "path": "06_Workflows/Workflow Registry.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "06_Workflows",
+      "size_bytes": 629,
+      "sha": "c230e88ab8e5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0106",
+      "repo": "yj000018/Y-WORLD",
+      "path": "07_Agent_Operations/Manus Change Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_Agent_Operations",
+      "size_bytes": 847,
+      "sha": "01fe81b5854e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0107",
+      "repo": "yj000018/Y-WORLD",
+      "path": "07_Agent_Operations/Manus Commands.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_Agent_Operations",
+      "size_bytes": 770,
+      "sha": "bf489c20d91c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0108",
+      "repo": "yj000018/Y-WORLD",
+      "path": "07_Agent_Operations/Manus Operating Manual.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_Agent_Operations",
+      "size_bytes": 1038,
+      "sha": "80dc3856506e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0109",
+      "repo": "yj000018/Y-WORLD",
+      "path": "07_Agent_Operations/Manus Safety Checklist.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_Agent_Operations",
+      "size_bytes": 717,
+      "sha": "b1ccc54ecb31"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0110",
+      "repo": "yj000018/Y-WORLD",
+      "path": "07_Agent_Operations/Manus Task Queue.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "07_Agent_Operations",
+      "size_bytes": 656,
+      "sha": "e9010c04e8d3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0111",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/2026-05-28.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 311,
+      "sha": "6422cbd39996"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0112",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/2026-05-29.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 311,
+      "sha": "6422cbd39996"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0113",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Untitled 1.base",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 256,
+      "sha": "99c5dea28110"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0114",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Untitled 1.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0115",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Untitled 2.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0116",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Untitled.base",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 170,
+      "sha": "e23220e1d2f4"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0117",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Untitled.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 423,
+      "sha": "5134aa5e84e3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0118",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Y-Publishing Book 1.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 0,
+      "sha": "e69de29bb2d1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0119",
+      "repo": "yj000018/Y-WORLD",
+      "path": "10_Inbox/Y-World PoC Validation Node.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "10_Inbox",
+      "size_bytes": 709,
+      "sha": "1ffc65466cfe"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0120",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Annual Retreat Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 354,
+      "sha": "a15b1a6033bd"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0121",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Cold Exposure Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 336,
+      "sha": "01ed85adda7c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0122",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Crypto Portfolio.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 282,
+      "sha": "a65903ee540e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0123",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Digital Detox Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 321,
+      "sha": "77fd45942f90"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0124",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Fasting Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 342,
+      "sha": "8ce7b6616dc3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0125",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Financial Architecture.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 311,
+      "sha": "4368b05461be"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0126",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Health Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 312,
+      "sha": "9a436b795336"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0127",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Language Practice.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 323,
+      "sha": "d6d6c7239ca7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0128",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Life Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 251,
+      "sha": "35f1a49bd2b0"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0129",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Morning Ritual.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 316,
+      "sha": "999ee17977fe"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0130",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Physical Training.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 279,
+      "sha": "df056d398780"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0131",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Reading Practice.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 330,
+      "sha": "24e33b315212"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0132",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Real Estate Portfolio.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 296,
+      "sha": "5405578c1e61"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0133",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Sicily Residency & Living.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 708,
+      "sha": "19d4e125d90e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0134",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Sleep Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 345,
+      "sha": "db4488f4f2e7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0135",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Swiss Chalet Living.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 561,
+      "sha": "532dba51e754"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0136",
+      "repo": "yj000018/Y-WORLD",
+      "path": "20_Life/Travel Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "20_Life",
+      "size_bytes": 252,
+      "sha": "abbaa4c23323"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0137",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/ARC Anandaz.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 591,
+      "sha": "77482a999978"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0138",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Antifragile.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 287,
+      "sha": "9e9e26060455"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0139",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Carl Jung.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 265,
+      "sha": "e72fa75af2d2"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0140",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/CasaTAO.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 528,
+      "sha": "ae7d4fe7be1f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0141",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Daniel Kahneman.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 276,
+      "sha": "affe4d42d926"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0142",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Docker.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 225,
+      "sha": "fa9b9b31971d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0143",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Dune.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 276,
+      "sha": "10c1222cf146"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0144",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/ESP32-S3.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 335,
+      "sha": "8d11527c44a7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0145",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Frank Herbert.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 259,
+      "sha": "9a807a1efde2"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0146",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/James Davidson.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 284,
+      "sha": "c6a32238b1e9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0147",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Knowledge Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 271,
+      "sha": "c19476bf4403"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0148",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Lao Tzu.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 224,
+      "sha": "c21675f92326"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0149",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/MQTT Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 330,
+      "sha": "4858d3d41924"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0150",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Mermaid Diagrams.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 333,
+      "sha": "1dbaa9a59de1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0151",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Nassim Taleb.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 327,
+      "sha": "61361ae1a82c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0152",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Notion.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 241,
+      "sha": "354da7434550"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0153",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Obsidian.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 258,
+      "sha": "e027d420588f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0154",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Ollama Local LLM.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 295,
+      "sha": "ab05a4aea831"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0155",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Proxmox.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 228,
+      "sha": "cad015676adf"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0156",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Pylontech Batteries.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 290,
+      "sha": "608f81c6e58c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0157",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Python.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 275,
+      "sha": "d9e5f5805fad"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0158",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Raspberry Pi 5.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 282,
+      "sha": "6b26ca757edc"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0159",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/React Framework.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 277,
+      "sha": "4c6381b214a4"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0160",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Sapiens.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 250,
+      "sha": "7e8a9f70ec01"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0161",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Shelly Devices.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 321,
+      "sha": "c3d91902698f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0162",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/TailwindCSS.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 253,
+      "sha": "53e7393f6853"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0163",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Tao Te Ching.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 256,
+      "sha": "cbbacfa65ab8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0164",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/The Art of War.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 267,
+      "sha": "32d0fd0252f0"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0165",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/The Sovereign Individual.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 231,
+      "sha": "5aa9a0d1eb1f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0166",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Thinking Fast and Slow.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 304,
+      "sha": "4427fcb9c502"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0167",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/TypeScript.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 239,
+      "sha": "2219ecdcc833"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0168",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Victron Energy.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 274,
+      "sha": "90685361d436"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0169",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Yannick Jolliet.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 678,
+      "sha": "00853269052d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0170",
+      "repo": "yj000018/Y-WORLD",
+      "path": "30_Knowledge/Yuval Noah Harari.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "30_Knowledge",
+      "size_bytes": 230,
+      "sha": "01a59e0f8d06"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0171",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Anandaz Philosophy.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1008,
+      "sha": "28f452abca09"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0172",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Archetypes System.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1254,
+      "sha": "3f5df4161bf5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0173",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/CRT Model Routing.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1328,
+      "sha": "bbf8730e1d30"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0174",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Coral Edge TPU.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1076,
+      "sha": "d55eecdd7ee0"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0175",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Frigate NVR.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 799,
+      "sha": "83c0782148c6"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0176",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Notion Memory Hub.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1085,
+      "sha": "5ea4024fc933"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0177",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Obsidian — Mermaid + Wikilinks incompatibility.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1448,
+      "sha": "6ed7ebd82ebd"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0178",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Sovereign Living.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1180,
+      "sha": "37293d52f3dd"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0179",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/Y-OS Architecture.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 1184,
+      "sha": "e5494ce1d7e7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0180",
+      "repo": "yj000018/Y-WORLD",
+      "path": "40_K-Cards/n8n Cognitive Automation.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "40_K-Cards",
+      "size_bytes": 937,
+      "sha": "28440d55eed1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0181",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Project - ARC Anandaz Smart Heating.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 911,
+      "sha": "1f2ae059ed71"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0182",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Project - Archetypes App v1.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 325,
+      "sha": "325bcc4bdf5a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0183",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Project - CasaTAO Solar Upgrade.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 848,
+      "sha": "c7ff42dd5165"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0184",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Project - Obsidian Git Setup.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 350,
+      "sha": "fa7de5982b17"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0185",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Project - Y-Publishing Book 1.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 814,
+      "sha": "aabc867d94f5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0186",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Project - Y-WORLD.net.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 337,
+      "sha": "15a891ef0c08"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0187",
+      "repo": "yj000018/Y-WORLD",
+      "path": "50_Projects/Projects Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "50_Projects",
+      "size_bytes": 903,
+      "sha": "8d547df1bdf8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0188",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Backup Protocol.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 322,
+      "sha": "047e74b9a249"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0189",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Cloudflare Tunnel.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 274,
+      "sha": "b6b642a4b6e8"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0190",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Context Injector.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 246,
+      "sha": "14c040cbe0cd"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0191",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Cost Optimizer.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 270,
+      "sha": "0e475555b303"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0192",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/GitHub Repo Y-WORLD.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 232,
+      "sha": "305261cbce1b"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0193",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Home Assistant ARC.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 280,
+      "sha": "d9a9f64e60c3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0194",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Home Assistant CasaTAO.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 272,
+      "sha": "2696dc6fa385"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0195",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Linear Integration.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 237,
+      "sha": "c720e7db7236"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0196",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Manus API.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 277,
+      "sha": "2e8378a36c45"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0197",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Mem0 Sync.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 239,
+      "sha": "17360f547735"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0198",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Memory Router.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 276,
+      "sha": "8b93713a2c33"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0199",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Prompt Optimizer.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 256,
+      "sha": "04fe9af4a5d3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0200",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Security Checklist.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 291,
+      "sha": "4952be65ae5f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0201",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Sentry Monitoring.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 264,
+      "sha": "79ab090a923e"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0202",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Session Synthesizer.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 291,
+      "sha": "9f4a07cde379"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0203",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Slack Integration.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 235,
+      "sha": "2a2258d35a72"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0204",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Starlink Node.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 214,
+      "sha": "01d4a9c149b4"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0205",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Supabase DB.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 267,
+      "sha": "7ff0a4940421"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0206",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Tool Router.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 281,
+      "sha": "f7bb3b3581bc"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0207",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Upstash Redis.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 251,
+      "sha": "a7b4395e5615"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0208",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Vercel Deploy.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 251,
+      "sha": "a7a01f028456"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0209",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Wrike Integration.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 251,
+      "sha": "41ae1421d191"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0210",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Y-OS Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 260,
+      "sha": "458cdcf88f6a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0211",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Y-OS Roadmap.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 313,
+      "sha": "de55bc8d1e28"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0212",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/Zapier Bridge.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 264,
+      "sha": "9372578d4cb6"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0213",
+      "repo": "yj000018/Y-WORLD",
+      "path": "60_Y-OS/pfSense Router.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "60_Y-OS",
+      "size_bytes": 305,
+      "sha": "a1535b03f4c6"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0214",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Cameras.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 231,
+      "sha": "2ea7663af419"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0215",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Energy System.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 259,
+      "sha": "9cb466757d07"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0216",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Garden.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 250,
+      "sha": "03b1f715c3cd"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0217",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Inverter.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 288,
+      "sha": "c323159c02db"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0218",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Kitchen.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 265,
+      "sha": "8e72a817ae26"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0219",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 289,
+      "sha": "828c88f0d730"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0220",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO MiniPC.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 257,
+      "sha": "91dee27a220d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0221",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO NAS.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 253,
+      "sha": "54655841c35f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0222",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Network.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 258,
+      "sha": "a3e596759047"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0223",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Starlink Dish.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 298,
+      "sha": "2a80c844746d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0224",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Studio.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 251,
+      "sha": "0c73401ff58c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0225",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Terrace.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 302,
+      "sha": "85f50c6d656c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0226",
+      "repo": "yj000018/Y-WORLD",
+      "path": "70_CasaTAO/CasaTAO Water System.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "70_CasaTAO",
+      "size_bytes": 271,
+      "sha": "de11336e1ed9"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0227",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Anandaz Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 278,
+      "sha": "7947c4dd2e1a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0228",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Cameras.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 227,
+      "sha": "c380566d2495"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0229",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Guest Room.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 253,
+      "sha": "b3d20c700cd7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0230",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Heating System.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 246,
+      "sha": "4d3a4d26b9c6"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0231",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Library.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 256,
+      "sha": "c658880dd399"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0232",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Local Server.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 312,
+      "sha": "2aee36a5f9eb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0233",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Meditation Space.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 246,
+      "sha": "1ec6874eb38d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0234",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Reading Nook.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 293,
+      "sha": "4eb2e7fe16e3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0235",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Sauna.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 232,
+      "sha": "a036cabc37d7"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0236",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Starlink Dish.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 231,
+      "sha": "75423c8b3d2a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0237",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Terrace Alpine.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 234,
+      "sha": "903f2eee9e0a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0238",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Wood Stove.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 267,
+      "sha": "8a2ab78d3b69"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0239",
+      "repo": "yj000018/Y-WORLD",
+      "path": "71_ARC_Anandaz/ARC Workshop.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "71_ARC_Anandaz",
+      "size_bytes": 294,
+      "sha": "64aea0449b06"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0240",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/Archetypes App.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 301,
+      "sha": "49794695357c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0241",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/Archetypes Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 280,
+      "sha": "20778409a20d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0242",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/Egyptian Tradition.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 301,
+      "sha": "8bc0326d7d74"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0243",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/Norse Tradition.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 386,
+      "sha": "9bbd93b916b3"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0244",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/Taoist Tradition.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 317,
+      "sha": "71fe43383587"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0245",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Alchemist Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 372,
+      "sha": "3c5386662991"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0246",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Architect Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 321,
+      "sha": "ab9b159b6f10"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0247",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Forge Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 344,
+      "sha": "303bd21f603f"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0248",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Guardian Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 355,
+      "sha": "89c513b59d08"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0249",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Hermit Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 332,
+      "sha": "76e4b316e5a5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0250",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Oracle Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 280,
+      "sha": "8eba2100ba37"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0251",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Scribe Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 365,
+      "sha": "336414a07eba"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0252",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Trickster Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 352,
+      "sha": "2a8a5ef27eb1"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0253",
+      "repo": "yj000018/Y-WORLD",
+      "path": "80_Archetypes/The Wanderer Archetype.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "80_Archetypes",
+      "size_bytes": 366,
+      "sha": "8fcd7c908a2a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0254",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Audiobook Production.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 264,
+      "sha": "6ae91cedc4fb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0255",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Book 1 — Chapter 1 Notes.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 325,
+      "sha": "bf272d09a955"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0256",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Book 1 — Chapter 2 Notes.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 284,
+      "sha": "ecfb28cc2d96"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0257",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Book 1 — Chapter 3 Notes.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 352,
+      "sha": "5e1a110c76c0"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0258",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Book 1 — Cover Design.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 281,
+      "sha": "f9abd200d179"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0259",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Editorial Calendar.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 339,
+      "sha": "369ec1ec09cd"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0260",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Newsletter YOS.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 304,
+      "sha": "8a2e4a27da0d"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0261",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Podcast YOS.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 299,
+      "sha": "3c1e04c578e5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0262",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Research Database.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 327,
+      "sha": "fea7e4a30b33"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0263",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Social Strategy.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 327,
+      "sha": "85f6a20de5a5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0264",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Y-Publishing Brand.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 267,
+      "sha": "f34b150eab60"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0265",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Y-Publishing Landing Page.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 256,
+      "sha": "623ee562dd01"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0266",
+      "repo": "yj000018/Y-WORLD",
+      "path": "81_Y-Publishing/Y-Publishing Log.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "81_Y-Publishing",
+      "size_bytes": 262,
+      "sha": "54262cc217ad"
+    },
+    {
+      "so_id": "SO-GITHUB-TREE-0074",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/AI Systems",
+      "type": "tree",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": null,
+      "sha": "67d427779708"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0267",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Dashboard TV Mode.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 377,
+      "sha": "86ee989910e5"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0268",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/GitHub Public Profile.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 263,
+      "sha": "90b9866eb113"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0269",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Notion Public Pages.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 335,
+      "sha": "74c5e14a511c"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0270",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Obsidian Mobile.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 280,
+      "sha": "b366b0658d88"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0271",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Telegram Bot YOS.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 303,
+      "sha": "59d9dda3f3bb"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0272",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Voice Interface YOS.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 346,
+      "sha": "4c800218dfed"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0273",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Y-WORLD iOS App.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 338,
+      "sha": "3feec5875609"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0274",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Y-WORLD.net Vision.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 969,
+      "sha": "182cf9afd34a"
+    },
+    {
+      "so_id": "SO-GITHUB-FILE-0275",
+      "repo": "yj000018/Y-WORLD",
+      "path": "90_Reality_Interfaces/Y-WORLD.net.md",
+      "type": "blob",
+      "level": 2,
+      "parent": "90_Reality_Interfaces",
+      "size_bytes": 276,
+      "sha": "657465fb5760"
+    }
+  ]
+}

@@ -239,3 +239,19 @@
 **Scan date:** 2026-07-03
 **Scan method:** ROOT-anchored L1+L2 metadata-only (Notion API read-only)
 **Total objects registered:** 55 (5 L1 ROOT + 50 L2 children)
+
+---
+
+## GitHub Source Instances (added: GITHUB-SOURCE-METADATA-PILOT-GATE)
+
+| Instance ID | Full Name | Default Branch | Archived | Workflows | Status | Scope |
+|---|---|---|---|---|---|---|
+| INST-GITHUB-YOS | yj000018/yos-cognitive-os | main | No | 0 | `METADATA_PILOT_COMPLETE` | yos |
+| INST-GITHUB-YWORLD | yj000018/Y-WORLD | main | Yes (GitHub flag) | 1 (compile-graph.yml) | `METADATA_PILOT_COMPLETE_ARCHIVED_FLAG` | both |
+| INST-GITHUB-CANDIDATE | yj000018/* (10 repos) | — | No | — | `CANDIDATE_NOT_SCANNED` | mixed |
+| INST-GITHUB-BLOCKED | Blocked / Inaccessible | — | — | — | `BLOCKED` | — |
+
+**Scan date:** 2026-07-03
+**Scan method:** GitHub API read-only — repo metadata + L1+L2 tree metadata only
+**Total repos discovered:** 23 (2 scanned + 10 candidates + 11 archived)
+**Note:** Y-WORLD archived flag on GitHub is likely a legacy/incorrect flag — active workflow and recent commits present.
