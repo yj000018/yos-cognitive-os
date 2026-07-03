@@ -176,7 +176,7 @@ The following were explicitly excluded from this profiling gate:
 
 | Field | Value |
 |---|---|
-| Gate commit | _see commit after this report is committed_ |
+| Gate commit | `c809c3e` |
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
 | Git status | CLEAN (after commit) |
 
