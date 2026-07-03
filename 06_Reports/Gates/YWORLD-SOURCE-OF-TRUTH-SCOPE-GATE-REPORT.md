@@ -3,7 +3,7 @@
 **Date:** 2026-07-04
 **Status:** `YWORLD_SOURCE_OF_TRUTH_SCOPE_GATE_PASS_REQUIRES_BOUNDED_COMPARISON`
 **Author:** Manus AI
-**Commit (yos-cognitive-os):** `PENDING_COMMIT_HASH`
+**Commit (yos-cognitive-os):** `d18eb98a2cea557ad7e0deac9dbf8690116f8c15`
 
 ---
 
