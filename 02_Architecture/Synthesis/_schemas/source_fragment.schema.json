@@ -24,8 +24,8 @@
   "properties": {
     "fragment_id": {
       "type": "string",
-      "description": "Canonical L3 Source Fragment ID. Format: SF-<CHANNELCODE>-<INSTANCESEQ>-<OBJECTSEQ>-<FRAGMENTSEQ>. Legacy FRAG-YYYYMMDD-XXXX IDs must be preserved in legacy_fragment_ids.",
-      "pattern": "^(SF-[A-Z]+-[0-9]+-[0-9]+-[0-9]+|FRAG-[0-9]{8}-[A-Z0-9]+)$"
+      "description": "Canonical L3 Source Fragment ID. Format: SF-<CHANNELCODE>-<INSTANCESEQ>-<OBJECTSEQ>-<FRAGMENTSEQ>. Legacy FRAG-YYYYMMDD-XXXX IDs must be preserved ONLY in legacy_fragment_ids — never as primary fragment_id.",
+      "pattern": "^SF-[A-Z]+-[0-9]+-[0-9]+-[0-9]+$"
     },
     "legacy_fragment_ids": {
       "type": "array",

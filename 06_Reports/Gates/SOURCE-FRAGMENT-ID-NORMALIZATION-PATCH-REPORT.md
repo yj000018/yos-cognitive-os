@@ -22,8 +22,8 @@ This patch stabilizes identifiers across the validated KAP source architecture (
 | `05_Registries/SOURCE-FRAGMENT-ID-CROSSWALK.md` | CREATED | 9 legacy IDs mapped to canonical SF-* IDs, 0 unresolved |
 | `05_Registries/SOURCE-OBJECT-REGISTRY.md` | UPDATED | 27 objects with canonical SO-* IDs, next-seq table, pending population list |
 | `05_Registries/SOURCE-FRAGMENT-REGISTRY.md` | UPDATED | 9 fragments with canonical SF-* IDs, legacy IDs preserved, next-seq table |
-| `02_Architecture/Synthesis/_schemas/source_fragment.schema.json` | UPDATED | v1.2 — added `source_object_id`, `source_instance_id`, `source_channel_id`, `id_normalization_status`, `legacy_fragment_ids`; updated `fragment_id` pattern to accept both SF-* and legacy FRAG-* |
-| `07_AI_Indexes/source_fragment_index.json` | UPDATED | v1.2 — canonical ID policy reference, crosswalk path, legacy ID warning, 9 fragments updated to canonical IDs with legacy aliases |
+| `02_Architecture/Synthesis/_schemas/source_fragment.schema.json` | UPDATED (v2) | v1.2 — added `source_object_id`, `source_instance_id`, `source_channel_id`, `id_normalization_status`, `legacy_fragment_ids`; `fragment_id` pattern restricted to SF-* canonical only; legacy FRAG-* IDs only in `legacy_fragment_ids` |
+| `07_AI_Indexes/source_fragment_index.json` | UPDATED (v2) | v1.2 — canonical ID policy reference, crosswalk path, legacy ID warning, **all 9 fragments** (including previously omitted FRAG-20260703-AD03 → SF-GIT-001-0020-001 and FRAG-20260703-AD05 → SF-GIT-001-0022-001) |
 | `05_Registries/KAP-SOURCE-MATRIX.md` | UPDATED | ID normalization status table added (L0→L3 all CANONICAL) |
 | `06_Reports/Gates/SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH-REPORT.md` | CREATED | This file |
 
@@ -153,7 +153,7 @@ ID normalization status table added:
 
 | Gap | Severity | Resolution |
 |---|---|---|
-| 2 legacy fragments (FRAG-20260703-AD02/AD03) not in source_fragment_index.json (were not in original index) | Minor | Added to SOURCE-FRAGMENT-REGISTRY.md and crosswalk. Not added to index to avoid bloat — can be added during PROCESS-DOCS-RUNBOOK-GATE. |
+| FRAG-20260703-AD03 and FRAG-20260703-AD05 were missing from source_fragment_index.json | RESOLVED | Added in v2 patch. All 9 fragments now consistent across REGISTRY, CROSSWALK, and INDEX. |
 | SO-* IDs for GIT-002→GIT-041 (39 repos) not yet assigned | Non-blocking | Will be assigned during GITHUB-SOURCE-ACQUISITION-GATE |
 
 ---
@@ -175,3 +175,7 @@ None. All required files exist in Git.
 ```
 SOURCE_FRAGMENT_ID_NORMALIZATION_PATCH_PASS_READY_FOR_PROCESS_DOCS_RUNBOOK_GATE
 ```
+
+> **v2 corrections applied (Guardian Architect patch):**
+> 1. `fragment_id` pattern restricted to `SF-*` canonical only — legacy FRAG-* IDs only in `legacy_fragment_ids`
+> 2. All 9 fragments now consistent across SOURCE-FRAGMENT-REGISTRY.md, SOURCE-FRAGMENT-ID-CROSSWALK.md, and source_fragment_index.json
