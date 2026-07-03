@@ -110,3 +110,7 @@ When a user provides a capture pack or export:
 | MPM-OBSIDIAN-PIPELINE-VALIDATION | Obsidian Pipeline Validation Gate | ⏳ STUB ONLY |
 | MPM-OBSIDIAN-PIPELINE-PATCH | Obsidian Pipeline Patch Gate | ⏳ STUB ONLY |
 | MPM-NOTION-PIPELINE-CONTROLLED-EXECUTION | Notion Pipeline Controlled Execution Gate | ⏳ STUB ONLY |
+
+**Canonical count: 20 MPMs — 14 FULL BODY — 6 STUB ONLY**
+
+> Addenda (WP1-R, Session Doctrine, Executive Feasibility Matrix) and Handoff prompts are NOT counted as MPMs. See `00_Control_Plane/MPM-COUNT-RECONCILIATION.md`.
