@@ -1,10 +1,12 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source_channel": "Obsidian / Markdown",
   "source_channel_id": "CH-004",
   "scan_type": "metadata_only",
   "scan_mode": "github_api_git_backed",
   "scan_timestamp": "2026-07-03T00:00:00Z",
+  "scanner_version": "1.1",
+  "correction_note": "v1.1 URL encoding fix: urllib.parse.quote() applied per path segment. Previous v1.0 had 213/235 files with spaces returning empty frontmatter/wikilinks. All metadata now correctly extracted.",
   "source_available": true,
   "source_instance_id": "INST-OBS-002",
   "source_instance_name": "Y-WORLD Obsidian Vault (Git-backed)",
@@ -15,10 +17,12 @@
   "markdown_files_count": 235,
   "canvas_files_count": 1,
   "folders_count": 21,
-  "wikilinks_count": 74,
+  "wikilinks_count": 734,
   "attachments_count": 0,
-  "files_with_frontmatter": 17,
-  "files_without_frontmatter": 218,
+  "files_with_frontmatter": 228,
+  "files_without_frontmatter": 7,
+  "frontmatter_coverage_pct": 97.0,
+  "files_with_spaces_in_name": 213,
   "duplicate_titles_count": 1,
   "duplicate_titles": {
     "Untitled": ["SO-OBS-YWLD-0059", "SO-OBS-YWLD-0235"]
@@ -33,7 +37,6 @@
   "synthesis_created": false,
   "source_mutated": false,
   "scan_warnings": [
-    "5 files with spaces in path could not be fetched via urllib — metadata recorded as empty frontmatter/wikilinks",
     "Wikilink resolution status is 'unknown' — local vault required for full resolution",
     "Attachment inventory is empty — Y-WORLD vault stores attachments outside tracked Git files"
   ],
@@ -42,13 +45,33 @@
     "04_Templates", "05_Registries", "06_Workflows", "07_Agent_Operations",
     "10_Inbox", "20_Life", "30_Knowledge", "40_K-Cards", "50_Projects",
     "60_Y-OS", "70_CasaTAO", "71_ARC_Anandaz", "80_Archetypes",
-    "81_Y-Publishing", "90_Reality_Interfaces"
+    "81_Y-Publishing", "90_Reality_Interfaces", "90_Reality_Interfaces/AI Systems"
   ],
+  "source_object_id_range": {
+    "notes": "SO-OBS-YWLD-0001 to SO-OBS-YWLD-0235",
+    "folders": "SO-OBS-YWLD-FOLDER-001 to SO-OBS-YWLD-FOLDER-021"
+  },
   "next_safe_gate": "OBSIDIAN-LIMITED-CONTENT-PILOT-GATE",
   "blockers": [
     "Wikilink resolution requires local vault path or full file listing",
     "Attachment inventory empty — attachments not tracked in Git tree",
-    "5 files with spaces in filenames had urllib URL encoding issue (minor — metadata recorded as empty)"
+    "Local Mac vaults (8+ estimated) blocked — Mac screen locked, FUSE unavailable"
+  ],
+  "correction_history": [
+    {
+      "version": "1.0",
+      "commit": "1cc43c0",
+      "issue": "URL encoding missing — 213/235 files with spaces returned empty frontmatter/wikilinks",
+      "files_with_frontmatter": 17,
+      "total_wikilinks": 74
+    },
+    {
+      "version": "1.1",
+      "commit": "pending",
+      "fix": "urllib.parse.quote() applied per path segment in get_file_content_for_metadata_only()",
+      "files_with_frontmatter": 228,
+      "total_wikilinks": 734
+    }
   ],
   "notes": [
     "Case C: Git-backed Markdown vault — treated as Obsidian/Markdown source instance",

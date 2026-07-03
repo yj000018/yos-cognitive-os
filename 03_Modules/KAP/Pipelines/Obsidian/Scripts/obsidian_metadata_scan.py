@@ -69,9 +69,13 @@ def get_file_content_for_metadata_only(owner, repo, path, token):
     Fetches ONLY the first 2KB of a file to extract frontmatter keys and wikilinks.
     Does NOT store or return full body content.
     Strictly metadata extraction only.
+    URL-encodes path components to handle filenames with spaces (v1.1 fix).
     """
-    import urllib.request, base64
-    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path}"
+    import urllib.request, urllib.parse, base64
+    # Encode each path segment separately to handle spaces and special chars
+    encoded_parts = [urllib.parse.quote(part, safe='') for part in path.split('/')]
+    encoded_path = '/'.join(encoded_parts)
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{encoded_path}"
     req = urllib.request.Request(url, headers={"Authorization": f"token {token}",
                                                 "Accept": "application/vnd.github.v3+json"})
     try:
