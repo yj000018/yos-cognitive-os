@@ -93,7 +93,7 @@ All other surfaces are either excluded, backup-only, low-priority, or delegated 
 
 | Field | Value |
 |---|---|
-| Gate commit | _see commit after this report is committed_ |
+| Gate commit | `6d36ae8` |
 | Remote | yj000018/yos-cognitive-os |
 | Git status | CLEAN after commit |
 
