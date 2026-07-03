@@ -1,7 +1,7 @@
 # Gate Report: GDRIVE-OBSIDIAN-VAULT-CONTENT-SCOPE-PROBE-GATE
 
 **Date:** 2026-07-03
-**Status:** `GDRIVE_OBSIDIAN_VAULT_CONTENT_SCOPE_PROBE_PASS_WITH_HOLDS_READY_FOR_GUARDIAN_REVIEW`
+**Status:** `GDRIVE_OBSIDIAN_VAULT_CONTENT_SCOPE_PROBE_ACCEPTED_WITH_HOLD_READY_FOR_OBSIDIAN_SCOPE_DECISION_GATE`
 **Author:** Manus AI
 **Commit (yos-cognitive-os):** `eec6f8657d4a9e566d9a90d500b41d43a2528de1`
 
@@ -70,6 +70,36 @@ Prior to probing the GDrive candidates, the following decisions were finalized p
 
 ---
 
-## 6. Recommended Next Gate
+## 6. Guardian Review Result (2026-07-04)
 
-The recommended next gate is **OBSIDIAN-SCOPE-DECISION-GATE** to review the high-value `GDRIVE-OBS-003` (Y-WORLD) vault and determine the import/merge strategy against local and GitHub repositories.
+**Accepted Status:** `GDRIVE_OBSIDIAN_VAULT_CONTENT_SCOPE_PROBE_ACCEPTED_WITH_HOLD_READY_FOR_OBSIDIAN_SCOPE_DECISION_GATE`
+
+**Validated by Guardian:**
+- Only the 3 authorized GDrive Obsidian candidates were probed.
+- Only 1 Markdown file was sampled, below the read limit.
+- No full vault extraction, no full corpus download, no attachment opened.
+- No source mutation, no merge, no normalization, no synthesis, no canonicalization.
+
+**Surface Decisions (Guardian Final):**
+
+| Surface ID | Name | Guardian Decision |
+|---|---|---|
+| GDRIVE-OBS-001 | Obsidian Vault | `CONFIGURATION_ONLY_EXCLUDE` |
+| GDRIVE-OBS-002 | Obsidian Vault 2 | `OUT_OF_SCOPE_EXCLUDE` |
+| GDRIVE-OBS-003 | Y-WORLD | `HIGH_VALUE_HOLD_FOR_SCOPE_DECISION` |
+
+**Important Correction from Guardian:**
+`GDRIVE-OBS-003` is confirmed as **high-value** (>100 MD files, 18 folders). Do not ingest, merge, compare, or run Obsidian dry-run until the next authorized gate.
+
+## 7. Recommended Next Gate
+
+The Guardian recommends one of the following:
+
+1. **`OBSIDIAN-SCOPE-DECISION-GATE`** — Direct scope decision on the 4 Y-World source surfaces.
+2. **`YWORLD-SOURCE-OF-TRUTH-SCOPE-GATE`** *(preferred if Guardian wants to split scope first)* — Determine relationship between:
+   - `GDRIVE-OBS-003` (GDrive Y-WORLD vault, >100 MD)
+   - GitHub `Y-World` repo
+   - `ICLOUD://obsidian/Y-World` (17 MD, quarantined)
+   - Any local Y-World traces
+
+**Blocked until Guardian approval:** merge, synthesis, canonicalization, comparison pilot.
