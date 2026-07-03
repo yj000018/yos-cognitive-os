@@ -6,7 +6,7 @@
 > Guardian Architect: ChatGPT
 > Date: 2026-07-03
 > Repo: yj000018/yos-cognitive-os
-> Report Version: v1.2 (Guardian correction patch — folder count, URL encoding, git proof)
+> Report Version: v1.3 (Guardian micro-patch — Git proof fields resolved: correction patch commit hash inserted)
 
 ---
 
@@ -28,7 +28,7 @@ _READY_FOR_LOCAL_VAULT_DISCOVERY_GATE_AND_LIMITED_CONTENT_PILOT
 | Repo root | `/home/ubuntu/yos-cognitive-os` |
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
 | Initial gate commit | `1cc43c0` (pushed 2026-07-03) |
-| Correction patch commit | see Section 10 |
+| Correction patch commit | `599e438` |
 | Git status | CLEAN after correction commit |
 | GitHub visibility | All files visible at github.com/yj000018/yos-cognitive-os |
 
@@ -154,7 +154,7 @@ Git log (last 5):
 8e232ca SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH-v2: SF-* only in fragment_id
 ```
 
-Correction patch commit: **see commit after this report is committed**
+Correction patch commit: `599e438`
 Git status: CLEAN after correction commit
 
 ---
