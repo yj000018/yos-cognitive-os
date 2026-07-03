@@ -1,0 +1,122 @@
+[
+  {
+    "repo_id": "REPO-YOS-CORE",
+    "name": "yos-cognitive-os",
+    "role": "master_control_plane",
+    "authority_level": "primary",
+    "url": "https://github.com/yj000018/yos-cognitive-os",
+    "contains": ["doctrines", "decisions", "roadmaps", "registries", "architecture", "session_captures"],
+    "agent_usage": "Start here for current doctrine, decisions, and routing to all other repos.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-KAP",
+    "name": "KAP",
+    "role": "knowledge_assimilation_program",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/KAP",
+    "contains": ["source_registry", "thought_lines", "decision_threads", "impasse_registry", "gate_reports", "source_acquisition"],
+    "agent_usage": "KAP module — source acquisition, synthesis pipelines, knowledge consolidation.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-YOS-001",
+    "name": "YOS",
+    "role": "legacy_yos_core",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/YOS",
+    "contains": ["legacy_yos_architecture"],
+    "agent_usage": "Legacy Y-OS repo — to be migrated/linked to yos-cognitive-os.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-YOS-002",
+    "name": "yos-llm-pipeline",
+    "role": "llm_pipeline",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/yos-llm-pipeline",
+    "contains": ["llm_routing", "pipeline_config"],
+    "agent_usage": "LLM routing and pipeline configuration.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-YOS-003",
+    "name": "yos-bus",
+    "role": "event_bus",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/yos-bus",
+    "contains": ["event_bus", "message_routing"],
+    "agent_usage": "Y-OS event and message bus infrastructure.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-YOS-005",
+    "name": "yos-manus-client",
+    "role": "manus_integration",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/yos-manus-client",
+    "contains": ["manus_api_client", "integration_scripts"],
+    "agent_usage": "Manus API client and integration layer.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-YOS-008",
+    "name": "yos-continuity-protocol",
+    "role": "continuity",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/yos-continuity-protocol",
+    "contains": ["continuity_packs", "cross_session_context"],
+    "agent_usage": "Cross-session continuity and context transfer.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-YOS-012",
+    "name": "yos-skills",
+    "role": "manus_skills",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/yos-skills",
+    "contains": ["manus_skills", "agent_capabilities"],
+    "agent_usage": "Manus skills and agent capability definitions.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-WORLD-001",
+    "name": "Y-WORLD",
+    "role": "world_model",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/Y-WORLD",
+    "contains": ["world_model", "civilizational_model"],
+    "agent_usage": "Y-World and civilizational model.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-WORLD-003",
+    "name": "youniverse",
+    "role": "youniverse_model",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/youniverse",
+    "contains": ["personal_universe", "360_profile"],
+    "agent_usage": "YOUniverse — personal universe model (Phase 2 target).",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-WORLD-005",
+    "name": "elysium-civilizational-ontology",
+    "role": "elysium_ontology",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/elysium-civilizational-ontology",
+    "contains": ["elysium_ontology", "civilizational_framework"],
+    "agent_usage": "Elysium civilizational ontology.",
+    "status": "active"
+  },
+  {
+    "repo_id": "REPO-CASA-001",
+    "name": "casa-tao-nest",
+    "role": "intelligent_home",
+    "authority_level": "high",
+    "url": "https://github.com/yj000018/casa-tao-nest",
+    "contains": ["casa_tao", "intelligent_home_automation"],
+    "agent_usage": "CasaTAO intelligent home environment.",
+    "status": "active"
+  }
+]
