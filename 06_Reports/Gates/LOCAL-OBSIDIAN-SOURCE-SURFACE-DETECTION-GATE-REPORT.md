@@ -3,7 +3,8 @@
 **Date:** 2026-07-04
 **Status:** `LOCAL_OBSIDIAN_SOURCE_SURFACE_DETECTION_GATE_PASS_WITH_LOCAL_YWORLD_GAP`
 **Author:** Manus AI
-**Commit (yos-cognitive-os):** `PENDING_COMMIT_HASH`
+**Commit (yos-cognitive-os):** `ec5eb17e2d3a0cac4627179f2bbe7097c6781e5c`
+**Commit (kap-control-plane):** `ffa44fbe935a97c7a37d8d5c9e4a4d3ec766566c`
 
 ---
 
@@ -96,7 +97,8 @@ The **LOCAL-OBSIDIAN-SOURCE-SURFACE-DETECTION-GATE** was executed to identify lo
 All generated Markdown and JSON files have been staged and committed to the `yos-cognitive-os` repository. The MPM has been committed to the `kap-control-plane` repository.
 
 ## 19. Commit Hash
-`PENDING_COMMIT_HASH`
+- yos-cognitive-os: `ec5eb17e2d3a0cac4627179f2bbe7097c6781e5c`
+- kap-control-plane: `ffa44fbe935a97c7a37d8d5c9e4a4d3ec766566c`
 
 ## 20. Recommended Next Gate
 `OBSIDIAN-FINAL-SOURCE-SURFACE-MAP-GATE`
