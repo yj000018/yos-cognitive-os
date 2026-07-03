@@ -140,7 +140,7 @@ This gate does not extract real Decision Threads from corpora at scale. It defin
 
 **Path:** `02_Architecture/Synthesis/_schemas/decision_thread.schema.json`
 **Standard:** JSON Schema Draft-07
-**Required fields:** 10 (decision_thread_id, title, decision_text, decision_type, domain, status, decision_status, canonical_status, review_status, current_validity, created_at)
+**Required fields:** 11 (decision_thread_id, title, decision_text, decision_type, domain, status, decision_status, canonical_status, review_status, current_validity, created_at)
 **Total fields:** 50+
 **`additionalProperties: false`:** YES
 **ID pattern:** `^DT-[0-9]{8}-[A-Z0-9]{4}$`
