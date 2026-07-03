@@ -1,0 +1,71 @@
+{
+  "gate": "GDRIVE-OBSIDIAN-VAULT-CONTENT-SCOPE-PROBE-GATE",
+  "mode": "bounded_content_scope_probe",
+  "source_mutation": false,
+  "full_extraction": false,
+  "canonical_merge": false,
+  "synthesis": false,
+  "vaults": [
+    {
+      "surface_id": "GDRIVE-OBS-001",
+      "name": "Obsidian Vault",
+      "storage": "Google Drive",
+      "md_count": 1,
+      "folder_count": 5,
+      "obsidian_present": true,
+      "sample_read_count": 0,
+      "content_profiles": ["OBSIDIAN_CONFIG_ONLY", "TEST_OR_EMPTY"],
+      "sensitive_content_flag": false,
+      "scope_decision": "CONFIGURATION_ONLY_EXCLUDE",
+      "recommended_action": "Exclude from content ingestion",
+      "future_gate_required": "None",
+      "notes": "Near-empty vault. Contains only .makemd, .smart-env, .space plugin folders and one 8-byte MD file (LightWay Edition.md)."
+    },
+    {
+      "surface_id": "GDRIVE-OBS-002",
+      "name": "Obsidian Vault 2",
+      "storage": "Google Drive",
+      "md_count": 0,
+      "folder_count": 0,
+      "obsidian_present": false,
+      "sample_read_count": 0,
+      "content_profiles": ["TEST_OR_EMPTY"],
+      "sensitive_content_flag": false,
+      "scope_decision": "OUT_OF_SCOPE_EXCLUDE",
+      "recommended_action": "Exclude from content ingestion",
+      "future_gate_required": "None",
+      "notes": "Completely empty folder."
+    },
+    {
+      "surface_id": "GDRIVE-OBS-003",
+      "name": "Y-WORLD",
+      "storage": "Google Drive",
+      "md_count": null,
+      "folder_count": 18,
+      "obsidian_present": true,
+      "sample_read_count": 1,
+      "content_profiles": ["YWORLD_RELATED", "YOS_RELATED", "CASATAO_RELATED", "KAP_RELATED"],
+      "sensitive_content_flag": false,
+      "scope_decision": "HIGH_VALUE_HOLD_FOR_SCOPE_DECISION",
+      "recommended_action": "Hold for Guardian review. This is the primary live GDrive sync of the Y-WORLD vault.",
+      "future_gate_required": "OBSIDIAN-SCOPE-DECISION-GATE",
+      "notes": "Contains full Y-WORLD folder structure (00_System to 90_Reality_Interfaces). Sampled Y-WORLD Architecture.md confirms high value."
+    }
+  ],
+  "sampled_files": [
+    {
+      "surface_id": "GDRIVE-OBS-003",
+      "filename": "Y-WORLD Architecture.md",
+      "reason_sampled": "Core architectural document, recently modified",
+      "topic_hint": "Y-WORLD subsystems map and layer definitions",
+      "sensitive_flag": false,
+      "value_signal": "HIGH",
+      "recommended_action": "Ingest in future pilot gate"
+    }
+  ],
+  "closed_paths": {
+    "ludivine_backup": "LUDIVINE_BACKUP_EXCLUDED_FINAL",
+    "icloud_test": "ICLOUD_TEST_EXCLUDED_FINAL",
+    "icloud_yworld": "ICLOUD_YWORLD_CONFIRMED_17_MD_MICRO_EXTRACTION_CLOSEOUT_AUTHORIZED_SEPARATELY"
+  }
+}
