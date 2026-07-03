@@ -4,8 +4,8 @@
 - **Gate ID:** `OBSIDIAN-FINAL-SOURCE-SURFACE-MAP-GATE`
 - **Execution Date:** 2026-07-04
 - **Status:** `OBSIDIAN_FINAL_SOURCE_SURFACE_MAP_GATE_PASS_WITH_LOCAL_YWORLD_GAP`
-- **Commit Hash (yos-cognitive-os):** `PENDING`
-- **Commit Hash (kap-control-plane):** `PENDING`
+- **Commit Hash (yos-cognitive-os):** `b58cf81bb1779510d504acae58f35037182b8bbc`
+- **Commit Hash (kap-control-plane):** `17166792da0dc0b5d662a8355738990a98221932`
 
 ## 2. Executive Summary
 This gate successfully consolidated all prior metadata probes into a single, final operational source-surface map for Obsidian and Markdown sources. The map identifies 11 distinct surfaces across iCloud, GDrive, GitHub, and Local Mac. Crucially, it enforces the Guardian's corrections regarding exclusions and delegates active sync mirrors (GitHub and GDrive Y-WORLD) to the Y-WORLD comparison pipeline. No file content was read, and no sources were merged or canonicalized.
