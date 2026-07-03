@@ -3,6 +3,8 @@
 **Date:** 2026-07-03
 **Status:** `PARTIAL_COMPLETION_REQUIRES_PATCH`
 **Author:** Manus AI
+**Commit (yos-cognitive-os):** `88ed17534c99c2a8f4036d65a8d9de538d6d94d4`
+**Commit (kap-control-plane):** `102735de733a6c95cb219fe28dac907497f21dc3`
 
 ---
 
