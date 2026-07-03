@@ -41,7 +41,7 @@ It is the smallest traceable source unit that YOS/KAP may later ingest, classify
 |---|---|
 | `source_system` | 12 values (ChatGPT, Manus, Notion, Obsidian, Markdown, Git, Google_Drive, Mem0, Web, Uploaded_File, Manual_Note, Unknown) |
 | `source_type` | 18 values |
-| `canonical_status` | 7 values |
+| `canonical_status` | 7 values: `not_canonical`, `candidate_evidence`, `active_control_plane`, `historical_source`, `implementation_evidence`, `superseded_source`, `requires_review` |
 | `review_status` | 7 values |
 | `merge_status` | 8 values |
 | `supersession_status` | 7 values |
@@ -63,8 +63,7 @@ Key rule: superseded fragments are never deleted — they preserve history and r
 
 ## 6. Relationship Model Summary
 
-- One fragment may support many claims.
-- One claim may be supported by many fragments.
+- Fragment ↔ Claim: **N:N** — one fragment may support many claims; one claim may be supported by many fragments.
 - Fragments may contradict each other without either being deleted.
 - Synthesis must point back to fragments.
 - Source chronology is preserved.

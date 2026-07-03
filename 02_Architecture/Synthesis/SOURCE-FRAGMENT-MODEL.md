@@ -126,16 +126,19 @@ Every Source Fragment must preserve the following metadata:
 
 How Source Fragments connect to the broader cognitive architecture:
 
-1. One fragment may support many claims.
-2. One claim may be supported by many fragments.
-3. One fragment may belong to several candidate thought lines.
-4. One fragment may provide implementation evidence for a decision.
-5. One fragment may become an impasse example.
-6. **One fragment must never be erased by synthesis.**
-7. Synthesis must point back to fragments.
-8. Fragments may contradict each other without either being deleted.
-9. Source chronology must be preserved.
-10. Later fragments are not automatically more correct.
+| Relationship | Cardinality | Rule |
+|---|---|---|
+| Fragment ↔ Claim | **N:N** | One fragment may support many claims; one claim may be supported by many fragments |
+| Fragment ↔ Thought Line | N:N | One fragment may belong to several candidate thought lines |
+| Fragment → Decision | N:N | One fragment may provide implementation evidence for a decision |
+| Fragment → Impasse | N:N | One fragment may document an impasse |
+| Synthesis → Fragment | N:N | Synthesis must point back to source fragments |
+
+**Immutability rules:**
+- One fragment must never be erased by synthesis.
+- Fragments may contradict each other without either being deleted.
+- Source chronology must be preserved.
+- Later fragments are not automatically more correct.
 
 ## 8. Human Review Implications
 
