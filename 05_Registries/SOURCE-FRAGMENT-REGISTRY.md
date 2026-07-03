@@ -1,44 +1,71 @@
-# Source Fragment Registry
+# SOURCE-FRAGMENT-REGISTRY
 
-> Y-OS / KAP Cognitive Architecture
-> Gate: SOURCE-FRAGMENT-MODEL-GATE
-> Status: SKELETON — seeded with known control-plane artifacts only
-> Last updated: 2026-07-03
+> Y-OS / KAP — Level L3: Source Fragments
+> **PATCHED:** SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH 2026-07-03
+> A **Source Fragment** is a bounded, traceable cognitive unit created from a Source Object after approved intake.
+> **ID Format:** `SF-<CHANNELCODE>-<INSTANCESEQ>-<OBJECTSEQ>-<FRAGMENTSEQ>`
+> Legacy IDs preserved as aliases. See crosswalk: `SOURCE-FRAGMENT-ID-CROSSWALK.md`
+> Last Updated: 2026-07-03
 
 ---
 
-## Registry Table
+## Four-Level Taxonomy
 
-| Fragment ID | Title | Source System | Source Type | Canonical Status | Review Status | Merge Status | Related Thought Lines | Path / URL | Notes |
+```
+L0 Source Channel     (SOURCE-CHANNEL-REGISTRY.md)
+  └── L1 Source Instance  (SOURCE-INSTANCE-REGISTRY.md)
+        └── L2 Source Object  (SOURCE-OBJECT-REGISTRY.md)
+              └── L3 Source Fragment  (this file)
+```
+
+---
+
+## Fragment Registry
+
+| Canonical Fragment ID | Legacy ID | Source Object ID | Source Instance ID | Channel | Source Type | Canonical Status | ID Normalization Status | Review Status | Notes |
 |---|---|---|---|---|---|---|---|---|---|
-| FRAG-20260703-CP01 | CURRENT-CHATGPT-YOS-KAP-SESSION-CAPTURE (2026-07-03) | ChatGPT | session_capture_pack | active_control_plane | metadata_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION, TL-GIT-AS-CANON | `00_Control_Plane/Session_Captures/CURRENT-CHATGPT-YOS-KAP-SESSION-CAPTURE.md` | Persisted verbatim. 10 doctrines, 8 decisions, 11 MPM stubs extracted. |
-| FRAG-20260702-CP02 | YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02 | ChatGPT | session_capture_pack | active_control_plane | metadata_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION, TL-GIT-AS-CANON | `00_Control_Plane/Session_Captures/YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md` | Persisted verbatim. 10 doctrines, 12 decisions, 5 MPM stubs extracted. |
-| FRAG-20260703-GR01 | YOS-CONTROL-PLANE-BOOTSTRAP-GATE-REPORT | Manus | gate_report | active_control_plane | metadata_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION | `06_Reports/Gates/YOS-CONTROL-PLANE-BOOTSTRAP-GATE-REPORT.md` | Gate PASS. 55 files bootstrapped. |
-| FRAG-20260703-GR02 | EVOLUTIONARY-KNOWLEDGE-MERGE-ARCHITECTURE-GATE-REPORT | Manus | gate_report | active_control_plane | metadata_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION | `yj000018/KAP: 06_Reports/Gates/EVOLUTIONARY-KNOWLEDGE-MERGE-ARCHITECTURE-GATE-REPORT.md` | Gate PASS. 4 registries (28 TLs, 14 DTs, 12 impasses, 28 synthesis areas). |
-| FRAG-20260703-AD01 | ARCHITECTURE-BEFORE-ABSORPTION | Manus | architecture_doc | active_control_plane | metadata_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION | `01_Strategy/ARCHITECTURE-BEFORE-ABSORPTION.md` | Core doctrine document. |
-| FRAG-20260703-AD02 | YOS-STRATEGIC-DOCTRINE | Manus | architecture_doc | active_control_plane | metadata_reviewed | not_merged | TL-YOS-STRATEGY | `01_Strategy/YOS-STRATEGIC-DOCTRINE.md` | Strategic doctrine summary. |
-| FRAG-20260703-AD03 | YOS-REPOSITORY-ARCHITECTURE-DECISION | Manus | architecture_doc | active_control_plane | metadata_reviewed | not_merged | TL-REPO-ARCHITECTURE | `02_Architecture/Decisions/YOS-REPOSITORY-ARCHITECTURE-DECISION.md` | Master repo + linked repos decision. |
-| FRAG-20260703-AD04 | SOURCE-FRAGMENT-MODEL | Manus | architecture_doc | active_control_plane | content_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION | `02_Architecture/Synthesis/SOURCE-FRAGMENT-MODEL.md` | This gate output. |
-| FRAG-20260703-AD05 | SOURCE-FRAGMENT-INTAKE-POLICY | Manus | architecture_doc | active_control_plane | content_reviewed | not_merged | TL-ARCHITECTURE-BEFORE-ABSORPTION | `02_Architecture/Synthesis/SOURCE-FRAGMENT-INTAKE-POLICY.md` | This gate output. |
+| SF-GPT-002-0013-001 | FRAG-20260703-CP01 | SO-GPT-002-0013 | GPT-002 | CH-002 | session_capture_pack | active_control_plane | mapped_from_legacy | metadata_reviewed | CURRENT-CHATGPT-YOS-KAP-SESSION-CAPTURE. 10 doctrines, 8 decisions, 11 MPM stubs. |
+| SF-GPT-001-0011-001 | FRAG-20260702-CP02 | SO-GPT-001-0011 | GPT-001 | CH-002 | session_capture_pack | active_control_plane | mapped_from_legacy | metadata_reviewed | YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap. 10 doctrines, 12 decisions, 5 MPM stubs. |
+| SF-MAN-001-0016-001 | FRAG-20260703-GR01 | SO-MAN-001-0016 | MAN-001 | CH-003 | gate_report | active_control_plane | mapped_from_legacy | metadata_reviewed | YOS-CONTROL-PLANE-BOOTSTRAP-GATE-REPORT. Gate PASS. 55 files. |
+| SF-MAN-001-0015-001 | FRAG-20260703-GR02 | SO-MAN-001-0015 | MAN-001 | CH-003 | gate_report | active_control_plane | mapped_from_legacy | metadata_reviewed | EVOLUTIONARY-KNOWLEDGE-MERGE-ARCHITECTURE-GATE-REPORT. Gate PASS. 4 registries. |
+| SF-GIT-001-0018-001 | FRAG-20260703-AD01 | SO-GIT-001-0018 | GIT-001 | CH-001 | architecture_doc | active_control_plane | mapped_from_legacy | metadata_reviewed | ARCHITECTURE-BEFORE-ABSORPTION. Core doctrine document. |
+| SF-GIT-001-0019-001 | FRAG-20260703-AD02 | SO-GIT-001-0019 | GIT-001 | CH-001 | architecture_doc | active_control_plane | mapped_from_legacy | metadata_reviewed | YOS-STRATEGIC-DOCTRINE. Strategic doctrine summary. |
+| SF-GIT-001-0020-001 | FRAG-20260703-AD03 | SO-GIT-001-0020 | GIT-001 | CH-001 | architecture_doc | active_control_plane | mapped_from_legacy | metadata_reviewed | YOS-REPOSITORY-ARCHITECTURE-DECISION. Master repo + linked repos decision. |
+| SF-GIT-001-0021-001 | FRAG-20260703-AD04 | SO-GIT-001-0021 | GIT-001 | CH-001 | architecture_doc | active_control_plane | mapped_from_legacy | content_reviewed | SOURCE-FRAGMENT-MODEL. Gate output. |
+| SF-GIT-001-0022-001 | FRAG-20260703-AD05 | SO-GIT-001-0022 | GIT-001 | CH-001 | architecture_doc | active_control_plane | mapped_from_legacy | content_reviewed | SOURCE-FRAGMENT-INTAKE-POLICY. Gate output. |
 
 ---
 
 ## Registry Notes
 
-- This registry is seeded with control-plane artifacts only (files confirmed to exist in Git as of commit `1e29c8c`).
+- All 9 fragments above are mapped from legacy IDs. See `SOURCE-FRAGMENT-ID-CROSSWALK.md` for the full crosswalk.
+- Legacy IDs (`FRAG-YYYYMMDD-XXXX`) are preserved as aliases and must not be deleted.
 - Illustrative examples from `SOURCE-FRAGMENT-EXAMPLES.md` are NOT included here.
 - Real source fragments from Notion, Obsidian, ChatGPT export, and other sources will be added when their respective pipeline gates pass.
-- Fragment IDs follow the pattern: `FRAG-YYYYMMDD-XXXX`
 
 ---
 
-## Pending Registrations (known sources not yet extracted)
+## Next Available Fragment Sequence Numbers
+
+| Source Object | Next SF Seq |
+|---|---|
+| SO-GPT-002-0013 | 002 |
+| SO-GPT-001-0011 | 002 |
+| SO-MAN-001-0016 | 002 |
+| SO-MAN-001-0015 | 002 |
+| SO-GIT-001-0018 through SO-GIT-001-0022 | 002 |
+| All new SO-* | 001 |
+
+---
+
+## Pending Registrations
 
 | Source | Gate Required | Status |
 |---|---|---|
-| Notion pages (1300+) | NOTION-PIPELINE-CONTROLLED-EXECUTION-GATE | PENDING |
-| Obsidian notes (9 vaults, ~4400+) | OBSIDIAN-PIPELINE-PATCH-GATE | PENDING |
-| ChatGPT full export | ChatGPT export gate (TBD) | PENDING |
+| Notion pages (1300+) | NOTION-METADATA-INVENTORY-GATE → NOTION-PIPELINE-CONTROLLED-EXECUTION-GATE | PENDING |
+| Obsidian notes (9 vaults, ~4400+) | OBSIDIAN-MARKDOWN-METADATA-DRY-RUN-GATE | PENDING |
+| ChatGPT parallel sessions | CAPTURE-PATCH-2 | PENDING |
 | GitHub repos (36) | GITHUB-SOURCE-ACQUISITION-GATE | PENDING |
-| Mem0 entries | Mem0 extraction gate (TBD) | PENDING |
-| LLM Internal Memory | LLM-INTERNAL-MEMORY-EXTRACTION-GATE | DEFERRED |
+| Manus historical tasks (194) | MANUS-HISTORICAL-ACQUISITION-GATE | PENDING |
+| Other LLM sessions | CAPTURE-PATCH-2 | BLOCKED |
+| LLM Internal Knowledge | LLM-HEURISTIC-CONTEXT-USAGE-POLICY | HEURISTIC_ONLY |

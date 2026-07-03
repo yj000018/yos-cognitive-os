@@ -1,17 +1,27 @@
 {
   "_meta": {
-    "schema_version": "1.1",
-    "schema_patch": "model-consistency-patch-2026-07-03",
-    "gate": "SOURCE-FRAGMENT-MODEL-GATE",
+    "schema_version": "1.2",
+    "schema_patch": "SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH-2026-07-03",
+    "gate": "SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH",
     "created_at": "2026-07-03",
     "status": "SKELETON",
     "description": "Machine-readable index of known Source Fragments in the YOS/KAP control plane. Seeded with control-plane artifacts only.",
     "schema_ref": "02_Architecture/Synthesis/_schemas/source_fragment.schema.json",
-    "registry_ref": "05_Registries/SOURCE-FRAGMENT-REGISTRY.md"
+    "registry_ref": "05_Registries/SOURCE-FRAGMENT-REGISTRY.md",
+    "canonical_id_policy": "02_Architecture/Synthesis/SOURCE-ID-NORMALIZATION-POLICY.md",
+    "crosswalk_path": "05_Registries/SOURCE-FRAGMENT-ID-CROSSWALK.md",
+    "legacy_id_warning": "Legacy IDs (FRAG-YYYYMMDD-XXXX) must NOT be treated as canonical. Always resolve to canonical SF-* IDs via the crosswalk.",
+    "legacy_ids_mapped": 9,
+    "legacy_ids_unresolved": 0
   },
   "fragments": [
     {
-      "fragment_id": "FRAG-20260703-CP01",
+      "fragment_id": "SF-GPT-002-0013-001",
+      "legacy_fragment_ids": ["FRAG-20260703-CP01"],
+      "source_object_id": "SO-GPT-002-0013",
+      "source_instance_id": "GPT-002",
+      "source_channel_id": "CH-002",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "CURRENT-CHATGPT-YOS-KAP-SESSION-CAPTURE (2026-07-03)",
       "source_system": "ChatGPT",
       "source_type": "session_capture_pack",
@@ -32,7 +42,12 @@
       "sensitivity_level": "internal"
     },
     {
-      "fragment_id": "FRAG-20260702-CP02",
+      "fragment_id": "SF-GPT-001-0011-001",
+      "legacy_fragment_ids": ["FRAG-20260702-CP02"],
+      "source_object_id": "SO-GPT-001-0011",
+      "source_instance_id": "GPT-001",
+      "source_channel_id": "CH-002",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02",
       "source_system": "ChatGPT",
       "source_type": "session_capture_pack",
@@ -53,7 +68,12 @@
       "sensitivity_level": "internal"
     },
     {
-      "fragment_id": "FRAG-20260703-GR01",
+      "fragment_id": "SF-MAN-001-0016-001",
+      "legacy_fragment_ids": ["FRAG-20260703-GR01"],
+      "source_object_id": "SO-MAN-001-0016",
+      "source_instance_id": "MAN-001",
+      "source_channel_id": "CH-003",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "YOS-CONTROL-PLANE-BOOTSTRAP-GATE-REPORT",
       "source_system": "Manus",
       "source_type": "gate_report",
@@ -74,7 +94,12 @@
       "sensitivity_level": "internal"
     },
     {
-      "fragment_id": "FRAG-20260703-GR02",
+      "fragment_id": "SF-MAN-001-0015-001",
+      "legacy_fragment_ids": ["FRAG-20260703-GR02"],
+      "source_object_id": "SO-MAN-001-0015",
+      "source_instance_id": "MAN-001",
+      "source_channel_id": "CH-003",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "EVOLUTIONARY-KNOWLEDGE-MERGE-ARCHITECTURE-GATE-REPORT",
       "source_system": "Manus",
       "source_type": "gate_report",
@@ -95,7 +120,12 @@
       "sensitivity_level": "internal"
     },
     {
-      "fragment_id": "FRAG-20260703-AD01",
+      "fragment_id": "SF-GIT-001-0018-001",
+      "legacy_fragment_ids": ["FRAG-20260703-AD01"],
+      "source_object_id": "SO-GIT-001-0018",
+      "source_instance_id": "GIT-001",
+      "source_channel_id": "CH-001",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "ARCHITECTURE-BEFORE-ABSORPTION",
       "source_system": "Manus",
       "source_type": "architecture_doc",
@@ -116,7 +146,12 @@
       "sensitivity_level": "internal"
     },
     {
-      "fragment_id": "FRAG-20260703-AD02",
+      "fragment_id": "SF-GIT-001-0019-001",
+      "legacy_fragment_ids": ["FRAG-20260703-AD02"],
+      "source_object_id": "SO-GIT-001-0019",
+      "source_instance_id": "GIT-001",
+      "source_channel_id": "CH-001",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "YOS-STRATEGIC-DOCTRINE",
       "source_system": "Manus",
       "source_type": "architecture_doc",
@@ -137,7 +172,12 @@
       "sensitivity_level": "internal"
     },
     {
-      "fragment_id": "FRAG-20260703-AD04",
+      "fragment_id": "SF-GIT-001-0021-001",
+      "legacy_fragment_ids": ["FRAG-20260703-AD04"],
+      "source_object_id": "SO-GIT-001-0021",
+      "source_instance_id": "GIT-001",
+      "source_channel_id": "CH-001",
+      "id_normalization_status": "mapped_from_legacy",
       "fragment_title": "SOURCE-FRAGMENT-MODEL",
       "source_system": "Manus",
       "source_type": "architecture_doc",
@@ -159,10 +199,10 @@
     }
   ],
   "pending_sources": [
-    { "source_system": "Notion", "gate_required": "NOTION-PIPELINE-CONTROLLED-EXECUTION-GATE", "estimated_fragments": "1300+" },
-    { "source_system": "Obsidian", "gate_required": "OBSIDIAN-PIPELINE-PATCH-GATE", "estimated_fragments": "4400+" },
-    { "source_system": "ChatGPT", "gate_required": "ChatGPT-export-gate-TBD", "estimated_fragments": "unknown" },
+    { "source_system": "Notion", "gate_required": "NOTION-METADATA-INVENTORY-GATE", "estimated_fragments": "1300+" },
+    { "source_system": "Obsidian", "gate_required": "OBSIDIAN-MARKDOWN-METADATA-DRY-RUN-GATE", "estimated_fragments": "4400+" },
+    { "source_system": "ChatGPT", "gate_required": "CAPTURE-PATCH-2", "estimated_fragments": "unknown" },
     { "source_system": "Git", "gate_required": "GITHUB-SOURCE-ACQUISITION-GATE", "estimated_fragments": "36 repos" },
-    { "source_system": "Mem0", "gate_required": "Mem0-extraction-gate-TBD", "estimated_fragments": "unknown" }
+    { "source_system": "Manus", "gate_required": "MANUS-HISTORICAL-ACQUISITION-GATE", "estimated_fragments": "194 sessions" }
   ]
 }

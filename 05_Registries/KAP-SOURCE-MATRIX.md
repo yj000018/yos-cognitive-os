@@ -70,6 +70,15 @@
 | `DEFERRED` | 8+ | Legacy repos, Namaste, YOUniverse sources |
 | `DEFERRED_FOR_LATER_KAP_YOUNIVERSE_EXTENSION` | 4 channels | Web, GDrive, Uploads, Legacy |
 
+### ID Normalization Status
+
+| Level | Status |
+|---|---|
+| L0 Channel IDs (CH-*) | ✅ CANONICAL — no change |
+| L1 Instance IDs (GIT-*, GPT-*, MAN-*, etc.) | ✅ CANONICAL — confirmed |
+| L2 Object IDs (SO-*) | ✅ CANONICAL — 27 objects registered |
+| L3 Fragment IDs (SF-*) | ✅ CANONICAL — 9 legacy IDs mapped, 0 unresolved |
+
 ### Corrected Next Gate Sequence (SOURCE-TAXONOMY-ALIGNMENT-PATCH)
 1. `SOURCE-TAXONOMY-ALIGNMENT-PATCH` ← current
 2. `SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH`

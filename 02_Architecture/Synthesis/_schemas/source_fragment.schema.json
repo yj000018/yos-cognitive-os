@@ -2,10 +2,14 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/yj000018/yos-cognitive-os/02_Architecture/Synthesis/_schemas/source_fragment.schema.json",
   "title": "SourceFragment",
-  "description": "Minimal traceable unit of source material in the YOS/KAP cognitive architecture.",
+  "description": "Minimal traceable unit of source material in the YOS/KAP cognitive architecture. PATCHED: SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH 2026-07-03. Schema version: 1.2",
   "type": "object",
   "required": [
     "fragment_id",
+    "source_object_id",
+    "source_instance_id",
+    "source_channel_id",
+    "id_normalization_status",
     "fragment_title",
     "source_system",
     "source_type",
@@ -20,8 +24,39 @@
   "properties": {
     "fragment_id": {
       "type": "string",
-      "description": "Unique identifier. Format: FRAG-YYYYMMDD-XXXX",
-      "pattern": "^FRAG-[0-9]{8}-[A-Z0-9]{4}$"
+      "description": "Canonical L3 Source Fragment ID. Format: SF-<CHANNELCODE>-<INSTANCESEQ>-<OBJECTSEQ>-<FRAGMENTSEQ>. Legacy FRAG-YYYYMMDD-XXXX IDs must be preserved in legacy_fragment_ids.",
+      "pattern": "^(SF-[A-Z]+-[0-9]+-[0-9]+-[0-9]+|FRAG-[0-9]{8}-[A-Z0-9]+)$"
+    },
+    "legacy_fragment_ids": {
+      "type": "array",
+      "description": "Preserved legacy / symbolic IDs (e.g., FRAG-20260703-CP01). Never delete these.",
+      "items": { "type": "string" }
+    },
+    "source_object_id": {
+      "type": "string",
+      "description": "L2 Source Object ID. Format: SO-<CHANNELCODE>-<INSTANCESEQ>-<OBJECTSEQ>",
+      "pattern": "^SO-[A-Z]+-[0-9]+-[0-9]+$"
+    },
+    "source_instance_id": {
+      "type": "string",
+      "description": "L1 Source Instance ID. Format: <CHANNELCODE>-<SEQ>",
+      "pattern": "^[A-Z]+-[0-9]+$"
+    },
+    "source_channel_id": {
+      "type": "string",
+      "description": "L0 Source Channel ID. Format: CH-<SEQ>",
+      "pattern": "^CH-[0-9]+$"
+    },
+    "id_normalization_status": {
+      "type": "string",
+      "description": "ID normalization status for this fragment.",
+      "enum": [
+        "canonical",
+        "legacy_alias_preserved",
+        "mapped_from_legacy",
+        "requires_review",
+        "pending_source_object"
+      ]
     },
     "fragment_title": {
       "type": "string",
