@@ -1,5 +1,5 @@
 {
-  "gate": "YWORLD-SOURCE-OF-TRUTH-SCOPE-GATE",
+  "gate": "LOCAL-OBSIDIAN-SOURCE-SURFACE-DETECTION-GATE",
   "version": "v2",
   "date": "2026-07-04",
   "surfaces": [
@@ -76,6 +76,18 @@
       "current_status": "LOCAL_YWORLD_UNPROBED_SCOPE_UNCONFIRMED",
       "likely_role": "Unknown",
       "pipeline": "LOCAL_PIPELINE"
+    },
+    {
+      "surface_id": "LOCAL-GIT-YW",
+      "surface_name": "Y-WORLD Git Clone",
+      "storage": "Mac / Local filesystem",
+      "type": "Git Clone",
+      "known_md_count": 61,
+      "known_folder_count": null,
+      "evidence_level": "METADATA_ONLY",
+      "current_status": "HANDLE_UNDER_GITHUB_PIPELINE",
+      "likely_role": "Local Git working copy",
+      "pipeline": "GITHUB_PIPELINE"
     }
   ]
 }

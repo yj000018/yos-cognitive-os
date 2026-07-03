@@ -1,0 +1,130 @@
+{
+  "gate": "LOCAL-OBSIDIAN-SOURCE-SURFACE-DETECTION-GATE",
+  "mode": "metadata_only",
+  "content_read": false,
+  "files_copied": false,
+  "source_mutation": false,
+  "surfaces": [
+    {
+      "surface_id": "LOCAL-OBS-001",
+      "alias": "LOCAL://LUDI/LUDIVINE_VAULT",
+      "type": "Obsidian Vault",
+      "storage": "local",
+      "obsidian_present": true,
+      "git_present": null,
+      "approx_md_count": 1842,
+      "top_level_folder_count": 6,
+      "candidate_class": "large_vault_candidate",
+      "status": "DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION",
+      "authorization": {
+        "metadata_discovery": true,
+        "content_read": false,
+        "file_copy": false,
+        "extraction": false,
+        "dry_run": false,
+        "merge": false,
+        "source_mutation": false
+      },
+      "notes": "Largest discovered vault. Structured creative/intellectual project. NOT a Y-OS system vault."
+    },
+    {
+      "surface_id": "LOCAL-OBS-002",
+      "alias": "LOCAL://LUDI/LUDIVINE_BACKUP",
+      "type": "Obsidian Vault",
+      "storage": "local",
+      "obsidian_present": true,
+      "git_present": null,
+      "approx_md_count": 1418,
+      "top_level_folder_count": null,
+      "candidate_class": "backup_candidate",
+      "status": "BACKUP_EXCLUDED_FINAL",
+      "authorization": {
+        "metadata_discovery": true,
+        "content_read": false,
+        "file_copy": false,
+        "extraction": false,
+        "dry_run": false,
+        "merge": false,
+        "source_mutation": false
+      },
+      "notes": "Older snapshot of LUDIVINE vault. 424 fewer md files than primary."
+    },
+    {
+      "surface_id": "LOCAL-OBS-003",
+      "alias": "LOCAL://TESTS/testing",
+      "type": "Obsidian Vault",
+      "storage": "local",
+      "obsidian_present": true,
+      "git_present": null,
+      "approx_md_count": 5,
+      "top_level_folder_count": null,
+      "candidate_class": "test_candidate",
+      "status": "TEST_EXCLUDED_FINAL",
+      "authorization": {
+        "metadata_discovery": true,
+        "content_read": false,
+        "file_copy": false,
+        "extraction": false,
+        "dry_run": false,
+        "merge": false,
+        "source_mutation": false
+      },
+      "notes": "Test vault. Excalidraw experiments. Minimal content."
+    },
+    {
+      "surface_id": "LOCAL-YWORLD",
+      "alias": "LOCAL://YWORLD_UNPROBED",
+      "type": "Unknown",
+      "storage": "local",
+      "obsidian_present": null,
+      "git_present": null,
+      "approx_md_count": null,
+      "top_level_folder_count": null,
+      "candidate_class": "unknown_requires_review",
+      "status": "LOCAL_YWORLD_UNPROBED_SCOPE_UNCONFIRMED",
+      "authorization": {
+        "metadata_discovery": true,
+        "content_read": false,
+        "file_copy": false,
+        "extraction": false,
+        "dry_run": false,
+        "merge": false,
+        "source_mutation": false
+      },
+      "notes": "Unprobed to respect broad scan restrictions."
+    },
+    {
+      "surface_id": "LOCAL-GIT-YW",
+      "alias": "GITHUB://yj000018/Y-WORLD",
+      "type": "Git Clone",
+      "storage": "local",
+      "obsidian_present": true,
+      "git_present": true,
+      "approx_md_count": 61,
+      "top_level_folder_count": null,
+      "candidate_class": "git_clone_candidate",
+      "status": "HANDLE_UNDER_GITHUB_PIPELINE",
+      "authorization": {
+        "metadata_discovery": true,
+        "content_read": false,
+        "file_copy": false,
+        "extraction": false,
+        "dry_run": false,
+        "merge": false,
+        "source_mutation": false
+      },
+      "notes": "Local git working copy with Obsidian dir present."
+    }
+  ],
+  "local_yworld": {
+    "found": false,
+    "status": "LOCAL_YWORLD_UNPROBED_SCOPE_UNCONFIRMED",
+    "evidence_level": "INSUFFICIENT",
+    "notes": "No direct local Y-World vault path identified beyond the Git clone and iCloud fragment. Broad scan forbidden."
+  },
+  "privacy": {
+    "full_paths_redacted": true,
+    "private_usernames_redacted": true,
+    "secrets_stored": false
+  }
+}
