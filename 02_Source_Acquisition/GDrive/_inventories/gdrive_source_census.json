@@ -1,0 +1,92 @@
+{
+  "census_id": "GDRIVE-CENSUS-001",
+  "gate": "OBSIDIAN-SOURCE-CENSUS-GDRIVE-ICLOUD-PATCH",
+  "timestamp": "2026-07-03T19:20:00Z",
+  "account": "yannick.jolliet@gmail.com",
+  "storage_used": "979.76 GB",
+  "storage_total": "5 TB",
+  "access_method": "browser_authenticated",
+  "content_read": false,
+  "source_mutation": false,
+  "merge_performed": false,
+
+  "top_level_folders": [
+    {"name": "-document-",          "modified": "2026-05-23", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "——docs——",            "modified": "2026-05-23", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "00_INBOX",            "modified": "2026-05-04", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "01_Y_OS_CORE",        "modified": "2026-05-04", "kap_relevant": true,  "status": "CANDIDATE_REQUIRES_SCOPE_DECISION", "instance_id": "INST-GDRIVE-YOS"},
+    {"name": "02_BUSINESS_ASSETS",  "modified": "2026-05-04", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "03_CREATIONS_MEDIA",  "modified": "2026-05-04", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "04_SYSTEM_APPS",      "modified": "2026-05-04", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "05_ARCHIVES_BACKUPS", "modified": "2026-05-04", "kap_relevant": false, "status": "BACKUP_EXCLUDE_BY_DEFAULT"},
+    {"name": "ARCHE-TYPES",         "modified": "2026-05-23", "kap_relevant": false, "status": "CANDIDATE_REVIEW_LATER"},
+    {"name": "Backup Google Drive", "modified": "2026-05-07", "kap_relevant": false, "status": "BACKUP_EXCLUDE_BY_DEFAULT"},
+    {"name": "HOPE",                "modified": "2026-06-14", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "Puzzle Annecy",       "modified": "2026-06-06", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "SCANS from iPhone",   "modified": "2026-06-18", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "TEMPLE",              "modified": "2026-05-11", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "WOL - Witnesses of Love", "modified": "2026-06-04", "kap_relevant": false, "status": "OUT_OF_SCOPE"},
+    {"name": "Y-OS",                "modified": "2026-06-15", "kap_relevant": true,  "status": "CANDIDATE_REQUIRES_SCOPE_DECISION", "instance_id": "INST-GDRIVE-YOS"},
+    {"name": "yOS",                 "modified": "2026-05-17", "kap_relevant": true,  "status": "CANDIDATE_REQUIRES_SCOPE_DECISION", "note": "possible duplicate of Y-OS"},
+    {"name": "YOS Vision",          "modified": "2026-06-20", "kap_relevant": true,  "status": "CANDIDATE_REQUIRES_SCOPE_DECISION"},
+    {"name": "FinDash Engine",      "modified": "2026-05-26", "kap_relevant": false, "status": "OUT_OF_SCOPE"}
+  ],
+
+  "obsidian_vaults_discovered": [
+    {
+      "id": "GDRIVE-OBS-001",
+      "name": "Obsidian Vault",
+      "location": "(APPS FOLDERS)",
+      "modified": "2026-05-11",
+      "type": "vault_backup",
+      "status": "DISCOVERED_NOT_AUTHORIZED",
+      "note": "Likely backup of local LUDIVINE or similar vault"
+    },
+    {
+      "id": "GDRIVE-OBS-002",
+      "name": "Obsidian Vault 2",
+      "location": "(APPS FOLDERS)",
+      "modified": "2026-05-11",
+      "type": "vault_backup",
+      "status": "DISCOVERED_NOT_AUTHORIZED",
+      "note": "Second vault backup on Google Drive"
+    },
+    {
+      "id": "GDRIVE-OBS-003",
+      "name": ".obsidian (Y-WORLD)",
+      "location": "Y-WORLD folder",
+      "modified": "2026-05-28",
+      "type": "vault_config",
+      "status": "DISCOVERED_LOW_PRIORITY",
+      "note": "Y-World vault backed up to Google Drive — small/experimental, handled under GitHub pipeline"
+    }
+  ],
+
+  "icloud_vaults": [
+    {
+      "id": "ICLOUD-OBS-001",
+      "alias": "ICLOUD://YWORLD/",
+      "modified": "2025-09",
+      "md_count": 17,
+      "status": "DISCOVERED_LOW_PRIORITY",
+      "note": "Small experimental vault — not canonical Y-World"
+    },
+    {
+      "id": "ICLOUD-OBS-002",
+      "alias": "ICLOUD://TEST/",
+      "modified": "2025-09",
+      "md_count": 8,
+      "status": "EXCLUDED_BY_DEFAULT"
+    }
+  ],
+
+  "access_gaps": [
+    {
+      "source": "iCloud",
+      "status": "CONFIRMED_PREVIOUSLY",
+      "note": "Mac desktop session unresponsive during this census — data from prior scan (2026-07-03)"
+    }
+  ],
+
+  "gate_status": "GDRIVE_ICLOUD_CENSUS_PASS_READY_FOR_GUARDIAN_REVIEW"
+}
