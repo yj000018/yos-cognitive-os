@@ -4,8 +4,8 @@
 - **Gate ID:** `YWORLD-BOUNDED-METADATA-COMPARISON-GATE`
 - **Execution Date:** 2026-07-03
 - **Status:** `YWORLD_BOUNDED_METADATA_COMPARISON_PASS_REQUIRES_FULL_EXTRACTION`
-- **Commit Hash (yos-cognitive-os):** `PENDING`
-- **Commit Hash (kap-control-plane):** `PENDING`
+- **Commit Hash (yos-cognitive-os):** `ed6c290a821a741d7d7a69514e7ebbfcf85267ae`
+- **Commit Hash (kap-control-plane):** `a60aa7c65954ce9b33d59f96f70e99582a5cdc28`
 
 ## 2. Objective
 Perform a metadata-only bounded comparison between the GitHub Y-WORLD repository, the GDrive Y-WORLD vault, and the iCloud Y-WORLD micro-vault retained files to clarify their relationship and determine the source of truth.
