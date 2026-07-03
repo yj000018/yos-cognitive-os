@@ -185,7 +185,7 @@ No GDrive Y-OS folder may be declared canonical until `GDRIVE-YOS-CANONICALIZATI
 
 | Field | Value |
 |---|---|
-| Gate commit | _see commit after this report is committed_ |
+| Gate commit | `304cda9` |
 | Branch | `main` |
 | Remote push | **NOT PERFORMED** (per MPM instruction) |
 | Git status | CLEAN (after local commit) |
