@@ -26,7 +26,7 @@ NOTION_SCAN_CHECKPOINT_METADATA_ONLY_IN_PROGRESS_READY_FOR_GUARDIAN_REVIEW
 | Max depth configured | 12 |
 | Max objects configured | 2000 |
 | Scan script | `notion_yos_scan_v2.py` |
-| Token source | 1Password (KAP-Executor) |
+| Token source | secret manager |
 | API version | `2022-06-28` |
 | Scan start | 2026-07-03 ~11:20 UTC+2 |
 | Checkpoint captured | 2026-07-03 ~11:45 UTC+2 |
@@ -174,6 +174,8 @@ NOTION_SCAN_CHECKPOINT_METADATA_ONLY_IN_PROGRESS_READY_FOR_GUARDIAN_REVIEW
 | User/member data | ❌ NOT captured |
 
 ## 7. Privacy Handling
+
+> **Notion URLs** are internal working metadata and are not authorized for public export without a future redaction policy.
 
 | Rule | Status |
 |---|---|
