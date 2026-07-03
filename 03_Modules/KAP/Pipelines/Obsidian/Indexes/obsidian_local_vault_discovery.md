@@ -34,14 +34,14 @@
 | Alias | `LOCAL://LUDI/LUDIVINE_VAULT` |
 | Sync | Local only |
 | MD files | **1842** |
-| Status | `DISCOVERED_NOT_AUTHORIZED` |
+| LUDIVINE | `DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION` |
 | Canvases | Present |
 | Media | Present |
-| JSON indexes | Present (_index.json, _structure.json, _credo_analysis.json) |
+| JSON indexes | Present (filenames withheld in public KAP report) |
 
 **Top-level sections:** BUSINESS & ACTIONS, COSMOLOGIE, LUDIVINE, MULTIMEDIA, MULTIMEDIA & RESEARCH, RESEARCH
 
-**Root metadata files (names only):** _ARCHITECTURE_SERIE.md, _AUDIT_COMPLET.md, _CREDO_MATRIX.md, _FORMES_MATRIX.md, _HISTOIRES_MATRIX.md, _MESSAGES_FONDAMENTAUX.md, _RAPPORT_COMPLET_2026.md, _README_VAULT.md, _YAML_SCHEMA.md, MIND MAP — Ludivine.md
+> **v1.1 privacy patch:** Root-level structural/index files detected; filenames withheld in public KAP report. File count and category structure preserved.
 
 **Note:** Structured creative/intellectual project vault. NOT a Y-OS system vault. Guardian must authorize before any content access.
 

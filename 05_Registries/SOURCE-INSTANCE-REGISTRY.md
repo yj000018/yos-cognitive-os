@@ -266,7 +266,7 @@
 
 | Instance ID | Name | Alias | Sync | MD Files | Status | KAP Role |
 |---|---|---|---|---|---|---|
-| INST-OBS-LUDIVINE | LUDIVINE_OBSIDIAN_VAULT | `LOCAL://LUDI/LUDIVINE_VAULT` | Local only | 1842 | `DISCOVERED_NOT_AUTHORIZED` | Principal local vault candidate |
+| INST-OBS-LUDIVINE | LUDIVINE_OBSIDIAN_VAULT | `LOCAL://LUDI/LUDIVINE_VAULT` | Local only | 1842 | `DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION` | Principal local vault candidate |
 | INST-OBS-LUDIVINE-BACKUP | LUDIVINE_OBS_BACKUP | `LOCAL://LUDI/LUDIVINE_BACKUP` | Local only | 1418 | `BACKUP_EXCLUDE_BY_DEFAULT` | Backup duplicate |
 | INST-OBS-YWORLD-ICLOUD | Y-World (iCloud) | `ICLOUD://obsidian/Y-World` | iCloud | 17 | `DISCOVERED_LOW_PRIORITY` | Small experimental vault |
 | INST-OBS-TEST | Test (iCloud) | `ICLOUD://obsidian/Test` | iCloud | ~8 | `EXCLUDE_BY_DEFAULT` | Test vault |

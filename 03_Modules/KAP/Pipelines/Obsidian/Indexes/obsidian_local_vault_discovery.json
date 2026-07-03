@@ -1,15 +1,18 @@
 {
   "generated_at": "2026-07-03T10:15:00Z",
+  "patched_at": "2026-07-03T12:00:00Z",
+  "patch_version": "v1.1",
   "gate": "OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE",
   "scan_type": "discovery_metadata_only",
   "scan_method": "find -name .obsidian -type d via Manus desktop bridge",
-  "machine": "macOS (redacted)",
+  "machine": "macOS local workstation — user redacted",
   "content_extracted": false,
   "source_mutated": false,
   "ingestion_performed": false,
   "total_vaults_discovered": 5,
   "total_md_files_discovered": 3290,
   "unique_md_files_excluding_backup": 1872,
+  "privacy_note": "v1.1 patch: local username and full paths redacted. LUDIVINE root-level filenames withheld from public KAP files. Aliases used throughout.",
   "vaults": [
     {
       "instance_id": "INST-OBS-LUDIVINE",
@@ -30,26 +33,12 @@
         "--- MULTIMEDIA & RESEARCH ---",
         "--- RESEARCH ---"
       ],
-      "notable_root_files": [
-        "_ARCHITECTURE_SERIE.md",
-        "_AUDIT_COMPLET.md",
-        "_CREDO_MATRIX.md",
-        "_FORMES_MATRIX.md",
-        "_HISTOIRES_MATRIX.md",
-        "_MESSAGES_FONDAMENTAUX.md",
-        "_RAPPORT_COMPLET_2026.md",
-        "_README_VAULT.md",
-        "_YAML_SCHEMA.md",
-        "_index.json",
-        "_structure.json",
-        "_credo_analysis.json",
-        "MIND MAP — Ludivine.md"
-      ],
-      "status": "DISCOVERED_NOT_AUTHORIZED",
+      "notable_root_files": "ROOT_LEVEL_FILENAME_METADATA — withheld in public KAP report per v1.1 privacy patch. Structural/index files detected at root level. Count and category labels preserved only.",
+      "status": "DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION",
       "kap_role": "principal_local_vault_candidate",
-      "authorization": "requires_guardian_authorization",
+      "authorization": "requires_guardian_scope_decision_and_authorization",
       "content_read": false,
-      "note": "Largest discovered vault. Structured creative/intellectual project. NOT a Y-OS system vault. Guardian must authorize before any content access."
+      "note": "Largest discovered vault. Structured creative/intellectual project. NOT a Y-OS system vault. Guardian must make scope decision (in-scope vs out-of-scope for KAP) AND explicitly authorize before any content access."
     },
     {
       "instance_id": "INST-OBS-LUDIVINE-BACKUP",
@@ -76,11 +65,6 @@
       "has_canvases": false,
       "has_media": false,
       "subdirs": ["Projects", "Tags", "TaskNotes", "Test", "Yyy", "Excalidraw"],
-      "notable_root_files": [
-        "yos_memory_blueprint.md",
-        "excalibrain.md",
-        "Tool Intelligence Layer.md"
-      ],
       "status": "DISCOVERED_LOW_PRIORITY",
       "kap_role": "small_experimental_vault",
       "authorization": "low_priority_guardian_review",

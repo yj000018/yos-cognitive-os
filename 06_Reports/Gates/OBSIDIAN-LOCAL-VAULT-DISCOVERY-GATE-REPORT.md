@@ -6,17 +6,17 @@
 > Guardian Architect: ChatGPT
 > Date: 2026-07-03
 > Repo: yj000018/yos-cognitive-os
-> Report Version: v1.0
+> Report Version: v1.1
 
 ---
 
 ## 1. Final Gate Status
 
 ```
-OBSIDIAN_LOCAL_VAULT_DISCOVERY_GATE_PASS_READY_FOR_GUARDIAN_REVIEW
+OBSIDIAN_LOCAL_VAULT_DISCOVERY_GATE_PASS_WITH_LOCAL_VAULTS_DISCOVERED_PENDING_LUDIVINE_SCOPE_DECISION
 ```
 
-**Rationale:** 5 Obsidian vaults discovered on the local Mac via `find` command targeting `.obsidian` directories. 1 additional git clone with `.obsidian` directory identified but excluded (already registered under GitHub pipeline). Zero content extraction. Zero source mutation. Zero ingestion. All local paths redacted in public KAP files.
+**Rationale:** 5 Obsidian vaults discovered on the local Mac via `find` command targeting `.obsidian` directories. 1 additional git clone with `.obsidian` directory identified but excluded (already registered under GitHub pipeline). Zero content extraction. Zero source mutation. Zero ingestion. All local paths and username redacted in public KAP files. Exact LUDIVINE root-level filenames removed from public report (v1.1 privacy patch).
 
 ---
 
@@ -25,8 +25,8 @@ OBSIDIAN_LOCAL_VAULT_DISCOVERY_GATE_PASS_READY_FOR_GUARDIAN_REVIEW
 | Dimension | Value |
 |---|---|
 | Method | `find /Users -name ".obsidian" -type d` via Manus desktop bridge |
-| Machine | macOS (yannickjolliet) — connected via Manus remote desktop |
-| Scan depth | maxdepth 6 from `/Users/yannickjolliet` |
+| Machine | macOS local workstation — user redacted |
+| Scan depth | maxdepth 6 from `LOCAL_USER_HOME_REDACTED` |
 | Detection criteria | Presence of `.obsidian` directory |
 | Content read | **NONE** — only directory listings, file counts, and file names at L1 |
 | File body extraction | **NONE** |
@@ -41,7 +41,7 @@ All local filesystem paths are redacted in this public report and in all KAP ind
 
 | Vault ID | Alias | Sync | MD Files | Status | KAP Role |
 |---|---|---|---|---|---|
-| INST-OBS-LUDIVINE | `LOCAL://LUDI/LUDIVINE_VAULT` | Local only | **1842** | `DISCOVERED_NOT_AUTHORIZED` | Principal local vault candidate |
+| INST-OBS-LUDIVINE | `LOCAL://LUDI/LUDIVINE_VAULT` | Local only | **1842** | `DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION` | Principal local vault candidate |
 | INST-OBS-LUDIVINE-BACKUP | `LOCAL://LUDI/LUDIVINE_BACKUP` | Local only | 1418 | `BACKUP_EXCLUDE_BY_DEFAULT` | Backup duplicate candidate |
 | INST-OBS-YWORLD-ICLOUD | `ICLOUD://obsidian/Y-World` | iCloud | 17 | `DISCOVERED_LOW_PRIORITY` | Small experimental vault |
 | INST-OBS-TEST | `ICLOUD://obsidian/Test` | iCloud | ~8 | `EXCLUDE_BY_DEFAULT` | Test vault |
@@ -74,7 +74,7 @@ All local filesystem paths are redacted in this public report and in all KAP ind
 
 | Vault | Role | Status | Authorization | Next Action |
 |---|---|---|---|---|
-| **LUDIVINE** | Principal local vault candidate | `DISCOVERED_NOT_AUTHORIZED` | Requires Guardian authorization before any content access | Guardian review |
+| **LUDIVINE** | Principal local vault candidate | `DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION` | Requires Guardian scope decision + authorization before any content access | Guardian scope decision |
 | **LUDIVINE BACKUP** | Backup duplicate candidate | `BACKUP_EXCLUDE_BY_DEFAULT` | Excluded unless Guardian explicitly authorizes for diff analysis | None until authorized |
 | **Y-World iCloud** | Small experimental vault | `DISCOVERED_LOW_PRIORITY` | Low priority — mostly empty/placeholder files | Guardian review |
 | **Test** | Test vault | `EXCLUDE_BY_DEFAULT` | Excluded — test content only | None |
@@ -90,7 +90,7 @@ All local filesystem paths are redacted in this public report and in all KAP ind
 | `BACKUP_EXCLUDE_BY_DEFAULT` | LUDIVINE BACKUP | Backup vaults are excluded to avoid duplicate ingestion. Only the primary vault is a candidate. |
 | `EXCLUDE_BY_DEFAULT` | Test, testing | Test vaults contain no substantive content. Excluded from all KAP pipelines. |
 | `HANDLE_UNDER_GITHUB_PIPELINE` | Y-World GitHub clone | The local git clone is a mirror of the GitHub repo. Source of truth is the GitHub remote, already handled by GITHUB-SOURCE-METADATA-PILOT-GATE. |
-| `DISCOVERED_NOT_AUTHORIZED` | LUDIVINE | Large vault (1842 md). Content may be personal, creative, or project-specific. Guardian must explicitly authorize before any content access, metadata extraction beyond file counts, or dry-run execution. |
+| `DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION` | LUDIVINE | Large vault (1842 md). Content may be personal, creative, or project-specific. Guardian must make a scope decision (in-scope vs out-of-scope for KAP) AND explicitly authorize before any content access, metadata extraction beyond file counts, or dry-run execution. |
 | `DISCOVERED_LOW_PRIORITY` | Y-World iCloud | Only 17 md files, mostly empty placeholders. Low priority for KAP unless Guardian elevates. |
 
 ---
@@ -99,13 +99,13 @@ All local filesystem paths are redacted in this public report and in all KAP ind
 
 | Measure | Applied |
 |---|---|
-| Local paths redacted in all public KAP files | ✅ YES |
+| Local paths redacted in all public KAP files | ✅ YES (v1.1 patch applied) |
 | Alias system used (`LOCAL://`, `ICLOUD://`, `GITHUB://`) | ✅ YES |
 | No file content read or stored | ✅ YES |
-| No file names stored beyond L1 directory listing | ✅ YES — only top-level dir names and file counts |
+| No file names stored beyond L1 directory listing | ✅ YES — only top-level dir names and file counts (v1.1: exact LUDIVINE root filenames removed from public report) |
 | No personal data extracted | ✅ YES |
 | No attachments scanned in depth | ✅ YES |
-| Mac username not stored in index files | ✅ YES — redacted |
+| Mac username not stored in index files | ✅ YES — redacted (v1.1 patch applied) |
 | Full paths stored only in local discovery notes (not committed) | ✅ YES |
 
 ---
@@ -141,13 +141,7 @@ The LUDIVINE vault is the largest discovered vault (1842 md files). Top-level st
 | `--- MULTIMEDIA & RESEARCH ---` | Section separator |
 | `--- RESEARCH ---` | Section separator |
 
-Notable metadata files at root level (names only, not content):
-
-- `_ARCHITECTURE_SERIE.md`, `_AUDIT_COMPLET.md`, `_CREDO_MATRIX.md`
-- `_FORMES_MATRIX.md`, `_HISTOIRES_MATRIX.md`, `_MESSAGES_FONDAMENTAUX.md`
-- `_RAPPORT_COMPLET_2026.md`, `_README_VAULT.md`, `_YAML_SCHEMA.md`
-- `_index.json`, `_structure.json`, `_credo_analysis.json`
-- `MIND MAP — Ludivine.md`
+> **v1.1 privacy patch:** Root-level structural/index files detected; filenames withheld in public KAP report. File count and category structure preserved. No exact filenames stored in public files.
 
 **Assessment:** This vault appears to be a structured creative/intellectual project vault. It is NOT a Y-OS system vault. Guardian must decide whether LUDIVINE content is in scope for KAP or should remain a separate, private corpus.
 
@@ -174,7 +168,7 @@ Notable metadata files at root level (names only, not content):
 | No source mutation | ✅ PASS |
 | No ingestion / import / merge | ✅ PASS |
 | No attachment deep scan | ✅ PASS |
-| No LUDIVINE content access | ✅ PASS — `DISCOVERED_NOT_AUTHORIZED` |
+| No LUDIVINE content access | ✅ PASS — `DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION` |
 | No backup treated as primary | ✅ PASS — `BACKUP_EXCLUDE_BY_DEFAULT` |
 | No Y-World iCloud treated as real Y-World | ✅ PASS — `SMALL_EXPERIMENTAL_LOCAL_VAULT` |
 | Y-World GitHub in separate pipeline | ✅ PASS — `HANDLE_UNDER_GITHUB_PIPELINE` |
