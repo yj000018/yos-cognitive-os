@@ -88,7 +88,7 @@ This patch stabilizes identifiers across the validated KAP source architecture (
 
 | Field | Change |
 |---|---|
-| `fragment_id` | Pattern updated to accept `SF-*` (canonical) and `FRAG-*` (legacy transitional) |
+| `fragment_id` | Pattern restricted to `SF-*` canonical only; legacy FRAG-* IDs are preserved only in `legacy_fragment_ids` and `SOURCE-FRAGMENT-ID-CROSSWALK.md` |
 | `legacy_fragment_ids` | NEW — array of preserved legacy IDs |
 | `source_object_id` | NEW — required, `SO-*` pattern |
 | `source_instance_id` | NEW — required, `<CHANNELCODE>-*` pattern |
@@ -106,7 +106,7 @@ This patch stabilizes identifiers across the validated KAP source architecture (
 - `crosswalk_path` added
 - `legacy_id_warning` added
 - `legacy_ids_mapped: 9`, `legacy_ids_unresolved: 0`
-- All 7 fragment entries updated to canonical SF-* IDs with `legacy_fragment_ids` arrays
+- All 9 fragment entries updated to canonical SF-* IDs with `legacy_fragment_ids` arrays
 
 ---
 
