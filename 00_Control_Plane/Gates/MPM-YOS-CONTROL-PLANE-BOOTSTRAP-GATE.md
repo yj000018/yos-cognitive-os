@@ -1,0 +1,7 @@
+# MPM — YOS-CONTROL-PLANE-BOOTSTRAP + SESSION-DOCTRINE-CAPTURE-GATE
+
+**Status:** `STUB — FULL_BODY_IN_YOS-COGNITIVE-OS_REPO`
+**Source:** CURRENT-CHATGPT-YOS-KAP-SESSION-CAPTURE.md (MPM-010)
+**Full body location:** `yj000018/yos-cognitive-os` — `06_Reports/Gates/YOS-CONTROL-PLANE-BOOTSTRAP-GATE-REPORT.md`
+**Purpose:** Create YOS Control Plane and preserve session doctrines/MPMs into Git.
+**Gate status:** YOS_CONTROL_PLANE_BOOTSTRAP_GATE_PASS_WITH_CAPTURE_GAPS_READY_FOR_CAPTURE_PATCH

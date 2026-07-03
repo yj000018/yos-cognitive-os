@@ -64,3 +64,28 @@ When a new high-value doctrine is produced in any session:
 | PIPELINE-FEASIBILITY-GATE MPM | ChatGPT parallel session | SOURCE_NOT_AVAILABLE_YET | User to export or provide |
 | OBSIDIAN-PIPELINE-VALIDATION-GATE | ChatGPT parallel session | SOURCE_NOT_AVAILABLE_YET | User to export or provide |
 | NOTION-PIPELINE-CONTROLLED-EXECUTION-GATE | ChatGPT parallel session | SOURCE_NOT_AVAILABLE_YET | User to export or provide |
+
+---
+
+## 2026-07-03 — CAPTURE-PATCH Update
+
+Two ChatGPT session capture packs received and fully processed:
+
+| Pack | Date | Doctrines | Decisions | MPM Stubs | Status |
+|---|---|---|---|---|---|
+| CURRENT-CHATGPT-YOS-KAP-SESSION-CAPTURE.md | 2026-07-03 | 10 extracted | 8 + 7 pipeline + 5 repo + 3 HAI | 11 stubs | ✅ PROCESSED |
+| YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md | 2026-07-02 | 10 extracted | 12 decisions | 5 stubs | ✅ PROCESSED |
+
+Total doctrines now registered: **20** (DOCTRINE-YOS-001 to DOCTRINE-YOS-020)
+Total decisions logged: **35+**
+Total MPM stubs: **16** (14 missing full bodies)
+
+Items moved from `SOURCE_NOT_AVAILABLE_YET` to `STUB_CREATED`:
+- MPM-002 CONNECTOR-DESIGN-GATE → stub created
+- MPM-003 AGENT-ROLE-GATE → stub created
+- MPM-004 CONNECTOR-IMPLEMENTATION-GATE → stub created
+- MPM-005 PIPELINE-FEASIBILITY-GATE → stub created
+- MPM-005-ADD Executive Feasibility Matrix → stub created
+- MPM-006 OBSIDIAN-PIPELINE-VALIDATION-GATE → stub created
+- MPM-007 OBSIDIAN-PIPELINE-PATCH-GATE → stub created
+- MPM-008 NOTION-PIPELINE-CONTROLLED-EXECUTION-GATE → stub created

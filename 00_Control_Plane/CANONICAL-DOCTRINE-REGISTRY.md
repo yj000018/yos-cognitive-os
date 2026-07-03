@@ -114,3 +114,112 @@ Every source in KAP follows a lifecycle: Discovered → Catalogued → Connector
 | DOCTRINE-YOS-008 | Notion Active Controlled Pipeline | ACTIVE | 2026-07-03 |
 | DOCTRINE-YOS-009 | One Engine, Multiple Scopes | ACTIVE | 2026-07-03 |
 | DOCTRINE-YOS-010 | Source Registry System Modularity | ACTIVE | 2026-07-03 |
+
+---
+
+### DOCTRINE-YOS-011 — Git/Markdown is the Only Knowledge Repository
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Git + Markdown is the source of truth for knowledge. Durable knowledge belongs in Git. JSON is allowed for registries, manifests, schemas, and machine-readable control files. Obsidian reads from Git/Markdown. Notion is not a repository. Mem0 is not a repository.
+
+---
+
+### DOCTRINE-YOS-012 — Obsidian is Consultation/Navigation Only
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Obsidian is the consultation and navigation layer over Git/Markdown. Obsidian should not become a separate source of truth. Avoid Obsidian-only proprietary structures as canonical data. The Git repo should be structured so Obsidian can navigate it.
+
+---
+
+### DOCTRINE-YOS-013 — Mem0 is Semantic-Only Future Memory
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Mem0 receives only validated distilled semantic memory: stable preferences, durable project facts, durable decisions, yOS/MyOS process rules, semantic context, validated memory candidates. Not allowed: raw logs, raw conversations, credentials, secrets, noisy bulk data, unresolved duplicates, personal datasets without specific future rules.
+
+---
+
+### DOCTRINE-YOS-014 — KAP is the Acquisition/Routing/Consolidation Engine
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+KAP handles: source inventory, connector/pipeline readiness, acquisition protocols, preservation, provenance, Git persistence, routing, delta, later normalization/distillation/memory-candidate creation. KAP does not become: YOUniverse itself, Mem0 itself, Notion replacement UI, all project knowledge as a monolith, final ontology owner.
+
+---
+
+### DOCTRINE-YOS-015 — Reuse Before Rebuild
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Before designing new systems, ask: Does this already exist in KAP? Did Manus already build it? Did yOS/MyOS already define it? Was it implemented in previous GitHub Actions, LMP, YOUniverse, yOS Memory Bridge, Mem0 Sync, ChatGPT2Notion, Gmail pipeline, or other historical systems?
+
+Reuse decision values: `ADOPT_AS_CANON`, `ADOPT_WITH_ADAPTATION`, `REFERENCE_ONLY`, `SUPERSEDED`, `DEPRECATED`, `UNKNOWN_REVIEW_REQUIRED`.
+
+---
+
+### DOCTRINE-YOS-016 — Guardian Architect Role
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+ChatGPT has a named role: `ChatGPT Guardian Architect / Architecte des gardiens`. Purpose: meta-architect, coherence guardian, anti-overengineering guardian, anti-drift guardian, cognitive-load protector, reuse-before-rebuild enforcer, Git/MD canon enforcer, roadmap/gate controller. Git path: `00_Infrastructure/Team_OS/Agents/CHATGPT-Guardian-Architect.md`. Reported commit: `0c37b75571a495de099092e524988f546845af2f` (to verify in KAP repo).
+
+---
+
+### DOCTRINE-YOS-017 — Bootstrap Temporary Registry Doctrine
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+When user says "put this in the right place": if the correct canonical registry is known, put it there. If not recovered yet, put it in a Git/Markdown temporary bootstrap registry under `00_Infrastructure/Bootstrap_Temporary_Registries/`. Later, after memory consolidation, redistribute temporary entries into the real registries.
+
+---
+
+### DOCTRINE-YOS-018 — Phase 2 is Dynamic Project Self-Knowledge
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Canonical phase name: `PHASE_2_PROJECT_KNOWLEDGE_AND_STATE`. Phase 2 is not only artifacts/deliverables. It is project knowledge, state, decisions, architecture, strategy, open questions, blockers, next actions, deltas, timelines, fact sheets, source maps, resource catalogs, assets, documents, deliverables, files, links, and memory candidates.
+
+---
+
+### DOCTRINE-YOS-019 — Manus is Executor, Not Architectural Authority
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Manus executes sprints and writes to Git. ChatGPT Guardian Architect reviews outputs and controls architecture. User retains strategic authority and final validation.
+
+---
+
+### DOCTRINE-YOS-020 — Bootstrap Paradox Acknowledged
+
+**Status**: ACTIVE | **Date**: 2026-07-02 | **Source**: YOS-KAP-SESSION-CAPTURE-PACK-Control-Plane-Bootstrap-2026-07-02.md
+
+Current work is a bootstrap phase. We manually reconstruct enough memory so that yOS/KAP can later automate reconstruction and consolidation. Rule: do not manually recover everything. Build a minimal reliable seed and machine.
+
+---
+
+## Updated Doctrine Status Summary (20 total)
+
+| ID | Title | Status | Date | Source |
+|---|---|---|---|---|
+| DOCTRINE-YOS-001 | YOS Contains KAP | ACTIVE | 2026-07-03 | ChatGPT current |
+| DOCTRINE-YOS-002 | Architecture Cognitive Avant Absorption Massive | ACTIVE | 2026-07-03 | Both packs |
+| DOCTRINE-YOS-003 | Git is the Durable Authority | ACTIVE | 2026-07-03 | Both packs |
+| DOCTRINE-YOS-004 | Control Plane vs Source Staging | ACTIVE | 2026-07-03 | ChatGPT current |
+| DOCTRINE-YOS-005 | No Current-Best Synthesis Before Model Validation | ACTIVE | 2026-07-03 | ChatGPT current |
+| DOCTRINE-YOS-006 | Manus is High-Value but Selective | ACTIVE | 2026-07-03 | ChatGPT current |
+| DOCTRINE-YOS-007 | Obsidian is Easy but Gated | ACTIVE | 2026-07-03 | ChatGPT current |
+| DOCTRINE-YOS-008 | Notion Active Controlled Pipeline | ACTIVE | 2026-07-03 | Both packs |
+| DOCTRINE-YOS-009 | One Engine, Multiple Scopes | ACTIVE | 2026-07-03 | Manus KAP |
+| DOCTRINE-YOS-010 | Source Registry System Modularity | ACTIVE | 2026-07-03 | Manus KAP |
+| DOCTRINE-YOS-011 | Git/Markdown is the Only Knowledge Repository | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-012 | Obsidian is Consultation/Navigation Only | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-013 | Mem0 is Semantic-Only Future Memory | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-014 | KAP is the Acquisition/Routing/Consolidation Engine | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-015 | Reuse Before Rebuild | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-016 | Guardian Architect Role | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-017 | Bootstrap Temporary Registry Doctrine | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-018 | Phase 2 is Dynamic Project Self-Knowledge | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-019 | Manus is Executor, Not Architectural Authority | ACTIVE | 2026-07-02 | Bootstrap pack |
+| DOCTRINE-YOS-020 | Bootstrap Paradox Acknowledged | ACTIVE | 2026-07-02 | Bootstrap pack |
