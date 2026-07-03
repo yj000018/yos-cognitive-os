@@ -3,6 +3,7 @@
 **Date:** 2026-07-03
 **Status:** `GDRIVE_OBSIDIAN_VAULT_CONTENT_SCOPE_PROBE_PASS_WITH_HOLDS_READY_FOR_GUARDIAN_REVIEW`
 **Author:** Manus AI
+**Commit (yos-cognitive-os):** `eec6f8657d4a9e566d9a90d500b41d43a2528de1`
 
 ---
 
