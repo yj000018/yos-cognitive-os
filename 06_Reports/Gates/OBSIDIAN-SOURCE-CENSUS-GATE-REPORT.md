@@ -90,7 +90,7 @@ OBSIDIAN_SOURCE_CENSUS_GATE_PASS_WITH_ACCESS_GAPS_READY_FOR_OBSIDIAN_SCOPE_DECIS
 | Y-World iCloud | 17 | Small experimental |
 | Test (iCloud) | 8 | Test — excluded |
 | testing (local) | 5 | Test — excluded |
-| Y-World GitHub | 61 | Canonical Y-World |
+| Y-World GitHub | 61 | Current likely primary Y-World source (to be validated by GitHub gate) |
 | Google Drive | unknown | Not scanned |
 | **TOTAL (known)** | **~2933** | Excl. Google Drive |
 
@@ -118,7 +118,7 @@ OBSIDIAN_SOURCE_CENSUS_GATE_PASS_WITH_ACCESS_GAPS_READY_FOR_OBSIDIAN_SCOPE_DECIS
 | OBS-SRC-003 | Y-World iCloud | apple_icloud | obsidian_vault | small_experimental_vault | `DISCOVERED_LOW_PRIORITY` |
 | OBS-SRC-004 | Test (iCloud) | apple_icloud | test_vault | test_vault | `EXCLUDED_BY_DEFAULT` |
 | OBS-SRC-005 | testing (local) | local_mac | test_vault | test_vault | `EXCLUDED_BY_DEFAULT` |
-| OBS-SRC-006 | Y-World GitHub | github | github_markdown_repo | canonical_yworld_source | `HANDLE_UNDER_GITHUB_PIPELINE` |
+| OBS-SRC-006 | Y-World GitHub | github | github_markdown_repo | current_likely_primary_yworld_source_pending_github_gate | `HANDLE_UNDER_GITHUB_PIPELINE` |
 | OBS-SRC-007 | Google Drive | google_drive | unknown | unknown | `ACCESS_NOT_CONFIRMED` |
 
 ---
@@ -154,7 +154,7 @@ OBSIDIAN_SOURCE_CENSUS_GATE_PASS_WITH_ACCESS_GAPS_READY_FOR_OBSIDIAN_SCOPE_DECIS
 
 1. Backup vaults excluded by default unless primary is lost or explicitly authorized.
 2. Test vaults excluded by default.
-3. Y-World iCloud not treated as canonical Y-World — GitHub is canonical.
+3. Y-World iCloud not treated as current likely primary Y-World source, to be validated by GitHub gate — GitHub is canonical.
 4. Google Drive not excluded — census not run, requires separate gate.
 
 ---
@@ -212,7 +212,7 @@ OBSIDIAN_SOURCE_CENSUS_GATE_PASS_WITH_ACCESS_GAPS_READY_FOR_OBSIDIAN_SCOPE_DECIS
 | No private paths stored | ✅ PASS | All paths aliased |
 | No secrets stored | ✅ PASS | Token source: secret manager |
 | No backup treated as primary | ✅ PASS | LUDIVINE BACKUP = BACKUP_EXCLUDE_BY_DEFAULT |
-| Y-World iCloud not canonical | ✅ PASS | Marked DISCOVERED_LOW_PRIORITY |
+| Y-World iCloud not treated as primary source | ✅ PASS | Marked DISCOVERED_LOW_PRIORITY |
 | GitHub not merged into Obsidian | ✅ PASS | GitHub pipeline separate |
 | Google Drive not exported | ✅ PASS | Not scanned |
 | Next gate not started | ✅ PASS | Stopped after census |

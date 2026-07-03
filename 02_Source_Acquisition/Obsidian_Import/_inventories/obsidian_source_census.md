@@ -15,10 +15,10 @@
 |---|---|---|---|---|---|---|---|---|
 | OBS-SRC-001 | LUDIVINE | local_mac | obsidian_vault | **1842** | YES | `DISCOVERED_NOT_AUTHORIZED` | HOLD_FOR_SCOPE_DECISION | Primary candidate — not authorized |
 | OBS-SRC-002 | LUDIVINE BACKUP | local_mac | backup_vault | 1418 | YES | `BACKUP_EXCLUDE_BY_DEFAULT` | EXCLUDE | Older snapshot — excluded |
-| OBS-SRC-003 | Y-World iCloud | apple_icloud | obsidian_vault | 17 | YES | `DISCOVERED_LOW_PRIORITY` | HOLD_FOR_SCOPE_DECISION | Small experimental — not canonical |
+| OBS-SRC-003 | Y-World iCloud | apple_icloud | obsidian_vault | 17 | YES | `DISCOVERED_LOW_PRIORITY` | HOLD_FOR_SCOPE_DECISION | Small experimental — not primary source |
 | OBS-SRC-004 | Test (iCloud) | apple_icloud | test_vault | 8 | YES | `EXCLUDED_BY_DEFAULT` | EXCLUDE | Test vault |
 | OBS-SRC-005 | testing (local) | local_mac | test_vault | 5 | YES | `EXCLUDED_BY_DEFAULT` | EXCLUDE | Test vault |
-| OBS-SRC-006 | Y-World GitHub | github | github_markdown_repo | 61 | YES | `HANDLE_UNDER_GITHUB_PIPELINE` | GITHUB_PIPELINE | Canonical Y-World — GitHub pipeline |
+| OBS-SRC-006 | Y-World GitHub | github | github_markdown_repo | 61 | YES | `HANDLE_UNDER_GITHUB_PIPELINE` | GITHUB_PIPELINE | Current likely primary Y-World source (to be validated by GitHub gate) — GitHub pipeline |
 | OBS-SRC-007 | Google Drive | google_drive | unknown | N/A | N/A | `ACCESS_NOT_CONFIRMED` | GOOGLE_DRIVE_PIPELINE | Not scanned — no connector |
 
 ---
@@ -38,8 +38,8 @@
 | Source | Route To | Reason | Next Gate |
 |---|---|---|---|
 | LUDIVINE | OBSIDIAN_LOCAL_PIPELINE | Primary local vault candidate | OBSIDIAN-SCOPE-DECISION-GATE |
-| Y-World iCloud | HOLD_FOR_SCOPE_DECISION | Small, experimental, not canonical | OBSIDIAN-SCOPE-DECISION-GATE |
-| Y-World GitHub | GITHUB_PIPELINE | Canonical Y-World, already in GitHub gate | GITHUB-SOURCE-METADATA-PILOT-GATE |
+| Y-World iCloud | HOLD_FOR_SCOPE_DECISION | Small, experimental, not primary source | OBSIDIAN-SCOPE-DECISION-GATE |
+| Y-World GitHub | GITHUB_PIPELINE | Current likely primary Y-World source (to be validated by GitHub gate), already in GitHub gate | GITHUB-SOURCE-METADATA-PILOT-GATE |
 | Google Drive | GOOGLE_DRIVE_PIPELINE | Access not confirmed | GOOGLE-DRIVE-SOURCE-CENSUS-GATE |
 | LUDIVINE BACKUP | EXCLUDE | Backup only | NONE |
 | Test vaults | EXCLUDE | Test only | NONE |
@@ -86,7 +86,7 @@
 | No private paths stored | ✅ PASS | All paths aliased |
 | No secrets stored | ✅ PASS | Token source: secret manager |
 | No backup treated as primary | ✅ PASS | LUDIVINE BACKUP = BACKUP_EXCLUDE_BY_DEFAULT |
-| Y-World iCloud not treated as canonical | ✅ PASS | Marked DISCOVERED_LOW_PRIORITY |
+| Y-World iCloud not treated as primary source | ✅ PASS | Marked DISCOVERED_LOW_PRIORITY |
 | GitHub not merged into Obsidian | ✅ PASS | GitHub pipeline separate |
 | Google Drive not exported | ✅ PASS | Not scanned |
 | Next gate not started | ✅ PASS | Stopped after census |

@@ -54,7 +54,7 @@
       "recommended_pipeline": "HOLD_FOR_SCOPE_DECISION",
       "recommended_next_gate": "OBSIDIAN-SCOPE-DECISION-GATE",
       "privacy_status": "PATHS_ALIASED",
-      "notes": "Small experimental vault. 17 md files. Dirs: Projects, Tags, TaskNotes, Test, Yyy, Excalidraw. Notable: yos_memory_blueprint.md. NOT canonical Y-World — GitHub repo is canonical. Low priority."
+      "notes": "Small experimental vault. 17 md files. Dirs: Projects, Tags, TaskNotes, Test, Yyy, Excalidraw. Notable: yos_memory_blueprint.md. NOT current likely primary Y-World source, to be validated by GitHub gate — GitHub repo is canonical. Low priority."
     },
     {
       "source_id": "OBS-SRC-004",
@@ -100,12 +100,12 @@
       "obsidian_config_present": true,
       "backup_or_duplicate_signal": false,
       "test_or_experimental_signal": false,
-      "candidate_role": "canonical_yworld_source",
+      "candidate_role": "current_likely_primary_yworld_source_pending_github_gate",
       "authorization_status": "HANDLE_UNDER_GITHUB_PIPELINE",
       "recommended_pipeline": "GITHUB_PIPELINE",
       "recommended_next_gate": "GITHUB-SOURCE-METADATA-PILOT-GATE",
       "privacy_status": "PUBLIC_REPO",
-      "notes": "GitHub repo yj000018/Y-WORLD. 61 md files + compile-graph.yml workflow. Marked archived=true on GitHub but has active workflow and recent commits — possible incorrect flag. Canonical Y-World source. Handled under GitHub pipeline, not Obsidian pipeline."
+      "notes": "GitHub repo yj000018/Y-WORLD. 61 md files + compile-graph.yml workflow. Marked archived=true on GitHub but has active workflow and recent commits — possible incorrect flag. Current likely primary Y-World source (to be validated by GitHub gate) source. Handled under GitHub pipeline, not Obsidian pipeline."
     },
     {
       "source_id": "OBS-SRC-007",

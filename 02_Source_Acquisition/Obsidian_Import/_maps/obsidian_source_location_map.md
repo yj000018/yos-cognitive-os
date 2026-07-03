@@ -50,5 +50,5 @@ OBSIDIAN / MARKDOWN SOURCES
 ## Key Decision Points for Guardian
 
 1. **LUDIVINE authorization** — 1842 md files, primary candidate. Requires explicit scope decision before any deeper scan.
-2. **Y-World iCloud vs GitHub** — iCloud has 17 files, GitHub has 61. GitHub is canonical. iCloud may be a staging/sync artifact.
+2. **Y-World iCloud vs GitHub** — iCloud has 17 files, GitHub has 61. GitHub is the current likely primary source (to be validated by GitHub gate). iCloud may be a staging/sync artifact.
 3. **Google Drive** — census not run. May contain Obsidian exports or Markdown archives. Requires separate gate.
