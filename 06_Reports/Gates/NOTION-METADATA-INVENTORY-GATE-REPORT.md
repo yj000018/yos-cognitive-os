@@ -258,7 +258,7 @@ All instances added to `05_Registries/SOURCE-INSTANCE-REGISTRY.md`.
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
 | Initial gate commit | `47fc08a` |
 | Hygiene patch commit (v1.1) | `6437189` |
-| Git proof patch commit (v1.2) | _see commit after this report is committed_ |
+| Git proof patch commit (v1.2) | `49a4c1f` |
 | Git status | CLEAN |
 | GitHub visibility | All files visible at github.com/yj000018/yos-cognitive-os |
 
