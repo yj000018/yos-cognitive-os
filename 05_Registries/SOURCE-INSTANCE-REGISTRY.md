@@ -206,21 +206,19 @@
 | next_safe_gate | OBSIDIAN-LIMITED-CONTENT-PILOT-GATE |
 | notes | Case C (Git-backed). Scan via GitHub API recursive tree. 5 files with spaces in names had minor urllib encoding issue. Attachments not tracked in Git tree. 1 duplicate title: "Untitled". |
 
-### INST-OBS-LOCAL — Local Mac Vaults — BLOCKED
+### INST-OBS-LOCAL — Local Mac Vaults — SUPERSEDED
+
+> **SUPERSEDED** by OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE (2026-07-03). See individual vault instances below.
 
 | Field | Value |
 |---|---|
 | source_instance_id | INST-OBS-LOCAL |
 | channel_id | CH-004 |
-| name | Local Obsidian Vaults — Mac filesystem (8+ vaults) |
+| name | Local Obsidian Vaults — Mac filesystem |
 | source_type | local_obsidian_vault |
-| location | /Users/yannick/ (Mac FUSE — currently unavailable) |
-| access_status | `BLOCKED_PENDING_MAC_UNLOCK` |
-| metadata_status | `NOT_STARTED` |
-| content_status | `BLOCKED` |
-| pipeline_status | `BLOCKED` |
-| next_safe_gate | OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE (after Mac unlock + FUSE remount) |
-| notes | Mac screen locked during this session. FUSE mount /mnt/desktop/ empty. Estimated 8+ local vaults. Retry when Mac is unlocked. |
+| access_status | `SUPERSEDED` — replaced by 5 individual vault instances |
+| pipeline_status | `DISCOVERY_COMPLETE` |
+| notes | Mac connected 2026-07-03. 5 vaults discovered. See INST-OBS-LUDIVINE through INST-OBS-TESTING below. |
 
 
 ---
@@ -255,3 +253,27 @@
 **Scan method:** GitHub API read-only — repo metadata + L1+L2 tree metadata only
 **Total repos discovered:** 23 (2 scanned + 10 candidates + 11 archived)
 **Note:** Y-WORLD archived flag on GitHub is likely a legacy/incorrect flag — active workflow and recent commits present.
+
+---
+
+## Obsidian Local Vault Instances (added: OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE)
+
+**Discovery date:** 2026-07-03
+**Discovery method:** `find -name .obsidian -type d` via Manus desktop bridge (macOS)
+**Content extracted:** NONE
+**Source mutated:** NONE
+**Paths:** Redacted in public files — aliases used
+
+| Instance ID | Name | Alias | Sync | MD Files | Status | KAP Role |
+|---|---|---|---|---|---|---|
+| INST-OBS-LUDIVINE | LUDIVINE_OBSIDIAN_VAULT | `LOCAL://LUDI/LUDIVINE_VAULT` | Local only | 1842 | `DISCOVERED_NOT_AUTHORIZED` | Principal local vault candidate |
+| INST-OBS-LUDIVINE-BACKUP | LUDIVINE_OBS_BACKUP | `LOCAL://LUDI/LUDIVINE_BACKUP` | Local only | 1418 | `BACKUP_EXCLUDE_BY_DEFAULT` | Backup duplicate |
+| INST-OBS-YWORLD-ICLOUD | Y-World (iCloud) | `ICLOUD://obsidian/Y-World` | iCloud | 17 | `DISCOVERED_LOW_PRIORITY` | Small experimental vault |
+| INST-OBS-TEST | Test (iCloud) | `ICLOUD://obsidian/Test` | iCloud | ~8 | `EXCLUDE_BY_DEFAULT` | Test vault |
+| INST-OBS-TESTING | testing (local) | `LOCAL://TESTS/testing` | Local only | ~5 | `EXCLUDE_BY_DEFAULT` | Test vault |
+
+**Key findings:**
+- LUDIVINE is the only substantial local Obsidian vault (1842 md). It is a creative/intellectual project vault, NOT a Y-OS system vault.
+- The real Y-World content is on GitHub (INST-GITHUB-YWORLD), not in the iCloud Obsidian vault (only 17 md files).
+- Guardian must authorize LUDIVINE before any content access or dry-run execution.
+- No next gate started. Paused pending Guardian review.

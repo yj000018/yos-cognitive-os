@@ -262,3 +262,19 @@ L0 Source Channel     (SOURCE-CHANNEL-REGISTRY.md)
 | SO-GITHUB-TREE-0065 | yj000018/Y-WORLD/60_Y-OS | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
 | SO-GITHUB-TREE-0066 | yj000018/Y-WORLD/70_CasaTAO | directory | L1 | INST-GITHUB-YWORLD | ACCESSIBLE | — |
 | _(+238 more)_ | Y-WORLD tree objects | — | — | INST-GITHUB-YWORLD | — | see github_tree_inventory.json |
+
+---
+
+## Obsidian Local Vault Source Objects (added: OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE)
+
+**Discovery date:** 2026-07-03
+**Content extracted:** NONE — metadata-only discovery
+**Paths:** Redacted — aliases used
+
+| SO ID | Name | Type | Instance | MD Files | Status | Flags |
+|---|---|---|---|---|---|---|
+| SO-OBS-VAULT-0001 | LUDIVINE_OBSIDIAN_VAULT | vault | INST-OBS-LUDIVINE | 1842 | `DISCOVERED_NOT_AUTHORIZED` | Principal candidate |
+| SO-OBS-VAULT-0002 | LUDIVINE_OBS_BACKUP | vault | INST-OBS-LUDIVINE-BACKUP | 1418 | `BACKUP_EXCLUDE_BY_DEFAULT` | Backup duplicate |
+| SO-OBS-VAULT-0003 | Y-World (iCloud) | vault | INST-OBS-YWORLD-ICLOUD | 17 | `DISCOVERED_LOW_PRIORITY` | Small experimental |
+| SO-OBS-VAULT-0004 | Test (iCloud) | vault | INST-OBS-TEST | ~8 | `EXCLUDE_BY_DEFAULT` | Test vault |
+| SO-OBS-VAULT-0005 | testing (local) | vault | INST-OBS-TESTING | ~5 | `EXCLUDE_BY_DEFAULT` | Test vault |
