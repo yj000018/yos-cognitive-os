@@ -191,7 +191,7 @@ Notable metadata files at root level (names only, not content):
 |---|---|
 | Repo root | `/home/ubuntu/yos-cognitive-os` |
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
-| Gate commit | _see commit after this report is committed_ |
+| Gate commit | `7ac145a` |
 | Git status | CLEAN after gate commit |
 | GitHub visibility | All files visible at github.com/yj000018/yos-cognitive-os |
 
