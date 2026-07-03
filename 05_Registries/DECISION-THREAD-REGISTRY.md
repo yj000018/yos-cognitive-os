@@ -1,12 +1,21 @@
 # Decision Thread Registry
 
-> Y-OS — Registry of all active decision threads
-> Canonical source: `00_Control_Plane/ACTIVE-DECISION-LOG.md`
-> Last updated: 2026-07-03 (CAPTURE-PATCH from 2 ChatGPT session packs)
+> Y-OS / KAP Cognitive Architecture
+> Gate: DECISION-THREAD-MODEL-GATE
+> Status: UPDATED — prior entries preserved + new model-compliant entries added
+> Last updated: 2026-07-03
 
 ---
 
-## Architecture Decisions
+## Purpose
+
+This registry tracks all Decision Threads in the YOS/KAP cognitive architecture. Decision Threads are structured records of decisions — not tags, not thought lines, not final truths. They preserve what was decided, why, what alternatives were rejected, and whether the decision is still active.
+
+---
+
+## Prior Registry (from CAPTURE-PATCH — preserved verbatim)
+
+### Architecture Decisions
 
 | ID | Decision | Status | Source |
 |---|---|---|---|
@@ -21,9 +30,7 @@
 | REPO-004 | REPO-REGISTRY.md + repo_index.json mandatory | CONFIRMED (done) | ChatGPT 2026-07-03 |
 | REPO-005 | New strategic docs captured in Git immediately | CONFIRMED (done) | ChatGPT 2026-07-03 |
 
----
-
-## Source / Pipeline Decisions
+### Source / Pipeline Decisions
 
 | ID | Decision | Status | Source |
 |---|---|---|---|
@@ -41,9 +48,7 @@
 | DEC-BOOT-010 | ChatGPT2Notion deprecated as active path | DEPRECATED | Bootstrap 2026-07-02 |
 | DEC-BOOT-011 | WP2-NOTION-DECOMMISSION sprint needed (future) | PLANNED | Bootstrap 2026-07-02 |
 
----
-
-## Gate / Roadmap Decisions
+### Gate / Roadmap Decisions
 
 | ID | Decision | Status | Source |
 |---|---|---|---|
@@ -52,9 +57,7 @@
 | DEC-BOOT-012 | Corrected roadmap: ARCH-1-PATCH → STRUCTURE-GATE → CONNECTOR-DESIGN-GATE → PHASE-1-SEED-PLAN | ACTIVE | Bootstrap 2026-07-02 |
 | DEC-YOS-007 | Phase 1 = yOS/KAP self-knowledge; Phase 2 = Project Knowledge; Phase 3 = YOUniverse | CONFIRMED | Manus KAP 2026-07-03 |
 
----
-
-## Workflow / Governance Decisions
+### Workflow / Governance Decisions
 
 | ID | Decision | Status | Source |
 |---|---|---|---|
@@ -64,3 +67,27 @@
 | HAI-001 | KAP/YOS must support human navigation (dashboards, decision trails, review queues) | ACTIVE | ChatGPT 2026-07-03 |
 | HAI-002 | KAP/YOS must support AI exploitation (machine-readable registries, routing indexes) | ACTIVE | ChatGPT 2026-07-03 |
 | HAI-003 | Goal is not document accumulation — it is provenance, chronology, maturity, decisions | ACTIVE | ChatGPT 2026-07-03 |
+
+---
+
+## Model-Compliant Registry (DECISION-THREAD-MODEL-GATE — 2026-07-03)
+
+| DT ID | Decision | Type | Domain | Status | Current Validity | Canonical Status | Thought Lines | Claims | Source Fragments | Supersedes | Superseded By | Review Needed | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| DT-20260703-YOS1 | YOS contains KAP as module/process | architecture | YOS | active | active | active_control_plane | TL-20260703-CP01 | CLAIM-20260703-YOS1 | SF-005, SF-006 | — | — | No | Validated across multiple sessions and gate reports |
+| DT-20260703-YOS2 | Git/Markdown is the durable authority for strategic doctrine | architecture | YOS | active | active | active_control_plane | TL-20260703-CP03 | CLAIM-20260703-YOS2 | SF-005, SF-006, SF-007 | — | — | No | Doctrine YOS-011 |
+| DT-20260703-YOS3 | Broad acquisition is blocked until cognitive architecture is validated | gate_policy | KAP | active | active | active_control_plane | TL-20260703-CP02 | CLAIM-20260703-YOS3 | SF-001, SF-002, SF-005 | — | — | No | Architecture Before Absorption doctrine |
+| DT-20260703-YOS4 | ZIP is transport only, not primary corpus | source_policy | KAP | active | active | active_control_plane | TL-20260703-CP02 | CLAIM-20260703-YOS6 | SF-005 | — | — | No | Stated in all MPM rules |
+| DT-20260703-YOS5 | Obsidian real vault scan is blocked until metadata dry-run gate | source_policy | Obsidian | active | active_with_conditions | candidate_evidence | TL-20260703-CP06 | CLAIM-20260703-YOS7 | SF-001, SF-002 | — | — | Yes | OBSIDIAN-PIPELINE-VALIDATION-GATE pending |
+| DT-20260703-YOS6 | Notion canonical merge is blocked until controlled pipeline validation | source_policy | Notion | active | active_with_conditions | candidate_evidence | TL-20260703-CP07 | CLAIM-20260703-YOS6 | SF-005 | — | — | Yes | NOTION-PIPELINE-CONTROLLED-EXECUTION-GATE pending |
+| DT-20260703-YOS7 | Current-best synthesis is blocked until SF/Claim/TL/DT models are validated | gate_policy | KAP | active | active | active_control_plane | TL-20260703-CP08 | CLAIM-20260703-YOS3, CLAIM-20260703-YOS5 | SF-005, SF-007 | — | — | No | Validated by 4 model gates |
+| DT-20260703-YOS8 | Manus is executor, not architectural authority | agent_role | Agents | active | active | active_control_plane | TL-20260703-CP01 | CLAIM-20260703-YOS1 | SF-005, SF-006 | — | — | No | Doctrine YOS-019 |
+
+---
+
+## Notes
+
+- Prior registry entries (DEC-YOS-*, REPO-*, PIPE-*, DEC-BOOT-*, HAI-*) are preserved verbatim from CAPTURE-PATCH.
+- Model-compliant entries (DT-20260703-*) follow the DECISION-THREAD-MODEL schema.
+- Migration of prior entries to model-compliant format is pending DECISION-THREAD-MIGRATION-GATE.
+- `current_validity: active_with_conditions` means the decision is active but depends on a pending gate.
