@@ -1,0 +1,594 @@
+[
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "LIFE MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "80_Archetypes/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "30_Knowledge/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "CasaTAO Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Archetypes Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "70_CasaTAO/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "AI SYSTEMS MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Y-WORLD ROOT MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Y-OS MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "PROJECTS MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "ARCHETYPES MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Life Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Projects Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Y-WORLD Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Y-PUBLISHING MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "81_Y-Publishing/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "20_Life/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "60_Y-OS/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "ARC Anandaz Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Knowledge Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "10_Inbox/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "71_ARC_Anandaz/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "KNOWLEDGE MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Manus Control Surface",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Y-Publishing Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "50_Projects/",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Daily Operating Surface",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "ARC ANANDAZ MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "Y-OS Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0013",
+    "source_note": "01_Cockpit/HOME.md",
+    "target_raw": "CASATAO MAP",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0080",
+    "source_note": "30_Knowledge/Antifragile.md",
+    "target_raw": "Backup Protocol",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0080",
+    "source_note": "30_Knowledge/Antifragile.md",
+    "target_raw": "Y-OS Architecture",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0080",
+    "source_note": "30_Knowledge/Antifragile.md",
+    "target_raw": "CasaTAO Energy System",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0080",
+    "source_note": "30_Knowledge/Antifragile.md",
+    "target_raw": "Sovereign Living",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0082",
+    "source_note": "30_Knowledge/CasaTAO.md",
+    "target_raw": "Project - CasaTAO Solar Upgrade",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0082",
+    "source_note": "30_Knowledge/CasaTAO.md",
+    "target_raw": "Coral Edge TPU",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0082",
+    "source_note": "30_Knowledge/CasaTAO.md",
+    "target_raw": "CasaTAO Dashboard",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0082",
+    "source_note": "30_Knowledge/CasaTAO.md",
+    "target_raw": "Frigate NVR",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0084",
+    "source_note": "30_Knowledge/Docker.md",
+    "target_raw": "CasaTAO",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0084",
+    "source_note": "30_Knowledge/Docker.md",
+    "target_raw": "n8n Cognitive Automation",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0084",
+    "source_note": "30_Knowledge/Docker.md",
+    "target_raw": "ARC Local Server",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0084",
+    "source_note": "30_Knowledge/Docker.md",
+    "target_raw": "Frigate NVR",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0085",
+    "source_note": "30_Knowledge/Dune.md",
+    "target_raw": "CasaTAO",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0085",
+    "source_note": "30_Knowledge/Dune.md",
+    "target_raw": "The Architect Archetype",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0085",
+    "source_note": "30_Knowledge/Dune.md",
+    "target_raw": "Sovereign Living",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0086",
+    "source_note": "30_Knowledge/ESP32-S3.md",
+    "target_raw": "Ollama Local LLM",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0086",
+    "source_note": "30_Knowledge/ESP32-S3.md",
+    "target_raw": "Home Assistant ARC",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0086",
+    "source_note": "30_Knowledge/ESP32-S3.md",
+    "target_raw": "Anandaz Philosophy",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0086",
+    "source_note": "30_Knowledge/ESP32-S3.md",
+    "target_raw": "ARC Anandaz",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0094",
+    "source_note": "30_Knowledge/Notion.md",
+    "target_raw": "Y-OS",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0094",
+    "source_note": "30_Knowledge/Notion.md",
+    "target_raw": "Manus Operations",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0094",
+    "source_note": "30_Knowledge/Notion.md",
+    "target_raw": "n8n Cognitive Automation",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0094",
+    "source_note": "30_Knowledge/Notion.md",
+    "target_raw": "Notion Memory Hub",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0095",
+    "source_note": "30_Knowledge/Obsidian.md",
+    "target_raw": "Y-WORLD",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0095",
+    "source_note": "30_Knowledge/Obsidian.md",
+    "target_raw": "GitHub Repo Y-WORLD",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0097",
+    "source_note": "30_Knowledge/Proxmox.md",
+    "target_raw": "CasaTAO",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0097",
+    "source_note": "30_Knowledge/Proxmox.md",
+    "target_raw": "n8n Cognitive Automation",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0097",
+    "source_note": "30_Knowledge/Proxmox.md",
+    "target_raw": "Home Assistant CasaTAO",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0097",
+    "source_note": "30_Knowledge/Proxmox.md",
+    "target_raw": "Frigate NVR",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0099",
+    "source_note": "30_Knowledge/Python.md",
+    "target_raw": "Y-OS",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0099",
+    "source_note": "30_Knowledge/Python.md",
+    "target_raw": "n8n Cognitive Automation",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0099",
+    "source_note": "30_Knowledge/Python.md",
+    "target_raw": "Manus Operations",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0102",
+    "source_note": "30_Knowledge/Sapiens.md",
+    "target_raw": "Y-OS Architecture",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0102",
+    "source_note": "30_Knowledge/Sapiens.md",
+    "target_raw": "Y-Publishing Book 1",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0104",
+    "source_note": "30_Knowledge/TailwindCSS.md",
+    "target_raw": "Y-Publishing Landing Page",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0104",
+    "source_note": "30_Knowledge/TailwindCSS.md",
+    "target_raw": "Y-WORLD.net",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0104",
+    "source_note": "30_Knowledge/TailwindCSS.md",
+    "target_raw": "Archetypes App",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0109",
+    "source_note": "30_Knowledge/TypeScript.md",
+    "target_raw": "Y-WORLD",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0109",
+    "source_note": "30_Knowledge/TypeScript.md",
+    "target_raw": "Vercel Deploy",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0109",
+    "source_note": "30_Knowledge/TypeScript.md",
+    "target_raw": "GitHub Repo Y-WORLD",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0234",
+    "source_note": "90_Reality_Interfaces/Y-WORLD.net.md",
+    "target_raw": "Supabase DB",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0234",
+    "source_note": "90_Reality_Interfaces/Y-WORLD.net.md",
+    "target_raw": "Y-WORLD",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0234",
+    "source_note": "90_Reality_Interfaces/Y-WORLD.net.md",
+    "target_raw": "Y-Publishing Landing Page",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  },
+  {
+    "source_object_id": "SO-OBS-YWLD-0234",
+    "source_note": "90_Reality_Interfaces/Y-WORLD.net.md",
+    "target_raw": "Vercel Deploy",
+    "target_resolved": "",
+    "status": "unknown",
+    "notes": "resolution pending \u2014 no local vault available"
+  }
+]

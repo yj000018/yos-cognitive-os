@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "source_channel": "Obsidian / Markdown",
+  "source_channel_id": "CH-004",
+  "scan_type": "metadata_only",
+  "scan_mode": "github_api_git_backed",
+  "scan_timestamp": "2026-07-03T00:00:00Z",
+  "source_available": true,
+  "source_instance_id": "INST-OBS-002",
+  "source_instance_name": "Y-WORLD Obsidian Vault (Git-backed)",
+  "source_repo": "yj000018/Y-WORLD",
+  "source_branch": "main",
+  "source_type": "git_backed_obsidian_vault",
+  "source_size_kb": 4620,
+  "markdown_files_count": 235,
+  "canvas_files_count": 1,
+  "folders_count": 21,
+  "wikilinks_count": 74,
+  "attachments_count": 0,
+  "files_with_frontmatter": 17,
+  "files_without_frontmatter": 218,
+  "duplicate_titles_count": 1,
+  "duplicate_titles": {
+    "Untitled": ["SO-OBS-YWLD-0059", "SO-OBS-YWLD-0235"]
+  },
+  "orphan_notes_count": "unknown — resolution requires local vault",
+  "broken_wikilinks_count": "unknown — resolution requires local vault",
+  "source_objects_registered": 235,
+  "content_ingested": false,
+  "claims_extracted": false,
+  "thought_lines_seeded": false,
+  "decision_threads_reconstructed": false,
+  "synthesis_created": false,
+  "source_mutated": false,
+  "scan_warnings": [
+    "5 files with spaces in path could not be fetched via urllib — metadata recorded as empty frontmatter/wikilinks",
+    "Wikilink resolution status is 'unknown' — local vault required for full resolution",
+    "Attachment inventory is empty — Y-WORLD vault stores attachments outside tracked Git files"
+  ],
+  "folders_scanned": [
+    "/", "00_System", "01_Cockpit", "02_Maps", "03_Dashboards",
+    "04_Templates", "05_Registries", "06_Workflows", "07_Agent_Operations",
+    "10_Inbox", "20_Life", "30_Knowledge", "40_K-Cards", "50_Projects",
+    "60_Y-OS", "70_CasaTAO", "71_ARC_Anandaz", "80_Archetypes",
+    "81_Y-Publishing", "90_Reality_Interfaces"
+  ],
+  "next_safe_gate": "OBSIDIAN-LIMITED-CONTENT-PILOT-GATE",
+  "blockers": [
+    "Wikilink resolution requires local vault path or full file listing",
+    "Attachment inventory empty — attachments not tracked in Git tree",
+    "5 files with spaces in filenames had urllib URL encoding issue (minor — metadata recorded as empty)"
+  ],
+  "notes": [
+    "Case C: Git-backed Markdown vault — treated as Obsidian/Markdown source instance",
+    "Scan executed via GitHub API recursive tree — read-only, no vault mutation",
+    "Only first 2KB of each file fetched for frontmatter/wikilink extraction — no body content stored",
+    "Y-WORLD is the primary Obsidian vault for yOS cognitive interface"
+  ]
+}

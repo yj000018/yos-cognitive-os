@@ -185,3 +185,40 @@
 | CH-010 Apps | 2 | 0 | 0 | 0 | 2 | 0 |
 | CH-013 Uploads | 1 | 1 | 0 | 0 | 0 | 0 |
 | **TOTAL** | **70** | **7** | **41** | **6** | **8** | **8** |
+
+---
+
+## OBSIDIAN-MARKDOWN-METADATA-DRY-RUN-GATE — Instance Updates (2026-07-03)
+
+### INST-OBS-002 — Y-WORLD Vault (Git-backed) — Updated
+
+| Field | Value |
+|---|---|
+| source_instance_id | INST-OBS-002 |
+| channel_id | CH-004 |
+| name | Y-WORLD — World Operating System (standalone Git repo) |
+| source_type | git_backed_obsidian_vault |
+| location | github.com/yj000018/Y-WORLD (private) |
+| access_status | `ACCESSIBLE` — GitHub API read-only confirmed |
+| metadata_status | `COMPLETED` — 235 notes, 21 folders, 74 wikilinks, 17 with frontmatter |
+| content_status | `BLOCKED` — no body content ingested |
+| pipeline_status | `METADATA_DRY_RUN_COMPLETE` |
+| next_safe_gate | OBSIDIAN-LIMITED-CONTENT-PILOT-GATE |
+| notes | Case C (Git-backed). Scan via GitHub API recursive tree. 5 files with spaces in names had minor urllib encoding issue. Attachments not tracked in Git tree. 1 duplicate title: "Untitled". |
+
+### INST-OBS-LOCAL — Local Mac Vaults — BLOCKED
+
+| Field | Value |
+|---|---|
+| source_instance_id | INST-OBS-LOCAL |
+| channel_id | CH-004 |
+| name | Local Obsidian Vaults — Mac filesystem (8+ vaults) |
+| source_type | local_obsidian_vault |
+| location | /Users/yannick/ (Mac FUSE — currently unavailable) |
+| access_status | `BLOCKED_PENDING_MAC_UNLOCK` |
+| metadata_status | `NOT_STARTED` |
+| content_status | `BLOCKED` |
+| pipeline_status | `BLOCKED` |
+| next_safe_gate | OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE (after Mac unlock + FUSE remount) |
+| notes | Mac screen locked during this session. FUSE mount /mnt/desktop/ empty. Estimated 8+ local vaults. Retry when Mac is unlocked. |
+
