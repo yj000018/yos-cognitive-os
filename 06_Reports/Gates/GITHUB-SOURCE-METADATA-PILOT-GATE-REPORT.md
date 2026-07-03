@@ -309,7 +309,7 @@ All registered in `github_access_map.json` under `archived`. Not scanned. Not in
 |---|---|
 | Repo root | `/home/ubuntu/yos-cognitive-os` |
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
-| Initial gate commit | _see commit after this report is committed_ |
+| Initial gate commit | `521184f` |
 | Git status | CLEAN after gate commit |
 | GitHub visibility | All files visible at github.com/yj000018/yos-cognitive-os |
 
