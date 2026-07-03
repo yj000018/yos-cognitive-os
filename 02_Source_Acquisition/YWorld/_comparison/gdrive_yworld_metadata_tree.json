@@ -1,0 +1,12 @@
+{
+  "surface_id": "GDRIVE-OBS-003",
+  "total_md_files": "UNKNOWN (previously misattributed as 235)",
+  "top_level_folders": 18,
+  "last_modified_date": "2026-05-29",
+  "folder_structure": [
+    ".obsidian", "00_System", "01_Cockpit", "02_Maps", "03_Dashboards", 
+    "04_Templates", "05_Registries", "06_Workflows", "07_Agent_Operations", 
+    "20_Life", "30_Knowledge", "50_Projects", "60_Y-OS", "70_CasaTAO", 
+    "71_ARC_Anandaz", "80_Archetypes", "81_Y-Publishing", "90_Reality_Interfaces"
+  ]
+}

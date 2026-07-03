@@ -1,0 +1,13 @@
+{
+  "surface_id": "GITHUB-YWORLD",
+  "total_md_files": 234,
+  "top_level_folders": 21,
+  "latest_commit_date": "2026-05-29T22:35:35Z",
+  "folder_structure": [
+    ".github", ".obsidian", "00_System", "01_Cockpit", "02_Maps", "03_Dashboards", 
+    "04_Templates", "05_Registries", "06_Workflows", "07_Agent_Operations", 
+    "10_Inbox", "20_Life", "30_Knowledge", "40_K-Cards", "50_Projects", 
+    "60_Y-OS", "70_CasaTAO", "71_ARC_Anandaz", "80_Archetypes", "81_Y-Publishing", 
+    "90_Reality_Interfaces"
+  ]
+}

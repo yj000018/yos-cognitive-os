@@ -1,0 +1,5 @@
+{
+  "decision": "YWORLD_SOURCE_OF_TRUTH_NOT_DECIDED_REQUIRES_FULL_EXTRACTION",
+  "reason": "GitHub and GDrive are confirmed as closely related mirrors (18 common folders, both active May 29). However, GDrive MD count is unknown (prior 235 count was a misattribution). Cannot determine canonical source without full file extraction and comparison.",
+  "next_gate": "YWORLD-GDRIVE-FULL-EXTRACTION-GATE"
+}
