@@ -252,9 +252,9 @@ Blocker for next gate: LUDIVINE authorization pending Guardian scope decision.
 
 | Field | Value |
 |---|---|
-| Gate commit | _see commit after this report is committed_ |
+| Gate commit | `f9d4d58` |
 | Remote | `yj000018/yos-cognitive-os` |
-| Git status | PENDING COMMIT |
+| Git status | CLEAN |
 
 ---
 
