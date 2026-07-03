@@ -1,8 +1,9 @@
 {
   "gate": "YWORLD-SOURCE-OF-TRUTH-SCOPE-GATE",
+  "version": "v2",
   "date": "2026-07-04",
   "decision_output": "YWORLD_SOURCE_OF_TRUTH_NOT_DECIDED_REQUIRES_BOUNDED_COMPARISON",
-  "matrix": [
+  "role_matrix": [
     {
       "surface_id": "GITHUB-YWORLD",
       "active_candidate": true,
@@ -11,7 +12,7 @@
       "fragment_candidate": false,
       "canonical_candidate": true,
       "evidence_level": "GIT_METADATA_ONLY",
-      "decision": "REQUIRES_COMPARISON"
+      "decision": "REQUIRES_BOUNDED_COMPARISON"
     },
     {
       "surface_id": "GDRIVE-OBS-003",
@@ -21,7 +22,7 @@
       "fragment_candidate": false,
       "canonical_candidate": true,
       "evidence_level": "BOUNDED_CONTENT_SAMPLE",
-      "decision": "REQUIRES_COMPARISON"
+      "decision": "REQUIRES_BOUNDED_COMPARISON"
     },
     {
       "surface_id": "ICLOUD-YWORLD",
@@ -31,7 +32,7 @@
       "fragment_candidate": true,
       "canonical_candidate": false,
       "evidence_level": "MICRO_EXTRACTION_QUARANTINE",
-      "decision": "FRAGMENT_CONFIRMED"
+      "decision": "SMALL_FRAGMENT_COMPARISON_SOURCE"
     },
     {
       "surface_id": "LOCAL-YWORLD",
@@ -41,7 +42,29 @@
       "fragment_candidate": null,
       "canonical_candidate": null,
       "evidence_level": "INSUFFICIENT",
-      "decision": "UNCONFIRMED"
+      "decision": "LOCAL_YWORLD_UNPROBED_SCOPE_UNCONFIRMED"
+    }
+  ],
+  "pipeline_delegation": [
+    {
+      "surface_id": "GITHUB-YWORLD",
+      "pipeline": "GITHUB_PIPELINE",
+      "next_gate": "YWORLD-BOUNDED-METADATA-COMPARISON-GATE"
+    },
+    {
+      "surface_id": "GDRIVE-OBS-003",
+      "pipeline": "GDRIVE_PIPELINE",
+      "next_gate": "YWORLD-BOUNDED-METADATA-COMPARISON-GATE"
+    },
+    {
+      "surface_id": "ICLOUD-YWORLD",
+      "pipeline": "ICLOUD_PIPELINE",
+      "next_gate": "YWORLD-BOUNDED-METADATA-COMPARISON-GATE (comparison source only)"
+    },
+    {
+      "surface_id": "LOCAL-YWORLD",
+      "pipeline": "LOCAL_PIPELINE",
+      "next_gate": "N/A"
     }
   ]
 }
