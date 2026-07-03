@@ -6,7 +6,7 @@
 > Guardian Architect: ChatGPT
 > Date: 2026-07-03
 > Repo: yj000018/yos-cognitive-os
-> Report Version: v1.1 (Guardian hygiene patch — instance mapping correction + scope wording)
+> Report Version: v1.2 (Guardian micro-patch — Git proof expanded + committed files table corrected)
 
 ---
 
@@ -256,8 +256,10 @@ All instances added to `05_Registries/SOURCE-INSTANCE-REGISTRY.md`.
 |---|---|
 | Repo root | `/home/ubuntu/yos-cognitive-os` |
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
-| Gate commit | `47fc08a` |
-| Git status | CLEAN after gate commit |
+| Initial gate commit | `47fc08a` |
+| Hygiene patch commit (v1.1) | `6437189` |
+| Git proof patch commit (v1.2) | _see commit after this report is committed_ |
+| Git status | CLEAN |
 | GitHub visibility | All files visible at github.com/yj000018/yos-cognitive-os |
 
 **Files committed:**
@@ -270,7 +272,7 @@ All instances added to `05_Registries/SOURCE-INSTANCE-REGISTRY.md`.
 | `07_AI_Indexes/notion_metadata_index.json` | CREATED |
 | `05_Registries/SOURCE-INSTANCE-REGISTRY.md` | UPDATED — Notion instances added |
 | `05_Registries/SOURCE-OBJECT-REGISTRY.md` | UPDATED — SO-NOTION-0001→0055 added |
-| `06_Reports/Gates/NOTION-METADATA-INVENTORY-GATE-REPORT.md` | CREATED — this file |
+| `06_Reports/Gates/NOTION-METADATA-INVENTORY-GATE-REPORT.md` | UPDATED — v1.2 (this patch) |
 
 ---
 
