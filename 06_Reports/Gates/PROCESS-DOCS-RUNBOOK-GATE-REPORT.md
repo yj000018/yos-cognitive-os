@@ -129,6 +129,15 @@ None. All required files were created successfully.
 ```
 Git root: /home/ubuntu/yos-cognitive-os
 Repo: yj000018/yos-cognitive-os
+Commit hash: 766dabd
+Git status: CLEAN — no uncommitted changes
+
+git log --oneline -5:
+766dabd add YOS KAP operating runbooks for controlled source processing
+6d44637 SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH-v3: report cleanup Sec7+Sec8 per Guardian
+8e232ca SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH-v2: SF-* only in fragment_id, 9/9 fragments in index
+03e3abd SOURCE-FRAGMENT-ID-NORMALIZATION-PATCH: canonical L0-L3 IDs, crosswalk, schema v1.2, index v1.2
+dcd7da3 patch: SOURCE-TAXONOMY-ALIGNMENT-PATCH — 4-level taxonomy (L0→L3), SOURCE-OBJECT-REGISTRY
 ```
 
 ---
@@ -137,7 +146,7 @@ Repo: yj000018/yos-cognitive-os
 
 The primary next gate is `OBSIDIAN-MARKDOWN-METADATA-DRY-RUN-GATE`, which will execute the first real metadata pilot using the `METADATA-PILOT-RUNBOOK.md` created in this gate.
 
-In parallel, `NOTION-METADATA-INVENTORY-GATE` and `GITHUB-SOURCE-ACQUISITION-GATE` may proceed independently.
+In parallel, `NOTION-METADATA-INVENTORY-GATE` and `GITHUB-SOURCE-METADATA-PILOT-GATE` may proceed independently. Note: only metadata pilots are authorized at this stage — content acquisition remains blocked until a dedicated Content Pilot Gate is approved.
 
 ---
 
