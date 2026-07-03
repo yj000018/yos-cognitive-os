@@ -1,0 +1,108 @@
+{
+  "gate": "OBSIDIAN-SCOPE-DECISION-GATE",
+  "version": "v1.0",
+  "timestamp": "2026-07-03",
+  "content_read": false,
+  "source_mutation": false,
+  "gate_status": "OBSIDIAN_SOURCE_SURFACES_DISCOVERED_READY_FOR_SCOPE_DECISION_NO_ACQUISITION_AUTHORIZED",
+
+  "scope_decisions": [
+    {
+      "id": "LOCAL-OBS-001",
+      "name": "LUDIVINE",
+      "alias": "LOCAL://LUDI/",
+      "md_count": 1842,
+      "decision": "DISCOVERED_NOT_AUTHORIZED_PENDING_SCOPE_DECISION",
+      "next_gate": "OBSIDIAN-DRY-RUN-EXECUTION-GATE (if authorized)",
+      "guardian_action_required": true,
+      "note": "Largest local vault. Guardian must explicitly authorize before any access."
+    },
+    {
+      "id": "LOCAL-OBS-002",
+      "name": "LUDIVINE BACKUP",
+      "alias": "LOCAL://LUDI_BACKUP/",
+      "md_count": 1418,
+      "decision": "BACKUP_EXCLUDE_BY_DEFAULT",
+      "next_gate": null,
+      "guardian_action_required": false,
+      "note": "Duplicate of LOCAL-OBS-001. Excluded unless primary is lost."
+    },
+    {
+      "id": "ICLOUD-OBS-001",
+      "name": "Y-World iCloud",
+      "alias": "ICLOUD://YWORLD/",
+      "md_count": 17,
+      "decision": "DISCOVERED_LOW_PRIORITY",
+      "next_gate": "GITHUB_PIPELINE (Y-World handled there)",
+      "guardian_action_required": false,
+      "note": "Small experimental vault. Not canonical Y-World."
+    },
+    {
+      "id": "ICLOUD-OBS-002",
+      "name": "Test (iCloud)",
+      "alias": "ICLOUD://TEST/",
+      "md_count": 8,
+      "decision": "EXCLUDED_BY_DEFAULT",
+      "next_gate": null,
+      "guardian_action_required": false
+    },
+    {
+      "id": "LOCAL-OBS-003",
+      "name": "testing (local)",
+      "alias": "LOCAL://TESTS/",
+      "md_count": 5,
+      "decision": "EXCLUDED_BY_DEFAULT",
+      "next_gate": null,
+      "guardian_action_required": false
+    },
+    {
+      "id": "GDRIVE-OBS-001",
+      "name": "Obsidian Vault",
+      "alias": "GDRIVE://(APPS FOLDERS)/Obsidian Vault/",
+      "md_count": "unknown",
+      "decision": "DISCOVERED_NOT_AUTHORIZED",
+      "next_gate": "GDRIVE-ACQUISITION-GATE (if authorized)",
+      "guardian_action_required": true,
+      "note": "Likely backup of LUDIVINE. Requires Guardian scope decision."
+    },
+    {
+      "id": "GDRIVE-OBS-002",
+      "name": "Obsidian Vault 2",
+      "alias": "GDRIVE://(APPS FOLDERS)/Obsidian Vault 2/",
+      "md_count": "unknown",
+      "decision": "DISCOVERED_NOT_AUTHORIZED",
+      "next_gate": "GDRIVE-ACQUISITION-GATE (if authorized)",
+      "guardian_action_required": true,
+      "note": "Second vault backup on GDrive. Same constraint as GDRIVE-OBS-001."
+    },
+    {
+      "id": "GDRIVE-OBS-003",
+      "name": ".obsidian (Y-WORLD)",
+      "alias": "GDRIVE://Y-WORLD/.obsidian/",
+      "md_count": "n/a",
+      "decision": "DISCOVERED_LOW_PRIORITY",
+      "next_gate": "GITHUB_PIPELINE",
+      "guardian_action_required": false,
+      "note": "Y-World vault config on GDrive. Handled under GitHub pipeline."
+    },
+    {
+      "id": "GITHUB-OBS-001",
+      "name": "Y-World GitHub",
+      "alias": "GITHUB://yj000018/Y-WORLD",
+      "md_count": 61,
+      "decision": "HANDLE_UNDER_GITHUB_PIPELINE",
+      "next_gate": "GITHUB-SOURCE-METADATA-PILOT-GATE",
+      "guardian_action_required": false,
+      "note": "Current likely primary Y-World source. GitHub gate owns this."
+    }
+  ],
+
+  "preserved_blockers": [
+    {
+      "id": "YOS_GDRIVE_FRAGMENTATION",
+      "description": "4 Y-OS folders at GDrive root: 01_Y_OS_CORE, Y-OS, yOS, YOS Vision",
+      "status": "REQUIRES_SCOPE_DECISION",
+      "owner": "GDRIVE_ACQUISITION_GATE"
+    }
+  ]
+}
