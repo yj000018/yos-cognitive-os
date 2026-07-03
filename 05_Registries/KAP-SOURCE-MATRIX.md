@@ -10,6 +10,12 @@
 
 ---
 
+## Operating Note
+
+The KAP Source Matrix is a **control view**, not a full registry. It must not duplicate all registry details — those are maintained in the dedicated L0→L3 registry files. Its sole purpose is to track the readiness of each channel and source instance across the pipeline. It must be updated after every access audit, metadata pilot, content pilot, extraction pilot, and blocker resolution. Deferred and out-of-scope sources must be preserved in the matrix to maintain a complete inventory.
+
+---
+
 ## Special Role Flags
 
 | Flag | Channels | Constraint |

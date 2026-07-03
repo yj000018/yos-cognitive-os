@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "runbooks": [
+    "00_Control_Plane/YOS-KAP-OPERATING-PROTOCOL.md",
+    "02_Architecture/Synthesis/SOURCE-INTAKE-RUNBOOK.md",
+    "02_Architecture/Synthesis/METADATA-PILOT-RUNBOOK.md",
+    "02_Architecture/Synthesis/CLAIM-EXTRACTION-RUNBOOK.md",
+    "02_Architecture/Synthesis/THOUGHT-LINE-SEEDING-RUNBOOK.md",
+    "02_Architecture/Synthesis/DECISION-THREAD-RECONSTRUCTION-RUNBOOK.md",
+    "02_Architecture/Synthesis/CONTRADICTION-SUPERSESSION-RUNBOOK.md",
+    "02_Architecture/Synthesis/HUMAN-REVIEW-PROTOCOL.md"
+  ],
+  "blocked_actions": [
+    "Full corpus scanning without metadata pilot",
+    "Mass content ingestion without content pilot",
+    "Premature synthesis into Current Best",
+    "Extracting claims without canonical SF-* ID",
+    "Using LLM internal knowledge as canonical evidence",
+    "Using Mem0 as primary source authority",
+    "Mutating external source systems"
+  ],
+  "safe_next_actions": [
+    "OBSIDIAN-MARKDOWN-METADATA-DRY-RUN-GATE",
+    "NOTION-METADATA-INVENTORY-GATE",
+    "GITHUB-SOURCE-ACQUISITION-GATE"
+  ],
+  "review_required_triggers": [
+    "Gate transitions",
+    "Contradictions between active doctrines",
+    "Architectural decision reconstruction",
+    "Sensitive data encountered",
+    "Unclear provenance",
+    "Missing Source Objects or Fragments"
+  ],
+  "source_lifecycle": [
+    "Source Identification",
+    "Access Verification",
+    "Metadata-Only Scan",
+    "Source Object Registration",
+    "Content Pilot (Controlled)",
+    "Source Fragment Registration",
+    "Claim Extraction",
+    "Thought Line Linking",
+    "Decision Thread Reconstruction",
+    "Contradiction/Supersession Review",
+    "Current Best Synthesis"
+  ],
+  "notes": [
+    "Git is the canonical truth.",
+    "Provenance is absolute.",
+    "Acquisition is not synthesis."
+  ]
+}
