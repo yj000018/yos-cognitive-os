@@ -141,3 +141,69 @@ L0 Source Channel     (SOURCE-CHANNEL-REGISTRY.md)
 |---|---|---|---|---|---|
 | SO-OBS-LOCAL-PENDING | INST-OBS-LOCAL | CH-004 | `BLOCKED_PENDING_MAC_UNLOCK` | Mac screen locked — FUSE not mounted | OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE (after Mac unlock) |
 
+
+---
+
+## Notion Source Objects (added: NOTION-METADATA-INVENTORY-GATE)
+
+**Scan date:** 2026-07-03
+**Total:** 55 objects (5 L1 ROOT + 50 L2 children)
+**Scope:** ROOT-anchored, L1+L2 metadata only
+
+| SO ID | Title | Type | Level | Instance | Status | Flags |
+|---|---|---|---|---|---|---|
+| SO-NOTION-0001 | - Yannick ROOT - | page | L1_ROOT | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0002 | - Y-World ROOT - | page | L1_ROOT | INST-NOTION-YWORLD | ACCESSIBLE | — |
+| SO-NOTION-0003 | - ELYSIUM ROOT - | page | L1_ROOT | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0004 | - KOSMOS ROOT - | page | L1_ROOT | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0005 | - Y-OS ROOT - | page | L1_ROOT | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0006 | 00. DIVINE | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0007 | HEALTH | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0008 | FAMILY | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0009 | ADMIN | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0010 | FINANCE HISTORY (tax) | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0011 | TECH | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0012 | CasaTAO | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0013 | 🌐 YOUniverse — Mémoire Vivante de Yannick Jolliet | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0014 | Y World — Sorting Review v1 | child_page | L2 | INST-NOTION-YWORLD | ACCESSIBLE | — |
+| SO-NOTION-0015 | Archetypes — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0016 | CareGlyph — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0017 | Mirror Mirror — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0018 | Y-Publishing Factory — Tech Stack Fact Sheet | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0019 | Future News — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0020 | Y Travel — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0021 | ARC Anandaz Retreat Chalet — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0022 | DOMUS — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0023 | Visual Reality — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0024 | ASE | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0025 | LUDIVINE | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0026 | WIP | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0027 | 7d YOGA | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0028 | YOU-names | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0029 | 🗺️ ODYSSEY — Travel, Journey & Life Navigation | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0030 | ✨ EIA — Spiritual & Consciousness Platform | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0031 | Global Project Dashboard | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0032 | OTHER PROJECTS | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0033 | HUMANITY 3.0 | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0034 | 🔮 ONE — Universal Integration Platform | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0035 | 🌍 Generational Futures & Societal Transformation | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0036 | FUTURE NEXT | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0037 | Next Civ — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0038 | Civilizational Awakening — Project Fiche | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0039 | Y-OS / Civilizational Awakening — MD Staging Hub | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0040 | Y-OS TEAM | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0041 | GOVERNANCE | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0042 | ARCHITECTURE | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0043 | MEMORY MGMT  | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0044 | CAR — Cognitive & Agent Router | child_page | L2 | INST-NOTION-KAP | ACCESSIBLE | — |
+| SO-NOTION-0045 | ART | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0046 | CRT | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0047 | YOS CLIENTS | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0048 | YMD | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0049 | AI CHAT BACKUPS | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0050 | Artifacts | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0051 | PACKAGES | child_page | L2 | INST-NOTION-UNKNOWN | ACCESSIBLE | — |
+| SO-NOTION-0052 | YOS Archives | child_database | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0053 | MISC YOS | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0054 | Y-OS — conçu et inspiré par Y | child_page | L2 | INST-NOTION-YOS | ACCESSIBLE | — |
+| SO-NOTION-0055 | 🧠 yOS — Cognitive Operating System | child_page | L2 | INST-NOTION-KAP | ACCESSIBLE | — |

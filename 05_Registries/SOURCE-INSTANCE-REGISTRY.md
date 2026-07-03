@@ -222,3 +222,20 @@
 | next_safe_gate | OBSIDIAN-LOCAL-VAULT-DISCOVERY-GATE (after Mac unlock + FUSE remount) |
 | notes | Mac screen locked during this session. FUSE mount /mnt/desktop/ empty. Estimated 8+ local vaults. Retry when Mac is unlocked. |
 
+
+---
+
+## Notion Source Instances (added: NOTION-METADATA-INVENTORY-GATE)
+
+| Instance ID | Name | Workspace ROOT | L2 Children | Status | Scope |
+|---|---|---|---|---|---|
+| INST-NOTION-YOS | Y-OS ROOT | `- Y-OS ROOT -` | 16 | `METADATA_DRY_RUN_COMPLETE` | yos |
+| INST-NOTION-YWORLD | Y-World ROOT | `- Y-World ROOT -` | 20 | `METADATA_DRY_RUN_COMPLETE` | both |
+| INST-NOTION-YANNICK | Yannick ROOT | `- Yannick ROOT -` | 7 | `METADATA_DRY_RUN_COMPLETE` | yos |
+| INST-NOTION-ELYSIUM | ELYSIUM ROOT | `- ELYSIUM ROOT -` | 7 | `METADATA_DRY_RUN_COMPLETE` | youniverse |
+| INST-NOTION-KOSMOS | KOSMOS ROOT | `- KOSMOS ROOT -` | 0 | `METADATA_DRY_RUN_COMPLETE_EMPTY` | youniverse |
+| INST-NOTION-BLOCKED | Blocked / Inaccessible | — | — | `BLOCKED` | — |
+
+**Scan date:** 2026-07-03
+**Scan method:** ROOT-anchored L1+L2 metadata-only (Notion API read-only)
+**Total objects registered:** 55 (5 L1 ROOT + 50 L2 children)

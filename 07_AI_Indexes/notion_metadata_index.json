@@ -1,0 +1,424 @@
+{
+  "generated_at": "2026-07-03T09:49:53.807744+00:00",
+  "gate": "NOTION-METADATA-INVENTORY-GATE",
+  "scan_type": "ROOT_anchored_L1_L2_metadata_only",
+  "total_objects": 55,
+  "pages": 54,
+  "databases": 1,
+  "accessible": 55,
+  "archived_deprecated": 0,
+  "duplicate_titles": 0,
+  "inaccessible": 0,
+  "blocked": 0,
+  "instance_distribution": {
+    "INST-NOTION-YOS": 12,
+    "INST-NOTION-YWORLD": 2,
+    "INST-NOTION-UNKNOWN": 39,
+    "INST-NOTION-KAP": 2
+  },
+  "instances": {
+    "INST-NOTION-YWORLD": "Y-World / ontology / merge map pages",
+    "INST-NOTION-KAP": "KAP / Knowledge Acquisition Pipeline pages",
+    "INST-NOTION-YOS": "Y-OS / Manus Memory / Sessions / Projects / ROOT",
+    "INST-NOTION-UNKNOWN": "Other accessible pages",
+    "INST-NOTION-BLOCKED": "Inaccessible (0 detected)"
+  },
+  "root_pages": [
+    {
+      "so_id": "SO-NOTION-0001",
+      "title": "- Yannick ROOT -",
+      "notion_id": "39135e21-8cf8-80f2-8848-c013948c956a",
+      "children_count": 7,
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0002",
+      "title": "- Y-World ROOT -",
+      "notion_id": "39135e21-8cf8-8049-a880-f4869c43cf48",
+      "children_count": 20,
+      "instance": "INST-NOTION-YWORLD"
+    },
+    {
+      "so_id": "SO-NOTION-0003",
+      "title": "- ELYSIUM ROOT -",
+      "notion_id": "39135e21-8cf8-80d4-a906-f2ea685b1c96",
+      "children_count": 7,
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0004",
+      "title": "- KOSMOS ROOT -",
+      "notion_id": "39135e21-8cf8-804a-9225-f68a1e72493b",
+      "children_count": 0,
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0005",
+      "title": "- Y-OS ROOT -",
+      "notion_id": "39135e21-8cf8-8092-8d5c-f4c2e0b680ae",
+      "children_count": 16,
+      "instance": "INST-NOTION-YOS"
+    }
+  ],
+  "l2_structure": [
+    {
+      "so_id": "SO-NOTION-0006",
+      "title": "00. DIVINE",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0007",
+      "title": "HEALTH",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0008",
+      "title": "FAMILY",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0009",
+      "title": "ADMIN",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0010",
+      "title": "FINANCE HISTORY (tax)",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0011",
+      "title": "TECH",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0012",
+      "title": "CasaTAO",
+      "type": "child_page",
+      "parent": "- Yannick ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0013",
+      "title": "🌐 YOUniverse — Mémoire Vivante de Yannick Jolliet",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0014",
+      "title": "Y World — Sorting Review v1",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-YWORLD"
+    },
+    {
+      "so_id": "SO-NOTION-0015",
+      "title": "Archetypes — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0016",
+      "title": "CareGlyph — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0017",
+      "title": "Mirror Mirror — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0018",
+      "title": "Y-Publishing Factory — Tech Stack Fact Sheet",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0019",
+      "title": "Future News — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0020",
+      "title": "Y Travel — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0021",
+      "title": "ARC Anandaz Retreat Chalet — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0022",
+      "title": "DOMUS — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0023",
+      "title": "Visual Reality — Project Fiche",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0024",
+      "title": "ASE",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0025",
+      "title": "LUDIVINE",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0026",
+      "title": "WIP",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0027",
+      "title": "7d YOGA",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0028",
+      "title": "YOU-names",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0029",
+      "title": "🗺️ ODYSSEY — Travel, Journey & Life Navigation",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0030",
+      "title": "✨ EIA — Spiritual & Consciousness Platform",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0031",
+      "title": "Global Project Dashboard",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0032",
+      "title": "OTHER PROJECTS",
+      "type": "child_page",
+      "parent": "- Y-World ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0033",
+      "title": "HUMANITY 3.0",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0034",
+      "title": "🔮 ONE — Universal Integration Platform",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0035",
+      "title": "🌍 Generational Futures & Societal Transformation",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0036",
+      "title": "FUTURE NEXT",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0037",
+      "title": "Next Civ — Project Fiche",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0038",
+      "title": "Civilizational Awakening — Project Fiche",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0039",
+      "title": "Y-OS / Civilizational Awakening — MD Staging Hub",
+      "type": "child_page",
+      "parent": "- ELYSIUM ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0040",
+      "title": "Y-OS TEAM",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0041",
+      "title": "GOVERNANCE",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0042",
+      "title": "ARCHITECTURE",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0043",
+      "title": "MEMORY MGMT ",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0044",
+      "title": "CAR — Cognitive & Agent Router",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-KAP"
+    },
+    {
+      "so_id": "SO-NOTION-0045",
+      "title": "ART",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0046",
+      "title": "CRT",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0047",
+      "title": "YOS CLIENTS",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0048",
+      "title": "YMD",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0049",
+      "title": "AI CHAT BACKUPS",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0050",
+      "title": "Artifacts",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0051",
+      "title": "PACKAGES",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-UNKNOWN"
+    },
+    {
+      "so_id": "SO-NOTION-0052",
+      "title": "YOS Archives",
+      "type": "child_database",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0053",
+      "title": "MISC YOS",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0054",
+      "title": "Y-OS — conçu et inspiré par Y",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-YOS"
+    },
+    {
+      "so_id": "SO-NOTION-0055",
+      "title": "🧠 yOS — Cognitive Operating System",
+      "type": "child_page",
+      "parent": "- Y-OS ROOT -",
+      "instance": "INST-NOTION-KAP"
+    }
+  ],
+  "databases_summary": [
+    {
+      "title": "YOS Archives",
+      "notion_id": "31235e21-8cf8-8126-9212-f5a0eebadce0",
+      "property_count": 9,
+      "level": "L2",
+      "archived": false
+    }
+  ]
+}
