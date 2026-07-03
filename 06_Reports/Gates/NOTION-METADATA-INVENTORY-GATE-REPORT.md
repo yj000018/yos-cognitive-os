@@ -256,7 +256,7 @@ All instances added to `05_Registries/SOURCE-INSTANCE-REGISTRY.md`.
 |---|---|
 | Repo root | `/home/ubuntu/yos-cognitive-os` |
 | Remote | `https://github.com/yj000018/yos-cognitive-os` |
-| Gate commit | _see commit after this report is committed_ |
+| Gate commit | `47fc08a` |
 | Git status | CLEAN after gate commit |
 | GitHub visibility | All files visible at github.com/yj000018/yos-cognitive-os |
 
