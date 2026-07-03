@@ -1,0 +1,56 @@
+{
+  "gate": "GDRIVE-YOS-OBSIDIAN-LIGHT-CONTENT-PROFILING-GATE",
+  "version": "v1.0",
+  "scan_date": "2026-07-03",
+  "scan_mode": "metadata-only",
+  "content_read": false,
+  "source_mutation": false,
+  "gdrive_yos_fragments": [
+    {
+      "folder_name": "01_Y_OS_CORE",
+      "gdrive_id": "1IOOOx9v2dGp0xtqatpGwzNsP_ga8J21O",
+      "last_modified": "2026-05-04",
+      "subfolders": ["01_Projects", "02_Infrastructure", "03_Secrets_Keys"],
+      "subfolder_count": 3,
+      "obsidian_vault_found": false,
+      "assessment": "STRUCTURED_YOS_FRAGMENT",
+      "notes": "Oldest and most structured Y-OS GDrive folder. Clean 3-part hierarchy. Likely canonical operational base.",
+      "status": "CANDIDATE_REQUIRES_SCOPE_DECISION"
+    },
+    {
+      "folder_name": "Y-OS",
+      "gdrive_id": "REDACTED_NOT_PROFILED",
+      "last_modified": "2026-06-15",
+      "subfolders": "NOT_PROFILED",
+      "subfolder_count": "UNKNOWN",
+      "obsidian_vault_found": "UNKNOWN",
+      "assessment": "MOST_RECENT_WORKING_FOLDER",
+      "notes": "Most recently modified Y-OS folder (Jun 15). Likely current working folder.",
+      "status": "CANDIDATE_REQUIRES_SCOPE_DECISION"
+    },
+    {
+      "folder_name": "yOS",
+      "gdrive_id": "REDACTED_NOT_PROFILED",
+      "last_modified": "2026-05-17",
+      "subfolders": "NOT_PROFILED",
+      "subfolder_count": "UNKNOWN",
+      "obsidian_vault_found": "UNKNOWN",
+      "assessment": "INTERMEDIATE_FRAGMENT",
+      "notes": "Intermediate modification date (May 17). Possible staging or transition folder.",
+      "status": "CANDIDATE_REQUIRES_SCOPE_DECISION"
+    },
+    {
+      "folder_name": "YOS Vision",
+      "gdrive_id": "REDACTED_NOT_PROFILED",
+      "last_modified": "2026-06-20",
+      "subfolders": "NOT_PROFILED",
+      "subfolder_count": "UNKNOWN",
+      "obsidian_vault_found": "UNKNOWN",
+      "assessment": "MOST_RECENT_VISION_DOCS",
+      "notes": "Most recently modified overall (Jun 20). Likely vision/strategy documents.",
+      "status": "CANDIDATE_REQUIRES_SCOPE_DECISION"
+    }
+  ],
+  "fragmentation_blocker": "YOS_GDRIVE_FRAGMENTATION_REQUIRES_SCOPE_DECISION",
+  "canonical_decision": "DEFERRED_TO_GUARDIAN"
+}

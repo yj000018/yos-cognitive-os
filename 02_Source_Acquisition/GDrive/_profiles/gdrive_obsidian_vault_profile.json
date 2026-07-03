@@ -1,0 +1,38 @@
+{
+  "gate": "GDRIVE-YOS-OBSIDIAN-LIGHT-CONTENT-PROFILING-GATE",
+  "version": "v1.0",
+  "scan_date": "2026-07-03",
+  "scan_mode": "metadata-only",
+  "content_read": false,
+  "source_mutation": false,
+  "gdrive_obsidian_vaults": [
+    {
+      "vault_alias": "GDRIVE-OBS-VAULT-1",
+      "likely_location": "05_ARCHIVES_BACKUPS/01_System_Backups",
+      "gdrive_id": "NOT_ACCESSED",
+      "content_read": false,
+      "assessment": "PROBABLE_LUDIVINE_BACKUP",
+      "notes": "Not directly accessed. Located in 05_ARCHIVES_BACKUPS/01_System_Backups based on census data. Likely backup of local LUDIVINE vault. Not authorized for content access.",
+      "status": "BACKUP_EXCLUDE_BY_DEFAULT"
+    },
+    {
+      "vault_alias": "GDRIVE-OBS-VAULT-2",
+      "likely_location": "05_ARCHIVES_BACKUPS/01_System_Backups",
+      "gdrive_id": "NOT_ACCESSED",
+      "content_read": false,
+      "assessment": "PROBABLE_LUDIVINE_BACKUP_2",
+      "notes": "Second Obsidian Vault backup. Same location hypothesis. Not accessed.",
+      "status": "BACKUP_EXCLUDE_BY_DEFAULT"
+    },
+    {
+      "vault_alias": "GDRIVE-OBS-YWORLD-CONFIG",
+      "likely_location": "Y-WORLD folder root",
+      "gdrive_id": "NOT_ACCESSED",
+      "content_read": false,
+      "assessment": "YWORLD_OBSIDIAN_CONFIG_FOLDER",
+      "notes": ".obsidian config folder only. No vault content. Low priority.",
+      "status": "DISCOVERED_LOW_PRIORITY"
+    }
+  ],
+  "access_constraint": "LUDIVINE_NOT_AUTHORIZED — no GDrive Obsidian Vault content accessed per Guardian constraints"
+}

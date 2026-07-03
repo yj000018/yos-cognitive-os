@@ -1,0 +1,39 @@
+{
+  "gate": "GDRIVE-YOS-OBSIDIAN-LIGHT-CONTENT-PROFILING-GATE",
+  "version": "v1.0",
+  "scan_date": "2026-07-03",
+  "scan_mode": "metadata-only",
+  "content_read": false,
+  "source_mutation": false,
+  "yworld_surfaces": [
+    {
+      "surface_id": "INST-OBS-ICLOUD-YWORLD",
+      "surface_type": "iCloud Obsidian Vault",
+      "path_alias": "ICLOUD://YWORLD/",
+      "md_file_count": 17,
+      "obsidian_config_present": true,
+      "last_scan_date": "2026-07-03",
+      "assessment": "SMALL_EXPERIMENTAL_LOCAL_VAULT",
+      "notes": "17 MD files only. Likely experimental or staging vault. Not the canonical Y-World source. No content read.",
+      "status": "DISCOVERED_LOW_PRIORITY",
+      "pipeline": "OBSIDIAN_PIPELINE_LOW_PRIORITY"
+    },
+    {
+      "surface_id": "INST-GITHUB-YWORLD",
+      "surface_type": "GitHub Repository",
+      "repo": "yj000018/Y-WORLD",
+      "md_file_count": 61,
+      "repo_size_kb": 4620,
+      "last_updated": "2026-06-04T15:07:47Z",
+      "default_branch": "main",
+      "archived_flag": true,
+      "archived_flag_note": "Archived=true on GitHub but has active workflow compile-graph.yml and recent commits. Possible incorrect flag.",
+      "has_workflow": true,
+      "workflow_name": "compile-graph.yml",
+      "assessment": "CURRENT_LIKELY_PRIMARY_YWORLD_SOURCE",
+      "notes": "Current likely primary Y-World source, to be handled under GitHub pipeline and validated by GitHub gate. Archived flag may be incorrect — Guardian should verify.",
+      "status": "HANDLE_UNDER_GITHUB_PIPELINE",
+      "pipeline": "GITHUB_PIPELINE"
+    }
+  ]
+}
