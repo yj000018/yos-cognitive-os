@@ -6,7 +6,7 @@
 > Guardian Architect: ChatGPT
 > Date: 2026-07-03
 > Repo: yj000018/yos-cognitive-os
-> Report Version: v1.0
+> Report Version: v1.1 (Guardian hygiene patch — instance mapping correction + scope wording)
 
 ---
 
@@ -16,7 +16,7 @@
 NOTION_METADATA_INVENTORY_GATE_PASS_READY_FOR_GITHUB_SOURCE_METADATA_PILOT_AND_LIMITED_CONTENT_PILOT
 ```
 
-**Rationale:** All 5 workspace ROOT pages discovered and inventoried. 50 L2 children catalogued. 1 database schema collected. Zero content ingested. Zero blockers on Notion access. Registries updated. Git proof complete.
+**Rationale:** All 5 ROOT pages discovered and inventoried (ROOT-anchored structure only — workspace has 15,000+ total objects). 50 L2 children catalogued. 1 database schema collected. Zero content ingested. Zero blockers on Notion access. Registries updated. Git proof complete.
 
 ---
 
@@ -29,7 +29,7 @@ NOTION_METADATA_INVENTORY_GATE_PASS_READY_FOR_GITHUB_SOURCE_METADATA_PILOT_AND_L
 | Depth | L1 (ROOT pages) + L2 (direct children) |
 | Body content ingested | **NONE** |
 | Queries used | Search for "ROOT", "root", "Root" |
-| Workspace coverage | 5 ROOT pages = full top-level structure |
+| Workspace coverage | 5 ROOT pages = full discovered ROOT-anchored structure |
 | Scope note | Workspace has 15,000+ total objects — only ROOT-anchored structure scanned per gate spec |
 
 ---
@@ -80,10 +80,10 @@ NOTION_METADATA_INVENTORY_GATE_PASS_READY_FOR_GITHUB_SOURCE_METADATA_PILOT_AND_L
 
 | SO ID | Title | L2 Children | Instance |
 |---|---|---|---|
-| SO-NOTION-0001 | `- Yannick ROOT -` | 7 | INST-NOTION-YOS |
+| SO-NOTION-0001 | `- Yannick ROOT -` | 7 | INST-NOTION-YANNICK |
 | SO-NOTION-0002 | `- Y-World ROOT -` | 20 | INST-NOTION-YWORLD |
-| SO-NOTION-0003 | `- ELYSIUM ROOT -` | 7 | INST-NOTION-YOS |
-| SO-NOTION-0004 | `- KOSMOS ROOT -` | 0 | INST-NOTION-YOS |
+| SO-NOTION-0003 | `- ELYSIUM ROOT -` | 7 | INST-NOTION-ELYSIUM |
+| SO-NOTION-0004 | `- KOSMOS ROOT -` | 0 | INST-NOTION-KOSMOS |
 | SO-NOTION-0005 | `- Y-OS ROOT -` | 16 | INST-NOTION-YOS |
 
 ### L2 — Children of `- Yannick ROOT -` (7)
