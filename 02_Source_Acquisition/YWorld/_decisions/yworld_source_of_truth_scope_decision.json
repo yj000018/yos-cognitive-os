@@ -1,0 +1,47 @@
+{
+  "gate": "YWORLD-SOURCE-OF-TRUTH-SCOPE-GATE",
+  "date": "2026-07-04",
+  "decision_output": "YWORLD_SOURCE_OF_TRUTH_NOT_DECIDED_REQUIRES_BOUNDED_COMPARISON",
+  "matrix": [
+    {
+      "surface_id": "GITHUB-YWORLD",
+      "active_candidate": true,
+      "backup_candidate": false,
+      "sync_mirror_candidate": true,
+      "fragment_candidate": false,
+      "canonical_candidate": true,
+      "evidence_level": "GIT_METADATA_ONLY",
+      "decision": "REQUIRES_COMPARISON"
+    },
+    {
+      "surface_id": "GDRIVE-OBS-003",
+      "active_candidate": true,
+      "backup_candidate": false,
+      "sync_mirror_candidate": true,
+      "fragment_candidate": false,
+      "canonical_candidate": true,
+      "evidence_level": "BOUNDED_CONTENT_SAMPLE",
+      "decision": "REQUIRES_COMPARISON"
+    },
+    {
+      "surface_id": "ICLOUD-YWORLD",
+      "active_candidate": false,
+      "backup_candidate": false,
+      "sync_mirror_candidate": false,
+      "fragment_candidate": true,
+      "canonical_candidate": false,
+      "evidence_level": "MICRO_EXTRACTION_QUARANTINE",
+      "decision": "FRAGMENT_CONFIRMED"
+    },
+    {
+      "surface_id": "LOCAL-YWORLD",
+      "active_candidate": null,
+      "backup_candidate": null,
+      "sync_mirror_candidate": null,
+      "fragment_candidate": null,
+      "canonical_candidate": null,
+      "evidence_level": "INSUFFICIENT",
+      "decision": "UNCONFIRMED"
+    }
+  ]
+}

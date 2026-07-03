@@ -1,0 +1,50 @@
+{
+  "gate": "YWORLD-SOURCE-OF-TRUTH-SCOPE-GATE",
+  "date": "2026-07-04",
+  "surfaces": [
+    {
+      "surface_id": "GITHUB-YWORLD",
+      "storage": "GitHub (yj000018/Y-WORLD)",
+      "type": "Git Repository",
+      "known_md_count": 234,
+      "known_folder_count": 21,
+      "evidence_level": "GIT_METADATA_ONLY",
+      "current_status": "UNPROBED_HOLD",
+      "likely_role": "Active Sync / Canonical Candidate",
+      "pipeline": "GITHUB_PIPELINE"
+    },
+    {
+      "surface_id": "GDRIVE-OBS-003",
+      "storage": "Google Drive",
+      "type": "Obsidian Vault",
+      "known_md_count": 235,
+      "known_folder_count": 18,
+      "evidence_level": "BOUNDED_CONTENT_SAMPLE",
+      "current_status": "HIGH_VALUE_HOLD",
+      "likely_role": "Active Candidate / Mirror",
+      "pipeline": "GDRIVE_PIPELINE"
+    },
+    {
+      "surface_id": "ICLOUD-YWORLD",
+      "storage": "iCloud (ICLOUD://obsidian/Y-World)",
+      "type": "Micro Vault",
+      "known_md_count": 17,
+      "known_folder_count": 6,
+      "evidence_level": "MICRO_EXTRACTION_QUARANTINE",
+      "current_status": "QUARANTINED",
+      "likely_role": "Fragment Candidate",
+      "pipeline": "ICLOUD_PIPELINE"
+    },
+    {
+      "surface_id": "LOCAL-YWORLD",
+      "storage": "Mac / Local filesystem",
+      "type": "Unknown",
+      "known_md_count": null,
+      "known_folder_count": null,
+      "evidence_level": "INSUFFICIENT",
+      "current_status": "LOCAL_YWORLD_UNPROBED_SCOPE_UNCONFIRMED",
+      "likely_role": "Unknown",
+      "pipeline": "LOCAL_PIPELINE"
+    }
+  ]
+}
