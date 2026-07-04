@@ -1,7 +1,7 @@
 # Gate Report: KAP-OVERNIGHT-MAXIMUM-SAFE-DEEP-WORK-BATCH
 
 ## 1. Final Batch Status
-`OVERNIGHT_BATCH_COMPLETED_SUCCESSFULLY_AWAITING_GUARDIAN_REVIEW`
+`OVERNIGHT_BATCH_SESSION2_ACCEPTED_WITH_COMMIT_PATCH_COMPLETE`
 
 ## 2. Lane Status Table
 
@@ -59,3 +59,25 @@ See `KAP-MORNING-LAUNCHPAD-AFTER-OVERNIGHT-BATCH.md` for the prioritized list. T
 - [ ] Review `EVOLUTIONARY-KNOWLEDGE-MERGE-ARCHITECTURE.md` and related policies (Lane E).
 - [ ] Review `ludivine_scope_decision_framework.md` (Lane G).
 - [ ] Approve Morning Launchpad MPMs.
+
+---
+
+## Architect & Guardian Review Patch — 2026-07-04
+
+**Decision:** `KAP_OVERNIGHT_BATCH_SESSION2_ACCEPTED_WITH_COMMIT_PATCH_REQUIRED`
+
+**Patch applied:** 2026-07-04T14:15:00Z
+
+**Session 2 commit (Lane C + final batch report):**
+- `yos-cognitive-os` commit: `3fcf460` — OVERNIGHT-BATCH-2 Lane C: GDRIVE-YOS-BOUNDED-QUARANTINE-FINGERPRINT-GATE PASS
+- `kap-control-plane` commit: `5269412` — ledger v1.6.0 (10 entries)
+
+**Files confirmed committed:**
+- `02_Source_Acquisition/GDrive/YOS_Fragmented_Folders/_inventories/gdrive_yos_bounded_quarantine_fingerprint.json` ✅
+- `06_Reports/Gates/GDRIVE-YOS-BOUNDED-QUARANTINE-FINGERPRINT-GATE-REPORT.md` ✅
+- `06_Reports/Gates/KAP-OVERNIGHT-MAXIMUM-SAFE-DEEP-WORK-BATCH-SESSION2-REPORT.md` ✅
+- `06_Reports/Gates/KAP-OVERNIGHT-MAXIMUM-SAFE-DEEP-WORK-BATCH-REPORT.md` ✅ (this file, committed in `36cc2be`)
+
+**Final status:** `KAP_OVERNIGHT_BATCH_SESSION2_COMMIT_PATCH_COMPLETE`
+
+*Patch applied by Manus — 2026-07-04*
