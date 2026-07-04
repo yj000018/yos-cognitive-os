@@ -1,0 +1,694 @@
+{
+  "fingerprint_id": "GDRIVE-YWORLD-QUARANTINE-FINGERPRINT-001",
+  "gate": "GDRIVE-YOS-BOUNDED-QUARANTINE-FINGERPRINT-GATE",
+  "scan_date": "2026-07-04",
+  "scan_mode": "metadata_only_path_size",
+  "content_read": false,
+  "source_mutation": false,
+  "quarantine_root": "02_Source_Acquisition/YWorld/GDrive_YWORLD/_raw_quarantine",
+  "total_files": 61,
+  "total_bytes": 43840,
+  "total_kb": 42.8,
+  "folder_summary": {
+    "00_System": {
+      "count": 10,
+      "total_bytes": 19486
+    },
+    "01_Cockpit": {
+      "count": 5,
+      "total_bytes": 4843
+    },
+    "02_Maps": {
+      "count": 11,
+      "total_bytes": 3603
+    },
+    "03_Dashboards": {
+      "count": 11,
+      "total_bytes": 3634
+    },
+    "04_Templates": {
+      "count": 8,
+      "total_bytes": 3742
+    },
+    "05_Registries": {
+      "count": 1,
+      "total_bytes": 768
+    },
+    "06_Workflows": {
+      "count": 1,
+      "total_bytes": 629
+    },
+    "07_Agent_Operations": {
+      "count": 5,
+      "total_bytes": 4013
+    },
+    "20_Life": {
+      "count": 1,
+      "total_bytes": 251
+    },
+    "30_Knowledge": {
+      "count": 1,
+      "total_bytes": 271
+    },
+    "50_Projects": {
+      "count": 1,
+      "total_bytes": 262
+    },
+    "60_Y-OS": {
+      "count": 1,
+      "total_bytes": 260
+    },
+    "70_CasaTAO": {
+      "count": 1,
+      "total_bytes": 289
+    },
+    "71_ARC_Anandaz": {
+      "count": 1,
+      "total_bytes": 278
+    },
+    "80_Archetypes": {
+      "count": 1,
+      "total_bytes": 280
+    },
+    "81_Y-Publishing": {
+      "count": 1,
+      "total_bytes": 262
+    },
+    "90_Reality_Interfaces": {
+      "count": 1,
+      "total_bytes": 969
+    }
+  },
+  "files": [
+    {
+      "id": "GDRIVE-YWORLD-001",
+      "path": "00_System/Automation Safety Rules.md",
+      "top_folder": "00_System",
+      "filename": "Automation Safety Rules.md",
+      "size_bytes": 1337,
+      "path_hash": "e49509fbe04c",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-002",
+      "path": "00_System/Manus Operations.md",
+      "top_folder": "00_System",
+      "filename": "Manus Operations.md",
+      "size_bytes": 1238,
+      "path_hash": "cd4386245b55",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-003",
+      "path": "00_System/Metadata Schema.md",
+      "top_folder": "00_System",
+      "filename": "Metadata Schema.md",
+      "size_bytes": 2034,
+      "path_hash": "3e2391f11550",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-004",
+      "path": "00_System/Naming Conventions.md",
+      "top_folder": "00_System",
+      "filename": "Naming Conventions.md",
+      "size_bytes": 1207,
+      "path_hash": "b73bde7691b3",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-005",
+      "path": "00_System/Obsidian OS Cockpit.md",
+      "top_folder": "00_System",
+      "filename": "Obsidian OS Cockpit.md",
+      "size_bytes": 1514,
+      "path_hash": "23731dd0c126",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-006",
+      "path": "00_System/Plugin Registry.md",
+      "top_folder": "00_System",
+      "filename": "Plugin Registry.md",
+      "size_bytes": 3548,
+      "path_hash": "1157cac27e07",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-007",
+      "path": "00_System/Profile Strategy.md",
+      "top_folder": "00_System",
+      "filename": "Profile Strategy.md",
+      "size_bytes": 2121,
+      "path_hash": "e6702984c58e",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-008",
+      "path": "00_System/Workspace Strategy.md",
+      "top_folder": "00_System",
+      "filename": "Workspace Strategy.md",
+      "size_bytes": 2087,
+      "path_hash": "60b647744b8e",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-009",
+      "path": "00_System/Y-WORLD Architecture.md",
+      "top_folder": "00_System",
+      "filename": "Y-WORLD Architecture.md",
+      "size_bytes": 2831,
+      "path_hash": "7e427769bc1a",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-010",
+      "path": "00_System/Y-WORLD Operating Principles.md",
+      "top_folder": "00_System",
+      "filename": "Y-WORLD Operating Principles.md",
+      "size_bytes": 1569,
+      "path_hash": "e08299124d7b",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-011",
+      "path": "01_Cockpit/Daily Operating Surface.md",
+      "top_folder": "01_Cockpit",
+      "filename": "Daily Operating Surface.md",
+      "size_bytes": 606,
+      "path_hash": "dcb56b1e2466",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-012",
+      "path": "01_Cockpit/HOME.md",
+      "top_folder": "01_Cockpit",
+      "filename": "HOME.md",
+      "size_bytes": 1852,
+      "path_hash": "c01dcc5a495b",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-013",
+      "path": "01_Cockpit/Manus Control Surface.md",
+      "top_folder": "01_Cockpit",
+      "filename": "Manus Control Surface.md",
+      "size_bytes": 916,
+      "path_hash": "2ed273f4a167",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-014",
+      "path": "01_Cockpit/Weekly Review Surface.md",
+      "top_folder": "01_Cockpit",
+      "filename": "Weekly Review Surface.md",
+      "size_bytes": 703,
+      "path_hash": "ef3609960b2e",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-015",
+      "path": "01_Cockpit/Y-WORLD Command Center.md",
+      "top_folder": "01_Cockpit",
+      "filename": "Y-WORLD Command Center.md",
+      "size_bytes": 766,
+      "path_hash": "897078c8f89e",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-016",
+      "path": "02_Maps/AI SYSTEMS MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "AI SYSTEMS MAP.md",
+      "size_bytes": 262,
+      "path_hash": "f19a49430963",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-017",
+      "path": "02_Maps/ARC ANANDAZ MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "ARC ANANDAZ MAP.md",
+      "size_bytes": 265,
+      "path_hash": "d75ac68095e8",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-018",
+      "path": "02_Maps/ARCHETYPES MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "ARCHETYPES MAP.md",
+      "size_bytes": 262,
+      "path_hash": "0b5bb1fb64bf",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-019",
+      "path": "02_Maps/CASATAO MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "CASATAO MAP.md",
+      "size_bytes": 253,
+      "path_hash": "5552b5d7ac22",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-020",
+      "path": "02_Maps/KNOWLEDGE MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "KNOWLEDGE MAP.md",
+      "size_bytes": 259,
+      "path_hash": "dda1d711c689",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-021",
+      "path": "02_Maps/LIFE MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "LIFE MAP.md",
+      "size_bytes": 244,
+      "path_hash": "1118ac139b09",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-022",
+      "path": "02_Maps/PROJECTS MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "PROJECTS MAP.md",
+      "size_bytes": 256,
+      "path_hash": "3cb96e0d2e24",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-023",
+      "path": "02_Maps/REALITY INTERFACES MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "REALITY INTERFACES MAP.md",
+      "size_bytes": 286,
+      "path_hash": "cce2ff4e6c8b",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-024",
+      "path": "02_Maps/Y-OS MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "Y-OS MAP.md",
+      "size_bytes": 244,
+      "path_hash": "63423dbb83c2",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-025",
+      "path": "02_Maps/Y-PUBLISHING MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "Y-PUBLISHING MAP.md",
+      "size_bytes": 268,
+      "path_hash": "b59c95d40519",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-026",
+      "path": "02_Maps/Y-WORLD ROOT MAP.md",
+      "top_folder": "02_Maps",
+      "filename": "Y-WORLD ROOT MAP.md",
+      "size_bytes": 1004,
+      "path_hash": "a555c3d65380",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-027",
+      "path": "03_Dashboards/AI Systems Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "AI Systems Dashboard.md",
+      "size_bytes": 271,
+      "path_hash": "766a0110bd59",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-028",
+      "path": "03_Dashboards/ARC Anandaz Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "ARC Anandaz Dashboard.md",
+      "size_bytes": 274,
+      "path_hash": "b784310e9f4b",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-029",
+      "path": "03_Dashboards/Archetypes Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Archetypes Dashboard.md",
+      "size_bytes": 271,
+      "path_hash": "c28caf29414a",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-030",
+      "path": "03_Dashboards/CasaTAO Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "CasaTAO Dashboard.md",
+      "size_bytes": 262,
+      "path_hash": "8fe99caf1fcc",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-031",
+      "path": "03_Dashboards/Knowledge Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Knowledge Dashboard.md",
+      "size_bytes": 268,
+      "path_hash": "c75a5958c096",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-032",
+      "path": "03_Dashboards/Life Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Life Dashboard.md",
+      "size_bytes": 253,
+      "path_hash": "19be37de2d13",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-033",
+      "path": "03_Dashboards/Manus Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Manus Dashboard.md",
+      "size_bytes": 256,
+      "path_hash": "3a7e5cf9a06b",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-034",
+      "path": "03_Dashboards/Projects Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Projects Dashboard.md",
+      "size_bytes": 265,
+      "path_hash": "4f0bb6447f70",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-035",
+      "path": "03_Dashboards/Y-OS Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Y-OS Dashboard.md",
+      "size_bytes": 563,
+      "path_hash": "48bea406f0d3",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-036",
+      "path": "03_Dashboards/Y-Publishing Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Y-Publishing Dashboard.md",
+      "size_bytes": 277,
+      "path_hash": "4a59f33ea3ac",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-037",
+      "path": "03_Dashboards/Y-WORLD Dashboard.md",
+      "top_folder": "03_Dashboards",
+      "filename": "Y-WORLD Dashboard.md",
+      "size_bytes": 674,
+      "path_hash": "d35e6a916ee6",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-038",
+      "path": "04_Templates/Template - Agent.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Agent.md",
+      "size_bytes": 414,
+      "path_hash": "c2eabf4bc3ef",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-039",
+      "path": "04_Templates/Template - Daily Note.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Daily Note.md",
+      "size_bytes": 338,
+      "path_hash": "a12c785670aa",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-040",
+      "path": "04_Templates/Template - Dashboard.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Dashboard.md",
+      "size_bytes": 439,
+      "path_hash": "b72db75cabe7",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-041",
+      "path": "04_Templates/Template - Decision.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Decision.md",
+      "size_bytes": 442,
+      "path_hash": "5a0f34b963ef",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-042",
+      "path": "04_Templates/Template - K-Card.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - K-Card.md",
+      "size_bytes": 621,
+      "path_hash": "61c9ab1b0762",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-043",
+      "path": "04_Templates/Template - Map Node.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Map Node.md",
+      "size_bytes": 428,
+      "path_hash": "c93e81700cfb",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-044",
+      "path": "04_Templates/Template - Project.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Project.md",
+      "size_bytes": 602,
+      "path_hash": "2a01eccd9d29",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-045",
+      "path": "04_Templates/Template - Workflow.md",
+      "top_folder": "04_Templates",
+      "filename": "Template - Workflow.md",
+      "size_bytes": 458,
+      "path_hash": "415524ba22ed",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-046",
+      "path": "05_Registries/Tool Registry.md",
+      "top_folder": "05_Registries",
+      "filename": "Tool Registry.md",
+      "size_bytes": 768,
+      "path_hash": "f681e3c4685a",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-047",
+      "path": "06_Workflows/Workflow Registry.md",
+      "top_folder": "06_Workflows",
+      "filename": "Workflow Registry.md",
+      "size_bytes": 629,
+      "path_hash": "2ef87de22a4d",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-048",
+      "path": "07_Agent_Operations/Manus Change Log.md",
+      "top_folder": "07_Agent_Operations",
+      "filename": "Manus Change Log.md",
+      "size_bytes": 847,
+      "path_hash": "6db4143ebbeb",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-049",
+      "path": "07_Agent_Operations/Manus Commands.md",
+      "top_folder": "07_Agent_Operations",
+      "filename": "Manus Commands.md",
+      "size_bytes": 770,
+      "path_hash": "257bdfbd4793",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-050",
+      "path": "07_Agent_Operations/Manus Operating Manual.md",
+      "top_folder": "07_Agent_Operations",
+      "filename": "Manus Operating Manual.md",
+      "size_bytes": 1038,
+      "path_hash": "e977dc325d02",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-051",
+      "path": "07_Agent_Operations/Manus Safety Checklist.md",
+      "top_folder": "07_Agent_Operations",
+      "filename": "Manus Safety Checklist.md",
+      "size_bytes": 717,
+      "path_hash": "f861b1bd3296",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-052",
+      "path": "07_Agent_Operations/Manus Task Queue.md",
+      "top_folder": "07_Agent_Operations",
+      "filename": "Manus Task Queue.md",
+      "size_bytes": 641,
+      "path_hash": "60a6800c494a",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-053",
+      "path": "20_Life/Life Log.md",
+      "top_folder": "20_Life",
+      "filename": "Life Log.md",
+      "size_bytes": 251,
+      "path_hash": "90e984e98cba",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-054",
+      "path": "30_Knowledge/Knowledge Log.md",
+      "top_folder": "30_Knowledge",
+      "filename": "Knowledge Log.md",
+      "size_bytes": 271,
+      "path_hash": "a8c59acec1d9",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-055",
+      "path": "50_Projects/Projects Log.md",
+      "top_folder": "50_Projects",
+      "filename": "Projects Log.md",
+      "size_bytes": 262,
+      "path_hash": "5a5530793b99",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-056",
+      "path": "60_Y-OS/Y-OS Log.md",
+      "top_folder": "60_Y-OS",
+      "filename": "Y-OS Log.md",
+      "size_bytes": 260,
+      "path_hash": "b84e8073dd0d",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-057",
+      "path": "70_CasaTAO/CasaTAO Log.md",
+      "top_folder": "70_CasaTAO",
+      "filename": "CasaTAO Log.md",
+      "size_bytes": 289,
+      "path_hash": "dc265d75f65b",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-058",
+      "path": "71_ARC_Anandaz/ARC Anandaz Log.md",
+      "top_folder": "71_ARC_Anandaz",
+      "filename": "ARC Anandaz Log.md",
+      "size_bytes": 278,
+      "path_hash": "25f141e7b620",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-059",
+      "path": "80_Archetypes/Archetypes Log.md",
+      "top_folder": "80_Archetypes",
+      "filename": "Archetypes Log.md",
+      "size_bytes": 280,
+      "path_hash": "846846bc9496",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-060",
+      "path": "81_Y-Publishing/Y-Publishing Log.md",
+      "top_folder": "81_Y-Publishing",
+      "filename": "Y-Publishing Log.md",
+      "size_bytes": 262,
+      "path_hash": "8c9a624c7809",
+      "content_read": false,
+      "source_mutation": false
+    },
+    {
+      "id": "GDRIVE-YWORLD-061",
+      "path": "90_Reality_Interfaces/Y-WORLD.net Vision.md",
+      "top_folder": "90_Reality_Interfaces",
+      "filename": "Y-WORLD.net Vision.md",
+      "size_bytes": 969,
+      "path_hash": "4aee53aee387",
+      "content_read": false,
+      "source_mutation": false
+    }
+  ]
+}
