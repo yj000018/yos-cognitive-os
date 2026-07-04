@@ -1,0 +1,27 @@
+{
+  "base_source": "GITHUB-YWORLD",
+  "base_count": 234,
+  "operations": [
+    {
+      "type": "OVERWRITE",
+      "target": "01_Cockpit/Weekly Review Surface.md",
+      "source_origin": "GDRIVE_QUARANTINE"
+    },
+    {
+      "type": "ADD",
+      "target": "60_Y-OS/yos_memory_blueprint.md",
+      "source_origin": "ICLOUD_QUARANTINE"
+    },
+    {
+      "type": "ADD",
+      "target": "60_Y-OS/Tool Intelligence Layer.md",
+      "source_origin": "ICLOUD_QUARANTINE"
+    },
+    {
+      "type": "ADD",
+      "target": "60_Y-OS/Excalidraw/ExcaliBrain Snapshot - Tool Intelligence Layer.excalidraw.md",
+      "source_origin": "ICLOUD_QUARANTINE"
+    }
+  ],
+  "expected_final_count": 237
+}

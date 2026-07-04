@@ -1,0 +1,16 @@
+{
+  "fragments": [
+    {
+      "source": "yos_memory_blueprint.md",
+      "target_path": "60_Y-OS/yos_memory_blueprint.md"
+    },
+    {
+      "source": "Tool Intelligence Layer.md",
+      "target_path": "60_Y-OS/Tool Intelligence Layer.md"
+    },
+    {
+      "source": "Excalidraw/ExcaliBrain Snapshot - Tool Intelligence Layer.excalidraw.md",
+      "target_path": "60_Y-OS/Excalidraw/ExcaliBrain Snapshot - Tool Intelligence Layer.excalidraw.md"
+    }
+  ]
+}

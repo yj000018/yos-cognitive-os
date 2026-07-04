@@ -114,16 +114,16 @@
     },
     {
       "surface_id": "GDRIVE-OBS-003",
-      "alias": "Y-WORLD (GDrive)",
+      "alias": "Y-WORLD (GDrive — BACKUP)",
       "storage": "GDrive",
       "type": "Obsidian vault",
-      "known_md_count": 235,
+      "known_md_count": 61,
       "known_folder_count": 18,
       "obsidian_present": true,
       "git_present": false,
-      "class": "sync_mirror_candidate",
-      "status": "HIGH_VALUE_HOLD_FOR_SCOPE_DECISION",
-      "pipeline": "HANDLE_UNDER_GDRIVE_PIPELINE",
+      "class": "backup_excluded",
+      "status": "GDRIVE_YWORLD_PARTIAL_SNAPSHOT",
+      "pipeline": "EXCLUDED",
       "authorization": {
         "metadata_discovery": true,
         "limited_probe": true,
@@ -136,7 +136,7 @@
         "source_mutation": false
       },
       "next_gate": "YWORLD-BOUNDED-METADATA-COMPARISON-GATE",
-      "notes": "MD count >100. Previous probe showed 235."
+      "notes": "Corrected: 61 MD. Exact subset of GitHub. Backup excluded."
     },
     {
       "surface_id": "GITHUB-YWORLD",
@@ -148,7 +148,7 @@
       "obsidian_present": true,
       "git_present": true,
       "class": "canonical_candidate",
-      "status": "REQUIRES_BOUNDED_COMPARISON",
+      "status": "GITHUB_YWORLD_CANONICAL_CANDIDATE",
       "pipeline": "GITHUB_PIPELINE",
       "authorization": {
         "metadata_discovery": true,
@@ -244,7 +244,7 @@
     },
     {
       "surface_id": "LOCAL-GIT-YW",
-      "alias": "Y-WORLD (Local Git)",
+      "alias": "Y-WORLD (Local Git — BACKUP)",
       "storage": "Local",
       "type": "Git working copy",
       "known_md_count": 61,
@@ -252,8 +252,8 @@
       "obsidian_present": true,
       "git_present": true,
       "class": "git_pipeline_source",
-      "status": "HANDLE_UNDER_GITHUB_PIPELINE",
-      "pipeline": "GITHUB_PIPELINE",
+      "status": "LOCAL_GIT_YW_PARTIAL_SNAPSHOT",
+      "pipeline": "EXCLUDED",
       "authorization": {
         "metadata_discovery": true,
         "limited_probe": false,
@@ -265,8 +265,8 @@
         "canonicalization": false,
         "source_mutation": false
       },
-      "next_gate": "YWORLD-BOUNDED-METADATA-COMPARISON-GATE",
-      "notes": "Part of GitHub pipeline."
+      "next_gate": "NONE",
+      "notes": "Corrected: 61 MD, matches GDrive snapshot. Backup excluded."
     },
     {
       "surface_id": "LOCAL-YWORLD",

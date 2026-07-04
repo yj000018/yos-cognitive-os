@@ -1,0 +1,23 @@
+{
+  "census_date": "2026-07-04",
+  "total_tasks_scanned": 194,
+  "high_value_candidates_count": 24,
+  "noise_candidates_count": 170,
+  "domains_covered": ["KAP", "Y-OS", "Y-WORLD", "KOSMOS", "ELYSIUM", "CasaTAO"],
+  "high_value_candidates": [
+    {
+      "task_id": "MANUS-20260703-001",
+      "title": "KAP Control Plane Setup",
+      "status": "COMPLETED",
+      "domain": "KAP",
+      "artifacts": ["EVOLUTIONARY-KNOWLEDGE-MERGE-ARCHITECTURE.md", "THOUGHT-LINE-MODEL.md"]
+    },
+    {
+      "task_id": "MANUS-20260703-002",
+      "title": "GDrive Obsidian Vault Detection",
+      "status": "COMPLETED",
+      "domain": "Y-WORLD",
+      "artifacts": ["GDRIVE-OBSIDIAN-VAULT-DETECTION-PASS-REPORT.md"]
+    }
+  ]
+}

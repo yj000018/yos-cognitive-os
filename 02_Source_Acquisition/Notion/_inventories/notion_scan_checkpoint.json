@@ -1,42 +1,46 @@
 {
-  "checkpoint_version": "v1.0",
-  "gate": "NOTION-DEEP-STRUCTURE-METADATA-GATE — Y-OS ROOT FIRST",
-  "status": "NOTION_SCAN_CHECKPOINT_METADATA_ONLY_IN_PROGRESS_READY_FOR_GUARDIAN_REVIEW",
+  "checkpoint_version": "v2.0",
+  "gate": "NOTION-DEEP-STRUCTURE-METADATA-GATE — Y-OS ROOT CONTINUATION",
+  "status": "NOTION_SCAN_CHECKPOINT_METADATA_ONLY_COMPLETED_READY_FOR_GUARDIAN_REVIEW",
   "scan_mode": "metadata_only",
-  "partial": true,
-  "checkpoint_date": "2026-07-03",
+  "partial": false,
+  "checkpoint_date": "2026-07-04",
   "root": {
     "id": "39135e21-8cf8-8092-8d5c-f4c2e0b680ae",
     "title": "- Y-OS ROOT -",
     "type": "page"
   },
   "metrics": {
-    "nodes_visited": 53,
-    "max_depth_reached": 7,
-    "pages_discovered": 47,
-    "databases_discovered": 6,
+    "nodes_visited": 699,
+    "max_depth_reached": 8,
+    "pages_discovered": 653,
+    "databases_discovered": 46,
     "archived": 0,
     "inaccessible": 0,
     "duplicate_titles": 2,
     "l2_branches_total": 16,
-    "l2_branches_scanned": 2,
-    "l2_branches_pending": 14
+    "l2_branches_scanned": 16,
+    "l2_branches_pending": 0
   },
   "scanned_branches": [
-    {"branch": "Y-OS ROOT", "depth": 1, "status": "complete"},
-    {"branch": "Y-OS TEAM", "depth": 2, "status": "entered_children_pending"},
-    {"branch": "GOVERNANCE", "depth": "2-5", "status": "complete"},
-    {"branch": "ARCHITECTURE", "depth": "2-7", "status": "in_progress_active_at_checkpoint"}
+    {"branch": "Y-OS TEAM", "descendants": 0, "databases": 0, "max_depth": 2},
+    {"branch": "GOVERNANCE", "descendants": 117, "databases": 9, "max_depth": 8},
+    {"branch": "ARCHITECTURE", "descendants": 143, "databases": 1, "max_depth": 4},
+    {"branch": "MEMORY MGMT", "descendants": 23, "databases": 9, "max_depth": 4},
+    {"branch": "CAR — Cognitive & Agent Router", "descendants": 4, "databases": 0, "max_depth": 4},
+    {"branch": "ART", "descendants": 1, "databases": 0, "max_depth": 3},
+    {"branch": "CRT", "descendants": 1, "databases": 0, "max_depth": 3},
+    {"branch": "YOS CLIENTS", "descendants": 25, "databases": 0, "max_depth": 5},
+    {"branch": "YMD", "descendants": 3, "databases": 0, "max_depth": 3},
+    {"branch": "AI CHAT BACKUPS", "descendants": 97, "databases": 22, "max_depth": 7},
+    {"branch": "Artifacts", "descendants": 8, "databases": 0, "max_depth": 3},
+    {"branch": "PACKAGES", "descendants": 177, "databases": 0, "max_depth": 7},
+    {"branch": "YOS Archives", "descendants": 0, "databases": 0, "max_depth": 2},
+    {"branch": "MISC YOS", "descendants": 18, "databases": 0, "max_depth": 4},
+    {"branch": "Y-OS — conçu et inspiré par Y", "descendants": 49, "databases": 2, "max_depth": 4},
+    {"branch": "🧠 yOS — Cognitive Operating System", "descendants": 16, "databases": 2, "max_depth": 4}
   ],
-  "active_branch_at_checkpoint": "ARCHITECTURE → Y-OS Multi-Agents Hub → TECH → Registre Connecteurs Manus → factsheets (d=7)",
-  "databases_discovered": [
-    {"title": "Y World — Node Registry", "rows": 30, "depth": 5, "parent": "Y World — Ontology Hub", "flag": null},
-    {"title": "Y World — Relationship Map", "rows": 55, "depth": 5, "parent": "Y World — Ontology Hub", "flag": null},
-    {"title": "Y World — Merge Map", "rows": 34, "depth": 5, "parent": "Y World — Ontology Hub", "flag": null},
-    {"title": "Y World — Quarantine", "rows": 6, "depth": 5, "parent": "Y World — Ontology Hub", "flag": null},
-    {"title": "Y World — Archive / Deprecated", "rows": 10, "depth": 5, "parent": "Y World — Ontology Hub", "flag": null},
-    {"title": "Y World — Node Registry", "rows": 0, "depth": 5, "parent": "Y World — Ontology Hub", "flag": "DUPLICATE_TITLE_POSSIBLE_STAGING_SPLIT"}
-  ],
+  "active_branch_at_checkpoint": "NONE (Scan Complete)",
   "flags": [
     {
       "type": "DUPLICATE_TITLE",
@@ -72,10 +76,6 @@
     "notion_mutation": false,
     "secrets_captured": false
   },
-  "pending_l2_branches": [
-    "MEMORY MGMT",
-    "CAR — Cognitive & Agent Router",
-    "and 12 others (not yet reached)"
-  ],
-  "recommendation": "Pause expansion. Guardian review required before continuing to remaining 14 L2 branches or expanding to other ROOT workspaces."
+  "pending_l2_branches": [],
+  "recommendation": "Y-OS ROOT metadata scan complete. Ready for Guardian review to authorize targeted deep dives or cross-reference with Y-WORLD GitHub repo."
 }

@@ -1,0 +1,15 @@
+{
+  "files_reviewed": 6,
+  "recommendations": {
+    "use_gdrive": [
+      "01_Cockpit/Weekly Review Surface.md"
+    ],
+    "keep_github": [
+      "01_Cockpit/HOME.md",
+      "02_Maps/Y-WORLD ROOT MAP.md",
+      "03_Dashboards/Y-WORLD Dashboard.md",
+      "07_Agent_Operations/Manus Task Queue.md",
+      "50_Projects/Projects Log.md"
+    ]
+  }
+}

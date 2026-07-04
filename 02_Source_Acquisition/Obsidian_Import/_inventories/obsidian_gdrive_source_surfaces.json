@@ -1,0 +1,47 @@
+{
+  "inventory_type": "obsidian_gdrive_source_surfaces",
+  "timestamp": "2026-07-03T22:36:00Z",
+  "source_surfaces": [
+    {
+      "surface_id": "SO-OBS-GD-001",
+      "name": "Obsidian Vault",
+      "type": "Vault",
+      "location": "APPS FOLDERS",
+      "status": "PENDING_INGESTION"
+    },
+    {
+      "surface_id": "SO-OBS-GD-002",
+      "name": "Obsidian Vault 2",
+      "type": "Vault",
+      "location": "APPS FOLDERS",
+      "status": "PENDING_INGESTION"
+    },
+    {
+      "surface_id": "SO-OBS-GD-003",
+      "name": "Y-WORLD",
+      "type": "Vault",
+      "location": "Y-WORLD",
+      "status": "LIVE_SYSTEM"
+    }
+  ],
+  "backups": [
+    {
+      "name": "vault_sync.zip",
+      "type": "Backup",
+      "location": "Downloads",
+      "status": "PENDING_REVIEW"
+    },
+    {
+      "name": "ludivine_vault_sync.zip",
+      "type": "Backup",
+      "location": "Downloads",
+      "status": "DISCOVERED_NOT_AUTHORIZED"
+    }
+  ],
+  "excluded_surfaces": [
+    "01_Y_OS_CORE",
+    "Y-OS",
+    "yOS",
+    "60_Y-OS"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "gate": "YWORLD-GITHUB-CANONICAL-MERGE-PLAN-GATE",
+  "status": "YWORLD_GITHUB_CANONICAL_MERGE_PLAN_PASS_READY_FOR_GUARDIAN_DECISION",
+  "canonical_candidate": "GITHUB-YWORLD",
+  "delta_resolution": {
+    "gdrive_overwrites_github": [
+      "01_Cockpit/Weekly Review Surface.md"
+    ],
+    "github_kept": [
+      "01_Cockpit/HOME.md",
+      "02_Maps/Y-WORLD ROOT MAP.md",
+      "03_Dashboards/Y-WORLD Dashboard.md",
+      "07_Agent_Operations/Manus Task Queue.md",
+      "50_Projects/Projects Log.md"
+    ]
+  },
+  "icloud_integration": [
+    {
+      "source": "yos_memory_blueprint.md",
+      "target_path": "60_Y-OS/yos_memory_blueprint.md"
+    },
+    {
+      "source": "Tool Intelligence Layer.md",
+      "target_path": "60_Y-OS/Tool Intelligence Layer.md"
+    },
+    {
+      "source": "Excalidraw/ExcaliBrain Snapshot - Tool Intelligence Layer.excalidraw.md",
+      "target_path": "60_Y-OS/Excalidraw/ExcaliBrain Snapshot - Tool Intelligence Layer.excalidraw.md"
+    }
+  ]
+}

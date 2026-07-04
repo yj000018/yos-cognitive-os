@@ -1,5 +1,8 @@
 # Obsidian / Markdown Final Source-Surface Map
 
+**Last Updated:** 2026-07-04 (Overnight Batch — Registry Correction Patch v3)
+**Correction:** GDrive Y-WORLD count corrected to 61 MD (not 235 or >100). GitHub Y-WORLD = 234 MD = canonical candidate.
+
 ## 1. Final OBS / MD Source-Surface Map
 
 | Surface ID | Alias | Storage | Type | Known MD Count | Known Folder Count | `.obsidian` | `.git` | Class | Status | Pipeline | Authorization |
