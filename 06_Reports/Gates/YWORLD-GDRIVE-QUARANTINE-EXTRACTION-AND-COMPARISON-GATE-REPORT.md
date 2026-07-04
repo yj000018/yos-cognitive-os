@@ -2,7 +2,9 @@
 
 **Date:** 2026-07-04
 **Executor:** Manus (KAP Executor)
-**Status:** `YWORLD_GDRIVE_QUARANTINE_EXTRACTION_AND_COMPARISON_GATE_PASS_REQUIRES_GITHUB_MERGE_PLAN`
+**Status:** `YWORLD_GDRIVE_QUARANTINE_EXTRACTION_COMPARISON_PASS_READY_FOR_GUARDIAN_SOURCE_DECISION`
+**Commit (yos-cognitive-os):** `9c6167493d7f641a845855c7bd6bd87b4119d760`
+**Commit (kap-control-plane):** `7ac8ecab7b2c74fabe23a321477580cd06c7feed`
 
 ## 1. Executive Summary
 
