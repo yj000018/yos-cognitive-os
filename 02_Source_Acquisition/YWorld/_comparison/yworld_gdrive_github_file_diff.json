@@ -1,0 +1,1449 @@
+{
+  "gdrive_md_count": 61,
+  "github_md_count": 234,
+  "icloud_retained_count": 17,
+  "in_both": 61,
+  "gdrive_only_count": 0,
+  "github_only_count": 173,
+  "gdrive_only_files": [],
+  "github_only_files": [
+    "00_System/Obsidian Walkthrough.md",
+    "10_Inbox.md",
+    "10_Inbox/2026-05-28.md",
+    "10_Inbox/2026-05-29.md",
+    "10_Inbox/Untitled 1.md",
+    "10_Inbox/Untitled 2.md",
+    "10_Inbox/Untitled.md",
+    "10_Inbox/Y-Publishing Book 1.md",
+    "10_Inbox/Y-World PoC Validation Node.md",
+    "20_Life/Annual Retreat Protocol.md",
+    "20_Life/Cold Exposure Protocol.md",
+    "20_Life/Crypto Portfolio.md",
+    "20_Life/Digital Detox Protocol.md",
+    "20_Life/Fasting Protocol.md",
+    "20_Life/Financial Architecture.md",
+    "20_Life/Health Protocol.md",
+    "20_Life/Language Practice.md",
+    "20_Life/Morning Ritual.md",
+    "20_Life/Physical Training.md",
+    "20_Life/Reading Practice.md",
+    "20_Life/Real Estate Portfolio.md",
+    "20_Life/Sicily Residency & Living.md",
+    "20_Life/Sleep Protocol.md",
+    "20_Life/Swiss Chalet Living.md",
+    "20_Life/Travel Protocol.md",
+    "30_Knowledge/ARC Anandaz.md",
+    "30_Knowledge/Antifragile.md",
+    "30_Knowledge/Carl Jung.md",
+    "30_Knowledge/CasaTAO.md",
+    "30_Knowledge/Daniel Kahneman.md",
+    "30_Knowledge/Docker.md",
+    "30_Knowledge/Dune.md",
+    "30_Knowledge/ESP32-S3.md",
+    "30_Knowledge/Frank Herbert.md",
+    "30_Knowledge/James Davidson.md",
+    "30_Knowledge/Lao Tzu.md",
+    "30_Knowledge/MQTT Protocol.md",
+    "30_Knowledge/Mermaid Diagrams.md",
+    "30_Knowledge/Nassim Taleb.md",
+    "30_Knowledge/Notion.md",
+    "30_Knowledge/Obsidian.md",
+    "30_Knowledge/Ollama Local LLM.md",
+    "30_Knowledge/Proxmox.md",
+    "30_Knowledge/Pylontech Batteries.md",
+    "30_Knowledge/Python.md",
+    "30_Knowledge/Raspberry Pi 5.md",
+    "30_Knowledge/React Framework.md",
+    "30_Knowledge/Sapiens.md",
+    "30_Knowledge/Shelly Devices.md",
+    "30_Knowledge/TailwindCSS.md",
+    "30_Knowledge/Tao Te Ching.md",
+    "30_Knowledge/The Art of War.md",
+    "30_Knowledge/The Sovereign Individual.md",
+    "30_Knowledge/Thinking Fast and Slow.md",
+    "30_Knowledge/TypeScript.md",
+    "30_Knowledge/Victron Energy.md",
+    "30_Knowledge/Yannick Jolliet.md",
+    "30_Knowledge/Yuval Noah Harari.md",
+    "40_K-Cards/Anandaz Philosophy.md",
+    "40_K-Cards/Archetypes System.md",
+    "40_K-Cards/CRT Model Routing.md",
+    "40_K-Cards/Coral Edge TPU.md",
+    "40_K-Cards/Frigate NVR.md",
+    "40_K-Cards/Notion Memory Hub.md",
+    "40_K-Cards/Obsidian \u2014 Mermaid + Wikilinks incompatibility.md",
+    "40_K-Cards/Sovereign Living.md",
+    "40_K-Cards/Y-OS Architecture.md",
+    "40_K-Cards/n8n Cognitive Automation.md",
+    "50_Projects/Project - ARC Anandaz Smart Heating.md",
+    "50_Projects/Project - Archetypes App v1.md",
+    "50_Projects/Project - CasaTAO Solar Upgrade.md",
+    "50_Projects/Project - Obsidian Git Setup.md",
+    "50_Projects/Project - Y-Publishing Book 1.md",
+    "50_Projects/Project - Y-WORLD.net.md",
+    "60_Y-OS.md",
+    "60_Y-OS/Backup Protocol.md",
+    "60_Y-OS/Cloudflare Tunnel.md",
+    "60_Y-OS/Context Injector.md",
+    "60_Y-OS/Cost Optimizer.md",
+    "60_Y-OS/GitHub Repo Y-WORLD.md",
+    "60_Y-OS/Home Assistant ARC.md",
+    "60_Y-OS/Home Assistant CasaTAO.md",
+    "60_Y-OS/Linear Integration.md",
+    "60_Y-OS/Manus API.md",
+    "60_Y-OS/Mem0 Sync.md",
+    "60_Y-OS/Memory Router.md",
+    "60_Y-OS/Prompt Optimizer.md",
+    "60_Y-OS/Security Checklist.md",
+    "60_Y-OS/Sentry Monitoring.md",
+    "60_Y-OS/Session Synthesizer.md",
+    "60_Y-OS/Slack Integration.md",
+    "60_Y-OS/Starlink Node.md",
+    "60_Y-OS/Supabase DB.md",
+    "60_Y-OS/Tool Router.md",
+    "60_Y-OS/Upstash Redis.md",
+    "60_Y-OS/Vercel Deploy.md",
+    "60_Y-OS/Wrike Integration.md",
+    "60_Y-OS/Y-OS Roadmap.md",
+    "60_Y-OS/Zapier Bridge.md",
+    "60_Y-OS/pfSense Router.md",
+    "70_CasaTAO/CasaTAO Cameras.md",
+    "70_CasaTAO/CasaTAO Energy System.md",
+    "70_CasaTAO/CasaTAO Garden.md",
+    "70_CasaTAO/CasaTAO Inverter.md",
+    "70_CasaTAO/CasaTAO Kitchen.md",
+    "70_CasaTAO/CasaTAO MiniPC.md",
+    "70_CasaTAO/CasaTAO NAS.md",
+    "70_CasaTAO/CasaTAO Network.md",
+    "70_CasaTAO/CasaTAO Starlink Dish.md",
+    "70_CasaTAO/CasaTAO Studio.md",
+    "70_CasaTAO/CasaTAO Terrace.md",
+    "70_CasaTAO/CasaTAO Water System.md",
+    "71_ARC_Anandaz/ARC Cameras.md",
+    "71_ARC_Anandaz/ARC Guest Room.md",
+    "71_ARC_Anandaz/ARC Heating System.md",
+    "71_ARC_Anandaz/ARC Library.md",
+    "71_ARC_Anandaz/ARC Local Server.md",
+    "71_ARC_Anandaz/ARC Meditation Space.md",
+    "71_ARC_Anandaz/ARC Reading Nook.md",
+    "71_ARC_Anandaz/ARC Sauna.md",
+    "71_ARC_Anandaz/ARC Starlink Dish.md",
+    "71_ARC_Anandaz/ARC Terrace Alpine.md",
+    "71_ARC_Anandaz/ARC Wood Stove.md",
+    "71_ARC_Anandaz/ARC Workshop.md",
+    "80_Archetypes/Archetypes App.md",
+    "80_Archetypes/Egyptian Tradition.md",
+    "80_Archetypes/Norse Tradition.md",
+    "80_Archetypes/Taoist Tradition.md",
+    "80_Archetypes/The Alchemist Archetype.md",
+    "80_Archetypes/The Architect Archetype.md",
+    "80_Archetypes/The Forge Archetype.md",
+    "80_Archetypes/The Guardian Archetype.md",
+    "80_Archetypes/The Hermit Archetype.md",
+    "80_Archetypes/The Oracle Archetype.md",
+    "80_Archetypes/The Scribe Archetype.md",
+    "80_Archetypes/The Trickster Archetype.md",
+    "80_Archetypes/The Wanderer Archetype.md",
+    "81_Y-Publishing/Audiobook Production.md",
+    "81_Y-Publishing/Book 1 \u2014 Chapter 1 Notes.md",
+    "81_Y-Publishing/Book 1 \u2014 Chapter 2 Notes.md",
+    "81_Y-Publishing/Book 1 \u2014 Chapter 3 Notes.md",
+    "81_Y-Publishing/Book 1 \u2014 Cover Design.md",
+    "81_Y-Publishing/Editorial Calendar.md",
+    "81_Y-Publishing/Newsletter YOS.md",
+    "81_Y-Publishing/Podcast YOS.md",
+    "81_Y-Publishing/Research Database.md",
+    "81_Y-Publishing/Social Strategy.md",
+    "81_Y-Publishing/Y-Publishing Brand.md",
+    "81_Y-Publishing/Y-Publishing Landing Page.md",
+    "90_Reality_Interfaces/AI Systems/Canva AI.md",
+    "90_Reality_Interfaces/AI Systems/Claude Sonnet.md",
+    "90_Reality_Interfaces/AI Systems/ElevenLabs TTS.md",
+    "90_Reality_Interfaces/AI Systems/Firecrawl.md",
+    "90_Reality_Interfaces/AI Systems/Flux Image Gen.md",
+    "90_Reality_Interfaces/AI Systems/GPT-5.md",
+    "90_Reality_Interfaces/AI Systems/Gemini Flash.md",
+    "90_Reality_Interfaces/AI Systems/Grok xAI.md",
+    "90_Reality_Interfaces/AI Systems/HeyGen Avatars.md",
+    "90_Reality_Interfaces/AI Systems/Hume TTS.md",
+    "90_Reality_Interfaces/AI Systems/Llama 3.1.md",
+    "90_Reality_Interfaces/AI Systems/MiniMax Video.md",
+    "90_Reality_Interfaces/AI Systems/Mistral 7B.md",
+    "90_Reality_Interfaces/AI Systems/Perplexity Sonar.md",
+    "90_Reality_Interfaces/AI Systems/Replicate API.md",
+    "90_Reality_Interfaces/AI Systems/Whisper STT.md",
+    "90_Reality_Interfaces/Dashboard TV Mode.md",
+    "90_Reality_Interfaces/GitHub Public Profile.md",
+    "90_Reality_Interfaces/Notion Public Pages.md",
+    "90_Reality_Interfaces/Obsidian Mobile.md",
+    "90_Reality_Interfaces/Telegram Bot YOS.md",
+    "90_Reality_Interfaces/Voice Interface YOS.md",
+    "90_Reality_Interfaces/Y-WORLD iOS App.md",
+    "90_Reality_Interfaces/Y-WORLD.net.md"
+  ],
+  "size_differences_count": 6,
+  "size_differences": [
+    {
+      "path": "01_Cockpit/HOME.md",
+      "gdrive_size": 1852,
+      "github_size": 2328,
+      "delta": -476
+    },
+    {
+      "path": "01_Cockpit/Weekly Review Surface.md",
+      "gdrive_size": 703,
+      "github_size": 297,
+      "delta": 406
+    },
+    {
+      "path": "02_Maps/Y-WORLD ROOT MAP.md",
+      "gdrive_size": 1004,
+      "github_size": 2061,
+      "delta": -1057
+    },
+    {
+      "path": "03_Dashboards/Y-WORLD Dashboard.md",
+      "gdrive_size": 674,
+      "github_size": 1568,
+      "delta": -894
+    },
+    {
+      "path": "07_Agent_Operations/Manus Task Queue.md",
+      "gdrive_size": 641,
+      "github_size": 656,
+      "delta": -15
+    },
+    {
+      "path": "50_Projects/Projects Log.md",
+      "gdrive_size": 262,
+      "github_size": 903,
+      "delta": -641
+    }
+  ],
+  "gdrive_top_folders": [
+    "00_System",
+    "01_Cockpit",
+    "02_Maps",
+    "03_Dashboards",
+    "04_Templates",
+    "05_Registries",
+    "06_Workflows",
+    "07_Agent_Operations",
+    "20_Life",
+    "30_Knowledge",
+    "50_Projects",
+    "60_Y-OS",
+    "70_CasaTAO",
+    "71_ARC_Anandaz",
+    "80_Archetypes",
+    "81_Y-Publishing",
+    "90_Reality_Interfaces"
+  ],
+  "github_top_folders": [
+    "00_System",
+    "01_Cockpit",
+    "02_Maps",
+    "03_Dashboards",
+    "04_Templates",
+    "05_Registries",
+    "06_Workflows",
+    "07_Agent_Operations",
+    "10_Inbox",
+    "10_Inbox.md",
+    "20_Life",
+    "30_Knowledge",
+    "40_K-Cards",
+    "50_Projects",
+    "60_Y-OS",
+    "60_Y-OS.md",
+    "70_CasaTAO",
+    "71_ARC_Anandaz",
+    "80_Archetypes",
+    "81_Y-Publishing",
+    "90_Reality_Interfaces"
+  ],
+  "gdrive_files": {
+    "00_System/Automation Safety Rules.md": {
+      "size": 1337,
+      "sha256": "2d3fbb97e11723a2"
+    },
+    "00_System/Manus Operations.md": {
+      "size": 1238,
+      "sha256": "0d725e88a993f697"
+    },
+    "00_System/Metadata Schema.md": {
+      "size": 2034,
+      "sha256": "e1fb5369ed139304"
+    },
+    "00_System/Naming Conventions.md": {
+      "size": 1207,
+      "sha256": "874c86806e751528"
+    },
+    "00_System/Obsidian OS Cockpit.md": {
+      "size": 1514,
+      "sha256": "0af8be6d14c5abde"
+    },
+    "00_System/Plugin Registry.md": {
+      "size": 3548,
+      "sha256": "97952d330541c4d2"
+    },
+    "00_System/Profile Strategy.md": {
+      "size": 2121,
+      "sha256": "c49e86ecea4c78b3"
+    },
+    "00_System/Workspace Strategy.md": {
+      "size": 2087,
+      "sha256": "c02738e72912f8ec"
+    },
+    "00_System/Y-WORLD Architecture.md": {
+      "size": 2831,
+      "sha256": "2ade36b7699e8dff"
+    },
+    "00_System/Y-WORLD Operating Principles.md": {
+      "size": 1569,
+      "sha256": "d9c8e052ba4b2daf"
+    },
+    "01_Cockpit/Daily Operating Surface.md": {
+      "size": 606,
+      "sha256": "e4d66f5372cd4577"
+    },
+    "01_Cockpit/HOME.md": {
+      "size": 1852,
+      "sha256": "ec9a1e0943499666"
+    },
+    "01_Cockpit/Manus Control Surface.md": {
+      "size": 916,
+      "sha256": "098b8e99a4bab112"
+    },
+    "01_Cockpit/Weekly Review Surface.md": {
+      "size": 703,
+      "sha256": "67f36bbd905ef6fa"
+    },
+    "01_Cockpit/Y-WORLD Command Center.md": {
+      "size": 766,
+      "sha256": "c619aaabd9f1f8f1"
+    },
+    "02_Maps/AI SYSTEMS MAP.md": {
+      "size": 262,
+      "sha256": "49b59649211e235f"
+    },
+    "02_Maps/ARC ANANDAZ MAP.md": {
+      "size": 265,
+      "sha256": "731dfe03b67b815f"
+    },
+    "02_Maps/ARCHETYPES MAP.md": {
+      "size": 262,
+      "sha256": "986520f840af31e8"
+    },
+    "02_Maps/CASATAO MAP.md": {
+      "size": 253,
+      "sha256": "5d08c5aba405c615"
+    },
+    "02_Maps/KNOWLEDGE MAP.md": {
+      "size": 259,
+      "sha256": "bedc5b06ff233fd0"
+    },
+    "02_Maps/LIFE MAP.md": {
+      "size": 244,
+      "sha256": "e5ecf144d0743b3b"
+    },
+    "02_Maps/PROJECTS MAP.md": {
+      "size": 256,
+      "sha256": "0218a643bd6bbbef"
+    },
+    "02_Maps/REALITY INTERFACES MAP.md": {
+      "size": 286,
+      "sha256": "b3eaca26ae835d74"
+    },
+    "02_Maps/Y-OS MAP.md": {
+      "size": 244,
+      "sha256": "2037a7af267335e6"
+    },
+    "02_Maps/Y-PUBLISHING MAP.md": {
+      "size": 268,
+      "sha256": "273092b547a275e4"
+    },
+    "02_Maps/Y-WORLD ROOT MAP.md": {
+      "size": 1004,
+      "sha256": "724b389413a7f1fb"
+    },
+    "03_Dashboards/AI Systems Dashboard.md": {
+      "size": 271,
+      "sha256": "75c81d0fa634a6ec"
+    },
+    "03_Dashboards/ARC Anandaz Dashboard.md": {
+      "size": 274,
+      "sha256": "11330435ba1896ff"
+    },
+    "03_Dashboards/Archetypes Dashboard.md": {
+      "size": 271,
+      "sha256": "956a701847f7f677"
+    },
+    "03_Dashboards/CasaTAO Dashboard.md": {
+      "size": 262,
+      "sha256": "26be3b590ef554ea"
+    },
+    "03_Dashboards/Knowledge Dashboard.md": {
+      "size": 268,
+      "sha256": "de4faec5b2a097ae"
+    },
+    "03_Dashboards/Life Dashboard.md": {
+      "size": 253,
+      "sha256": "824419c7be9dd60b"
+    },
+    "03_Dashboards/Manus Dashboard.md": {
+      "size": 256,
+      "sha256": "2a3efe26e9d69f66"
+    },
+    "03_Dashboards/Projects Dashboard.md": {
+      "size": 265,
+      "sha256": "e49a17b5195ecaaa"
+    },
+    "03_Dashboards/Y-OS Dashboard.md": {
+      "size": 563,
+      "sha256": "53aa0d14ba5122ac"
+    },
+    "03_Dashboards/Y-Publishing Dashboard.md": {
+      "size": 277,
+      "sha256": "22f33cee4c23e0a6"
+    },
+    "03_Dashboards/Y-WORLD Dashboard.md": {
+      "size": 674,
+      "sha256": "98b1666dff51387b"
+    },
+    "04_Templates/Template - Agent.md": {
+      "size": 414,
+      "sha256": "23308b4b455aa2e4"
+    },
+    "04_Templates/Template - Daily Note.md": {
+      "size": 338,
+      "sha256": "1b37c6ed0c4dca40"
+    },
+    "04_Templates/Template - Dashboard.md": {
+      "size": 439,
+      "sha256": "be0e28926f93e9bd"
+    },
+    "04_Templates/Template - Decision.md": {
+      "size": 442,
+      "sha256": "208f2809e90397b1"
+    },
+    "04_Templates/Template - K-Card.md": {
+      "size": 621,
+      "sha256": "2e3ad0507af2a96c"
+    },
+    "04_Templates/Template - Map Node.md": {
+      "size": 428,
+      "sha256": "c7e90f1de06e12ef"
+    },
+    "04_Templates/Template - Project.md": {
+      "size": 602,
+      "sha256": "54831c257b712b9a"
+    },
+    "04_Templates/Template - Workflow.md": {
+      "size": 458,
+      "sha256": "8c86b1cf6c2a4acb"
+    },
+    "05_Registries/Tool Registry.md": {
+      "size": 768,
+      "sha256": "47fd0e5e6d43edc6"
+    },
+    "06_Workflows/Workflow Registry.md": {
+      "size": 629,
+      "sha256": "3762569c709fdd3e"
+    },
+    "07_Agent_Operations/Manus Change Log.md": {
+      "size": 847,
+      "sha256": "5683fa2975a3ee9c"
+    },
+    "07_Agent_Operations/Manus Commands.md": {
+      "size": 770,
+      "sha256": "53f00d66213391cb"
+    },
+    "07_Agent_Operations/Manus Operating Manual.md": {
+      "size": 1038,
+      "sha256": "ad5ff3962b775ba8"
+    },
+    "07_Agent_Operations/Manus Safety Checklist.md": {
+      "size": 717,
+      "sha256": "4f5ddc48699a263d"
+    },
+    "07_Agent_Operations/Manus Task Queue.md": {
+      "size": 641,
+      "sha256": "b9ab039c7c47cf45"
+    },
+    "20_Life/Life Log.md": {
+      "size": 251,
+      "sha256": "3b8f42cd047ba3be"
+    },
+    "30_Knowledge/Knowledge Log.md": {
+      "size": 271,
+      "sha256": "c04b2326ee99afdc"
+    },
+    "50_Projects/Projects Log.md": {
+      "size": 262,
+      "sha256": "9bd712989b7bcfc3"
+    },
+    "60_Y-OS/Y-OS Log.md": {
+      "size": 260,
+      "sha256": "eb988b9e8cbd623e"
+    },
+    "70_CasaTAO/CasaTAO Log.md": {
+      "size": 289,
+      "sha256": "8bdb3cdab263dc9d"
+    },
+    "71_ARC_Anandaz/ARC Anandaz Log.md": {
+      "size": 278,
+      "sha256": "e0158b3e7a722877"
+    },
+    "80_Archetypes/Archetypes Log.md": {
+      "size": 280,
+      "sha256": "d387272ca4488e41"
+    },
+    "81_Y-Publishing/Y-Publishing Log.md": {
+      "size": 262,
+      "sha256": "2ec5b77b5d9e1973"
+    },
+    "90_Reality_Interfaces/Y-WORLD.net Vision.md": {
+      "size": 969,
+      "sha256": "b61e5c57620fed10"
+    }
+  },
+  "github_files": {
+    "00_System/Automation Safety Rules.md": {
+      "size": 1337,
+      "sha": "ad2f2e2b75bb0821b2792aad4440dcb8acaecb2d"
+    },
+    "00_System/Manus Operations.md": {
+      "size": 1238,
+      "sha": "2ed8177f50797cb8b7d0f5fcd000b6612734a047"
+    },
+    "00_System/Metadata Schema.md": {
+      "size": 2034,
+      "sha": "8584837437a7441dc6586152755dd6913b9d3115"
+    },
+    "00_System/Naming Conventions.md": {
+      "size": 1207,
+      "sha": "721cf968dc12c11c35f739b6df6fb6b5cba17455"
+    },
+    "00_System/Obsidian OS Cockpit.md": {
+      "size": 1514,
+      "sha": "6e3bd65dacbe8c868cca4dc6c817eb82910f643a"
+    },
+    "00_System/Obsidian Walkthrough.md": {
+      "size": 8356,
+      "sha": "2c182dbe19e79f97885811c39b841304abc2823e"
+    },
+    "00_System/Plugin Registry.md": {
+      "size": 3548,
+      "sha": "ca6b5d1e10e44f519d1d03046070ba9cf3c709b9"
+    },
+    "00_System/Profile Strategy.md": {
+      "size": 2121,
+      "sha": "ef2e52f15ae74d7c142761104db520fdb54393da"
+    },
+    "00_System/Workspace Strategy.md": {
+      "size": 2087,
+      "sha": "1cafe51c98e6ca51c73efcbd018b1086b5417e3a"
+    },
+    "00_System/Y-WORLD Architecture.md": {
+      "size": 2831,
+      "sha": "2200d5b61d57980b7391130a0e014555961f57d9"
+    },
+    "00_System/Y-WORLD Operating Principles.md": {
+      "size": 1569,
+      "sha": "1779d49e1063e18f01ca0a221b6d27a10539426a"
+    },
+    "01_Cockpit/Daily Operating Surface.md": {
+      "size": 606,
+      "sha": "69b36093deb846d65b6028b898efd17e025eeb36"
+    },
+    "01_Cockpit/HOME.md": {
+      "size": 2328,
+      "sha": "177407c02ec3104fb0d7b0fced71fda24f65a870"
+    },
+    "01_Cockpit/Manus Control Surface.md": {
+      "size": 916,
+      "sha": "7bb2d3cb442edebf0dc2c777908b16d136e5348f"
+    },
+    "01_Cockpit/Weekly Review Surface.md": {
+      "size": 297,
+      "sha": "a0a65e760da9ff573c9d941b0b590cbbcd60bb5a"
+    },
+    "01_Cockpit/Y-WORLD Command Center.md": {
+      "size": 766,
+      "sha": "434aaca18dcbf3259dc621935242aaa5ebe222a3"
+    },
+    "02_Maps/AI SYSTEMS MAP.md": {
+      "size": 262,
+      "sha": "267b032ffd23d58265e5994328eedea69c7d9dd4"
+    },
+    "02_Maps/ARC ANANDAZ MAP.md": {
+      "size": 265,
+      "sha": "c229d29ed8ecdabb825d14b5972fa51d05ebc703"
+    },
+    "02_Maps/ARCHETYPES MAP.md": {
+      "size": 262,
+      "sha": "51552dc4d6ab4d98f1b8a6652a11c2d31a3f2748"
+    },
+    "02_Maps/CASATAO MAP.md": {
+      "size": 253,
+      "sha": "20d485a9e8f8cf7c5f0c1e2dcdf5f2da14483ccd"
+    },
+    "02_Maps/KNOWLEDGE MAP.md": {
+      "size": 259,
+      "sha": "9820894b029616293bc405f19a3658bc84177f7f"
+    },
+    "02_Maps/LIFE MAP.md": {
+      "size": 244,
+      "sha": "489b92d10aff3a1940de26473497afc8b2835673"
+    },
+    "02_Maps/PROJECTS MAP.md": {
+      "size": 256,
+      "sha": "8276038aad2ab301811282c227076f4005ceae23"
+    },
+    "02_Maps/REALITY INTERFACES MAP.md": {
+      "size": 286,
+      "sha": "fb94ce3a5aaf5b53004bf4f19a4c584ba1f707cd"
+    },
+    "02_Maps/Y-OS MAP.md": {
+      "size": 244,
+      "sha": "66e0f137c6310d75f8af18e763171f272e24a9ba"
+    },
+    "02_Maps/Y-PUBLISHING MAP.md": {
+      "size": 268,
+      "sha": "f4ccc8e1c1f9a5b841700bbfd709f9cc6379634d"
+    },
+    "02_Maps/Y-WORLD ROOT MAP.md": {
+      "size": 2061,
+      "sha": "e8fa1409526863ed853366eb43555e694aa7978a"
+    },
+    "03_Dashboards/AI Systems Dashboard.md": {
+      "size": 271,
+      "sha": "0c92620d63e02a1520ff0df787525de1f7564ef6"
+    },
+    "03_Dashboards/ARC Anandaz Dashboard.md": {
+      "size": 274,
+      "sha": "0ebb6869320fba4aa325784ac9a58e5200c80825"
+    },
+    "03_Dashboards/Archetypes Dashboard.md": {
+      "size": 271,
+      "sha": "8c224f7156fb3ba0dba3e4a17fba9dd011eae5ce"
+    },
+    "03_Dashboards/CasaTAO Dashboard.md": {
+      "size": 262,
+      "sha": "9fcf883a42ac319d7483fc90a43c6c2bfacfcac7"
+    },
+    "03_Dashboards/Knowledge Dashboard.md": {
+      "size": 268,
+      "sha": "04c740b8a1ee04dbea902ca9d6cded71292756a2"
+    },
+    "03_Dashboards/Life Dashboard.md": {
+      "size": 253,
+      "sha": "e4476cb7740af68481ed7d6a5e74b6144f2c6946"
+    },
+    "03_Dashboards/Manus Dashboard.md": {
+      "size": 256,
+      "sha": "ea6a91864c7bd5cb343629a5517ee02002227579"
+    },
+    "03_Dashboards/Projects Dashboard.md": {
+      "size": 265,
+      "sha": "344fa34d27640c3e3871569f2c3f36228b8fa517"
+    },
+    "03_Dashboards/Y-OS Dashboard.md": {
+      "size": 563,
+      "sha": "a1532d6543c42fa6fdf4f0c982c907eff0f1fb89"
+    },
+    "03_Dashboards/Y-Publishing Dashboard.md": {
+      "size": 277,
+      "sha": "484d6635ddcaf56fd16898b738177f8b3c73e1b9"
+    },
+    "03_Dashboards/Y-WORLD Dashboard.md": {
+      "size": 1568,
+      "sha": "12b0971333bcd9f6df0970687cc109033dcb8e9f"
+    },
+    "04_Templates/Template - Agent.md": {
+      "size": 414,
+      "sha": "cb97099c2004c7ce804a95fb5595758f56a76e4f"
+    },
+    "04_Templates/Template - Daily Note.md": {
+      "size": 338,
+      "sha": "4127bf8671f5d8515aed69978e8e1c6b69f2ad78"
+    },
+    "04_Templates/Template - Dashboard.md": {
+      "size": 439,
+      "sha": "e492a6408b2a64afb1d3647c4dbc9ba9b348343e"
+    },
+    "04_Templates/Template - Decision.md": {
+      "size": 442,
+      "sha": "50b03eb10202704b95ff87d1ff76d339b13e4b26"
+    },
+    "04_Templates/Template - K-Card.md": {
+      "size": 621,
+      "sha": "1a6193f787d746403b80cd218ee562f4e5454d52"
+    },
+    "04_Templates/Template - Map Node.md": {
+      "size": 428,
+      "sha": "cd3cb581d305660eaf223af19aac47fc2e739612"
+    },
+    "04_Templates/Template - Project.md": {
+      "size": 602,
+      "sha": "0d67d4058b9c98833af96104457e6de047266c92"
+    },
+    "04_Templates/Template - Workflow.md": {
+      "size": 458,
+      "sha": "a24e4b1785cc7615fc4719c3884a39e044c8e5ed"
+    },
+    "05_Registries/Tool Registry.md": {
+      "size": 768,
+      "sha": "55adc29468cbbfb359f62584694eab8db956bef3"
+    },
+    "06_Workflows/Workflow Registry.md": {
+      "size": 629,
+      "sha": "c230e88ab8e5676baf1a98353540576f9442b6ec"
+    },
+    "07_Agent_Operations/Manus Change Log.md": {
+      "size": 847,
+      "sha": "01fe81b5854e9fe49b0e5515649364a072dfbaa4"
+    },
+    "07_Agent_Operations/Manus Commands.md": {
+      "size": 770,
+      "sha": "bf489c20d91cbd911475771e96657213c18d1035"
+    },
+    "07_Agent_Operations/Manus Operating Manual.md": {
+      "size": 1038,
+      "sha": "80dc3856506ecd9e9072e3ab90eae87810c9e583"
+    },
+    "07_Agent_Operations/Manus Safety Checklist.md": {
+      "size": 717,
+      "sha": "b1ccc54ecb31ee2a9100c54449980dc8cd95b00d"
+    },
+    "07_Agent_Operations/Manus Task Queue.md": {
+      "size": 656,
+      "sha": "e9010c04e8d352ccdb6d5de58fd306533516f166"
+    },
+    "10_Inbox.md": {
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "10_Inbox/2026-05-28.md": {
+      "size": 311,
+      "sha": "6422cbd3999623d8f726b5e239d9d68592ecbaf5"
+    },
+    "10_Inbox/2026-05-29.md": {
+      "size": 311,
+      "sha": "6422cbd3999623d8f726b5e239d9d68592ecbaf5"
+    },
+    "10_Inbox/Untitled 1.md": {
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "10_Inbox/Untitled 2.md": {
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "10_Inbox/Untitled.md": {
+      "size": 423,
+      "sha": "5134aa5e84e33212ffaefa150e6d3bca91d7b2f7"
+    },
+    "10_Inbox/Y-Publishing Book 1.md": {
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "10_Inbox/Y-World PoC Validation Node.md": {
+      "size": 709,
+      "sha": "1ffc65466cfebdbc59ca41f4f2735cf3f60e1983"
+    },
+    "20_Life/Annual Retreat Protocol.md": {
+      "size": 354,
+      "sha": "a15b1a6033bd8b17ca75078b4fc54fbc7ee126b2"
+    },
+    "20_Life/Cold Exposure Protocol.md": {
+      "size": 336,
+      "sha": "01ed85adda7c959e7e696ed0dcfcb81678839c97"
+    },
+    "20_Life/Crypto Portfolio.md": {
+      "size": 282,
+      "sha": "a65903ee540e78983672dccf1809a98589a4bbc1"
+    },
+    "20_Life/Digital Detox Protocol.md": {
+      "size": 321,
+      "sha": "77fd45942f90f0f580ec1b18a6701b5be92bddc4"
+    },
+    "20_Life/Fasting Protocol.md": {
+      "size": 342,
+      "sha": "8ce7b6616dc3b68eb8dbb913492fdd36954ca6a5"
+    },
+    "20_Life/Financial Architecture.md": {
+      "size": 311,
+      "sha": "4368b05461bee2f73af7f013c7976166beb4f3d5"
+    },
+    "20_Life/Health Protocol.md": {
+      "size": 312,
+      "sha": "9a436b795336709911635298dfd516fdd712f890"
+    },
+    "20_Life/Language Practice.md": {
+      "size": 323,
+      "sha": "d6d6c7239ca7b1ffe185efa38ac3581dec5f0e01"
+    },
+    "20_Life/Life Log.md": {
+      "size": 251,
+      "sha": "35f1a49bd2b0578fb64d51cd8d2e37a85194b12f"
+    },
+    "20_Life/Morning Ritual.md": {
+      "size": 316,
+      "sha": "999ee17977fe2cfaa3afc2f0f6d888bce43c034a"
+    },
+    "20_Life/Physical Training.md": {
+      "size": 279,
+      "sha": "df056d398780d8e81c84358a9c5261042beb4544"
+    },
+    "20_Life/Reading Practice.md": {
+      "size": 330,
+      "sha": "24e33b315212b8b0881830736e52e54065573eda"
+    },
+    "20_Life/Real Estate Portfolio.md": {
+      "size": 296,
+      "sha": "5405578c1e6134fc9c774bb80e02bf447fc0a472"
+    },
+    "20_Life/Sicily Residency & Living.md": {
+      "size": 708,
+      "sha": "19d4e125d90e9c98675985f84e56ae5e6389c51e"
+    },
+    "20_Life/Sleep Protocol.md": {
+      "size": 345,
+      "sha": "db4488f4f2e71ef8d68c17508e4e85cebc1ecc50"
+    },
+    "20_Life/Swiss Chalet Living.md": {
+      "size": 561,
+      "sha": "532dba51e754f1c57bd0ab8b0f8a479184c93005"
+    },
+    "20_Life/Travel Protocol.md": {
+      "size": 252,
+      "sha": "abbaa4c233232e61e5021b6bb4920b706b808186"
+    },
+    "30_Knowledge/ARC Anandaz.md": {
+      "size": 591,
+      "sha": "77482a9999785d612d785d250b4ee5b8ac6e1ab2"
+    },
+    "30_Knowledge/Antifragile.md": {
+      "size": 287,
+      "sha": "9e9e260604553153a601f7c4cdbf964bc12930c6"
+    },
+    "30_Knowledge/Carl Jung.md": {
+      "size": 265,
+      "sha": "e72fa75af2d2bdfcca8730554f07761524d8f426"
+    },
+    "30_Knowledge/CasaTAO.md": {
+      "size": 528,
+      "sha": "ae7d4fe7be1f662a15cb8d447477653c2453bf93"
+    },
+    "30_Knowledge/Daniel Kahneman.md": {
+      "size": 276,
+      "sha": "affe4d42d926e0cffa6a884d51cdf4a04bea94be"
+    },
+    "30_Knowledge/Docker.md": {
+      "size": 225,
+      "sha": "fa9b9b31971dc1ad07607d9d38aac72258410dee"
+    },
+    "30_Knowledge/Dune.md": {
+      "size": 276,
+      "sha": "10c1222cf146f4bf9f44d61cf6787663ff36b783"
+    },
+    "30_Knowledge/ESP32-S3.md": {
+      "size": 335,
+      "sha": "8d11527c44a745d32f8cfffc1dfd58c1c049a668"
+    },
+    "30_Knowledge/Frank Herbert.md": {
+      "size": 259,
+      "sha": "9a807a1efde26e53f18db9df3f75be101b5382c2"
+    },
+    "30_Knowledge/James Davidson.md": {
+      "size": 284,
+      "sha": "c6a32238b1e9d09f63d96750f432632acd284496"
+    },
+    "30_Knowledge/Knowledge Log.md": {
+      "size": 271,
+      "sha": "c19476bf44030e9e29399ff1652e77998b2f3d87"
+    },
+    "30_Knowledge/Lao Tzu.md": {
+      "size": 224,
+      "sha": "c21675f9232694db879b6e19124c895cc8276028"
+    },
+    "30_Knowledge/MQTT Protocol.md": {
+      "size": 330,
+      "sha": "4858d3d41924dbe2d5998377be42a026e377aead"
+    },
+    "30_Knowledge/Mermaid Diagrams.md": {
+      "size": 333,
+      "sha": "1dbaa9a59de1c5fa66bfd9848e91b4e56b1c2003"
+    },
+    "30_Knowledge/Nassim Taleb.md": {
+      "size": 327,
+      "sha": "61361ae1a82cd0ea90b1fe54cfa6395bcfdd180e"
+    },
+    "30_Knowledge/Notion.md": {
+      "size": 241,
+      "sha": "354da7434550c00ec8ec2b218b85227f3b923e61"
+    },
+    "30_Knowledge/Obsidian.md": {
+      "size": 258,
+      "sha": "e027d420588f142e9de6cc5024cad5f2f6a43f42"
+    },
+    "30_Knowledge/Ollama Local LLM.md": {
+      "size": 295,
+      "sha": "ab05a4aea831f65993fd3a4c84763abe824b0ecf"
+    },
+    "30_Knowledge/Proxmox.md": {
+      "size": 228,
+      "sha": "cad015676adf380658f3e7f8c7c4cf60b3b81970"
+    },
+    "30_Knowledge/Pylontech Batteries.md": {
+      "size": 290,
+      "sha": "608f81c6e58cac397c445452775f522c5663d733"
+    },
+    "30_Knowledge/Python.md": {
+      "size": 275,
+      "sha": "d9e5f5805fadec48b7f620066a28c4b92d5b11ce"
+    },
+    "30_Knowledge/Raspberry Pi 5.md": {
+      "size": 282,
+      "sha": "6b26ca757edc55a67eba2be1885eba003c517ddf"
+    },
+    "30_Knowledge/React Framework.md": {
+      "size": 277,
+      "sha": "4c6381b214a4297dcf7339f87a80f6caa7b98e41"
+    },
+    "30_Knowledge/Sapiens.md": {
+      "size": 250,
+      "sha": "7e8a9f70ec01359a94fdd13c15b4679c8a2cf735"
+    },
+    "30_Knowledge/Shelly Devices.md": {
+      "size": 321,
+      "sha": "c3d91902698f84834824f70e069bb9a97ca5a0ad"
+    },
+    "30_Knowledge/TailwindCSS.md": {
+      "size": 253,
+      "sha": "53e7393f68531e794f61b8edf3bbdf6f3d29dca7"
+    },
+    "30_Knowledge/Tao Te Ching.md": {
+      "size": 256,
+      "sha": "cbbacfa65ab864e5821c7a62bfd4ef5d3519906c"
+    },
+    "30_Knowledge/The Art of War.md": {
+      "size": 267,
+      "sha": "32d0fd0252f00917b1c951eea92f8b661915aa53"
+    },
+    "30_Knowledge/The Sovereign Individual.md": {
+      "size": 231,
+      "sha": "5aa9a0d1eb1f04333f5d095ea6c1d951b9b6be58"
+    },
+    "30_Knowledge/Thinking Fast and Slow.md": {
+      "size": 304,
+      "sha": "4427fcb9c5023acf73411c87ed16c6f1fece156a"
+    },
+    "30_Knowledge/TypeScript.md": {
+      "size": 239,
+      "sha": "2219ecdcc8334b2c3d99c69e0d0ba3d112bfa1b4"
+    },
+    "30_Knowledge/Victron Energy.md": {
+      "size": 274,
+      "sha": "90685361d43625610fae46d189eb3ff7200b8e10"
+    },
+    "30_Knowledge/Yannick Jolliet.md": {
+      "size": 678,
+      "sha": "00853269052dad12156f840d4a124318ba21ebf3"
+    },
+    "30_Knowledge/Yuval Noah Harari.md": {
+      "size": 230,
+      "sha": "01a59e0f8d0634a1d973ba66811b3d4c7884bd6f"
+    },
+    "40_K-Cards/Anandaz Philosophy.md": {
+      "size": 1008,
+      "sha": "28f452abca097194c18c64e6c2547327210c56f3"
+    },
+    "40_K-Cards/Archetypes System.md": {
+      "size": 1254,
+      "sha": "3f5df4161bf52e09e6da89ec11b41389ada90947"
+    },
+    "40_K-Cards/CRT Model Routing.md": {
+      "size": 1328,
+      "sha": "bbf8730e1d3009d430b6081c3cad127734af441d"
+    },
+    "40_K-Cards/Coral Edge TPU.md": {
+      "size": 1076,
+      "sha": "d55eecdd7ee073a3347322df6bb7dacb993f9424"
+    },
+    "40_K-Cards/Frigate NVR.md": {
+      "size": 799,
+      "sha": "83c0782148c68b1ee9a1dde63424ab6130184f32"
+    },
+    "40_K-Cards/Notion Memory Hub.md": {
+      "size": 1085,
+      "sha": "5ea4024fc9336dddb6dcbe8a4ab2aa27992582b4"
+    },
+    "40_K-Cards/Obsidian \u2014 Mermaid + Wikilinks incompatibility.md": {
+      "size": 1448,
+      "sha": "6ed7ebd82ebd8f0d1c4cbb5a3892f105554dfeee"
+    },
+    "40_K-Cards/Sovereign Living.md": {
+      "size": 1180,
+      "sha": "37293d52f3dd476144a00a3993f57a5aa00d0efc"
+    },
+    "40_K-Cards/Y-OS Architecture.md": {
+      "size": 1184,
+      "sha": "e5494ce1d7e7ba7c7eb941878be240bb035559f5"
+    },
+    "40_K-Cards/n8n Cognitive Automation.md": {
+      "size": 937,
+      "sha": "28440d55eed1032a33af34c921d7cd25c3752370"
+    },
+    "50_Projects/Project - ARC Anandaz Smart Heating.md": {
+      "size": 911,
+      "sha": "1f2ae059ed714ca63ca899bd2cd9acaeb471c2d6"
+    },
+    "50_Projects/Project - Archetypes App v1.md": {
+      "size": 325,
+      "sha": "325bcc4bdf5ae34e0a0fe3b1b696ed5dfb2b9b17"
+    },
+    "50_Projects/Project - CasaTAO Solar Upgrade.md": {
+      "size": 848,
+      "sha": "c7ff42dd516527d77439f67ae4312661b003396a"
+    },
+    "50_Projects/Project - Obsidian Git Setup.md": {
+      "size": 350,
+      "sha": "fa7de5982b1793cd8cec6949b68827e35c59a9be"
+    },
+    "50_Projects/Project - Y-Publishing Book 1.md": {
+      "size": 814,
+      "sha": "aabc867d94f55690aaf45b0bf57f8c6c0ee1d58f"
+    },
+    "50_Projects/Project - Y-WORLD.net.md": {
+      "size": 337,
+      "sha": "15a891ef0c08ab0417cd091eb568b6dc9986b05b"
+    },
+    "50_Projects/Projects Log.md": {
+      "size": 903,
+      "sha": "8d547df1bdf8761d11a41f8d196f99bf7847a4ec"
+    },
+    "60_Y-OS.md": {
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "60_Y-OS/Backup Protocol.md": {
+      "size": 322,
+      "sha": "047e74b9a249f508b398cb9e4f2c64a4c9790946"
+    },
+    "60_Y-OS/Cloudflare Tunnel.md": {
+      "size": 274,
+      "sha": "b6b642a4b6e89f0f7c310aefafd22476deef48d2"
+    },
+    "60_Y-OS/Context Injector.md": {
+      "size": 246,
+      "sha": "14c040cbe0cd74fd52052a14fd926db5cf76de89"
+    },
+    "60_Y-OS/Cost Optimizer.md": {
+      "size": 270,
+      "sha": "0e475555b303e56c9a501a0593bb5670bb6c0891"
+    },
+    "60_Y-OS/GitHub Repo Y-WORLD.md": {
+      "size": 232,
+      "sha": "305261cbce1b658b6478f6deb00c22179ef59c95"
+    },
+    "60_Y-OS/Home Assistant ARC.md": {
+      "size": 280,
+      "sha": "d9a9f64e60c365a657186f3a646ebd6c074b1dd7"
+    },
+    "60_Y-OS/Home Assistant CasaTAO.md": {
+      "size": 272,
+      "sha": "2696dc6fa38577138844f7162ac166894c9110ed"
+    },
+    "60_Y-OS/Linear Integration.md": {
+      "size": 237,
+      "sha": "c720e7db7236a66bf689f481810218fdf4e14dad"
+    },
+    "60_Y-OS/Manus API.md": {
+      "size": 277,
+      "sha": "2e8378a36c4511bf66a700743b20bfe87dccc44c"
+    },
+    "60_Y-OS/Mem0 Sync.md": {
+      "size": 239,
+      "sha": "17360f547735db110fa8222a633007b29c81708a"
+    },
+    "60_Y-OS/Memory Router.md": {
+      "size": 276,
+      "sha": "8b93713a2c33ecf1e20a720152df947b8613ba19"
+    },
+    "60_Y-OS/Prompt Optimizer.md": {
+      "size": 256,
+      "sha": "04fe9af4a5d3857890414425280e6676494f3dad"
+    },
+    "60_Y-OS/Security Checklist.md": {
+      "size": 291,
+      "sha": "4952be65ae5f5a048ffaa4dc95fdf1a1d136eeef"
+    },
+    "60_Y-OS/Sentry Monitoring.md": {
+      "size": 264,
+      "sha": "79ab090a923e8ce05f339afc72fbdf885a11c6a7"
+    },
+    "60_Y-OS/Session Synthesizer.md": {
+      "size": 291,
+      "sha": "9f4a07cde379b62eebc5abb0f1fb48b134e044c3"
+    },
+    "60_Y-OS/Slack Integration.md": {
+      "size": 235,
+      "sha": "2a2258d35a72e4adefbab39fcede11f0b3da0145"
+    },
+    "60_Y-OS/Starlink Node.md": {
+      "size": 214,
+      "sha": "01d4a9c149b42fedbba13e003f7bac2283cfc367"
+    },
+    "60_Y-OS/Supabase DB.md": {
+      "size": 267,
+      "sha": "7ff0a49404211035cfed3909fe582ad3640e2f93"
+    },
+    "60_Y-OS/Tool Router.md": {
+      "size": 281,
+      "sha": "f7bb3b3581bc84a7701ee8fa180a5f8dc0e80d66"
+    },
+    "60_Y-OS/Upstash Redis.md": {
+      "size": 251,
+      "sha": "a7b4395e56150f5c494a386dcaef1887f1e57501"
+    },
+    "60_Y-OS/Vercel Deploy.md": {
+      "size": 251,
+      "sha": "a7a01f028456b86d0b721cca101558b0c8536586"
+    },
+    "60_Y-OS/Wrike Integration.md": {
+      "size": 251,
+      "sha": "41ae1421d191b2fb5ceda1af458675f454598ba4"
+    },
+    "60_Y-OS/Y-OS Log.md": {
+      "size": 260,
+      "sha": "458cdcf88f6a026cd7565f58c3e3f10180020ca2"
+    },
+    "60_Y-OS/Y-OS Roadmap.md": {
+      "size": 313,
+      "sha": "de55bc8d1e28aa9648def92355a1fa4613802ac6"
+    },
+    "60_Y-OS/Zapier Bridge.md": {
+      "size": 264,
+      "sha": "9372578d4cb6ed2089e2bee854543fce5c397ce2"
+    },
+    "60_Y-OS/pfSense Router.md": {
+      "size": 305,
+      "sha": "a1535b03f4c6fe95d8e7481b0e5cc28afcc41980"
+    },
+    "70_CasaTAO/CasaTAO Cameras.md": {
+      "size": 231,
+      "sha": "2ea7663af4195befedda8e58912f350342b8c284"
+    },
+    "70_CasaTAO/CasaTAO Energy System.md": {
+      "size": 259,
+      "sha": "9cb466757d07d08992b6dd880860b752fdf50ab4"
+    },
+    "70_CasaTAO/CasaTAO Garden.md": {
+      "size": 250,
+      "sha": "03b1f715c3cd4e38b7d933779746ac1acf8adcde"
+    },
+    "70_CasaTAO/CasaTAO Inverter.md": {
+      "size": 288,
+      "sha": "c323159c02dbe21105ae85ddabaf30377ef4c97c"
+    },
+    "70_CasaTAO/CasaTAO Kitchen.md": {
+      "size": 265,
+      "sha": "8e72a817ae26d0d0031f2616b422be8670340cea"
+    },
+    "70_CasaTAO/CasaTAO Log.md": {
+      "size": 289,
+      "sha": "828c88f0d730e2741fe40725f3b08e6deeffe7a3"
+    },
+    "70_CasaTAO/CasaTAO MiniPC.md": {
+      "size": 257,
+      "sha": "91dee27a220d33ca128b0fd6eea4c3d74bc79094"
+    },
+    "70_CasaTAO/CasaTAO NAS.md": {
+      "size": 253,
+      "sha": "54655841c35f273e8194659d62700fc31588b59c"
+    },
+    "70_CasaTAO/CasaTAO Network.md": {
+      "size": 258,
+      "sha": "a3e596759047e8e3e936fa7c0daf2c8cea175b30"
+    },
+    "70_CasaTAO/CasaTAO Starlink Dish.md": {
+      "size": 298,
+      "sha": "2a80c844746d7b2cba0ae2feb8da24a36a5c870c"
+    },
+    "70_CasaTAO/CasaTAO Studio.md": {
+      "size": 251,
+      "sha": "0c73401ff58cdc22b531ff1050fd8bf2bd460e5d"
+    },
+    "70_CasaTAO/CasaTAO Terrace.md": {
+      "size": 302,
+      "sha": "85f50c6d656ca8f41e8f12cde5a92520f5f03a01"
+    },
+    "70_CasaTAO/CasaTAO Water System.md": {
+      "size": 271,
+      "sha": "de11336e1ed9f4946ac9b96f61f67172e1d88bbd"
+    },
+    "71_ARC_Anandaz/ARC Anandaz Log.md": {
+      "size": 278,
+      "sha": "7947c4dd2e1a832a2f07ffa134a515f1a06cc39b"
+    },
+    "71_ARC_Anandaz/ARC Cameras.md": {
+      "size": 227,
+      "sha": "c380566d2495651a0b04ad781469a80cb172530f"
+    },
+    "71_ARC_Anandaz/ARC Guest Room.md": {
+      "size": 253,
+      "sha": "b3d20c700cd775bda448dfe9fd5b8f891007c5a4"
+    },
+    "71_ARC_Anandaz/ARC Heating System.md": {
+      "size": 246,
+      "sha": "4d3a4d26b9c63c47cb7b83db7e12caf3782eca56"
+    },
+    "71_ARC_Anandaz/ARC Library.md": {
+      "size": 256,
+      "sha": "c658880dd399223d8f0cea5e3430297b70b58528"
+    },
+    "71_ARC_Anandaz/ARC Local Server.md": {
+      "size": 312,
+      "sha": "2aee36a5f9eb4cceaa485aa93d69854e6342f098"
+    },
+    "71_ARC_Anandaz/ARC Meditation Space.md": {
+      "size": 246,
+      "sha": "1ec6874eb38d6699797779c93b3d06aaec9d40e3"
+    },
+    "71_ARC_Anandaz/ARC Reading Nook.md": {
+      "size": 293,
+      "sha": "4eb2e7fe16e308719cc1fd6f814ec6382f747acd"
+    },
+    "71_ARC_Anandaz/ARC Sauna.md": {
+      "size": 232,
+      "sha": "a036cabc37d73e67c80da70baabad5dd60333b83"
+    },
+    "71_ARC_Anandaz/ARC Starlink Dish.md": {
+      "size": 231,
+      "sha": "75423c8b3d2ae936f81ca8ba8a8c6ca52ac7a20e"
+    },
+    "71_ARC_Anandaz/ARC Terrace Alpine.md": {
+      "size": 234,
+      "sha": "903f2eee9e0ad874aa9d707d5bab6d05173ef8dc"
+    },
+    "71_ARC_Anandaz/ARC Wood Stove.md": {
+      "size": 267,
+      "sha": "8a2ab78d3b6919b450fe09ba403d208d48074430"
+    },
+    "71_ARC_Anandaz/ARC Workshop.md": {
+      "size": 294,
+      "sha": "64aea0449b06f0bffc1854d36cfae2a2b9ef2509"
+    },
+    "80_Archetypes/Archetypes App.md": {
+      "size": 301,
+      "sha": "49794695357c6d07d1fee23c7f17132de5dcf948"
+    },
+    "80_Archetypes/Archetypes Log.md": {
+      "size": 280,
+      "sha": "20778409a20d865220a8e254658d327359166469"
+    },
+    "80_Archetypes/Egyptian Tradition.md": {
+      "size": 301,
+      "sha": "8bc0326d7d74d168d0e437aec8eb60eacd1aea63"
+    },
+    "80_Archetypes/Norse Tradition.md": {
+      "size": 386,
+      "sha": "9bbd93b916b39bd51cd78f64144978bc17b303b7"
+    },
+    "80_Archetypes/Taoist Tradition.md": {
+      "size": 317,
+      "sha": "71fe43383587e50a937570b78fff68e3f9369275"
+    },
+    "80_Archetypes/The Alchemist Archetype.md": {
+      "size": 372,
+      "sha": "3c53866629914d4c6c844d895b3878715c8a1ed7"
+    },
+    "80_Archetypes/The Architect Archetype.md": {
+      "size": 321,
+      "sha": "ab9b159b6f101a97ea776e9e508d5dbbe3173543"
+    },
+    "80_Archetypes/The Forge Archetype.md": {
+      "size": 344,
+      "sha": "303bd21f603f6dc545080cc589c41ec358f4aebf"
+    },
+    "80_Archetypes/The Guardian Archetype.md": {
+      "size": 355,
+      "sha": "89c513b59d08e040e8a42d967a511f3e2ec4cfb7"
+    },
+    "80_Archetypes/The Hermit Archetype.md": {
+      "size": 332,
+      "sha": "76e4b316e5a58fa15d7575089b06631f0751ecc4"
+    },
+    "80_Archetypes/The Oracle Archetype.md": {
+      "size": 280,
+      "sha": "8eba2100ba3734e202d9d7ce1e57b3753f645e96"
+    },
+    "80_Archetypes/The Scribe Archetype.md": {
+      "size": 365,
+      "sha": "336414a07eba3e7a7758aaedaf64537bfcd0d7a1"
+    },
+    "80_Archetypes/The Trickster Archetype.md": {
+      "size": 352,
+      "sha": "2a8a5ef27eb10de656a7177c2309154071e514a0"
+    },
+    "80_Archetypes/The Wanderer Archetype.md": {
+      "size": 366,
+      "sha": "8fcd7c908a2a3045b21176c7d845d916cb0b7657"
+    },
+    "81_Y-Publishing/Audiobook Production.md": {
+      "size": 264,
+      "sha": "6ae91cedc4fb82ed40af109f10b1036f7c04537d"
+    },
+    "81_Y-Publishing/Book 1 \u2014 Chapter 1 Notes.md": {
+      "size": 325,
+      "sha": "bf272d09a9551d4173e543c9b9dee3f143fd3a1f"
+    },
+    "81_Y-Publishing/Book 1 \u2014 Chapter 2 Notes.md": {
+      "size": 284,
+      "sha": "ecfb28cc2d967893757ec97857d7dd6f5ae32b25"
+    },
+    "81_Y-Publishing/Book 1 \u2014 Chapter 3 Notes.md": {
+      "size": 352,
+      "sha": "5e1a110c76c0e816bf0c2ae57394b67c87c229ad"
+    },
+    "81_Y-Publishing/Book 1 \u2014 Cover Design.md": {
+      "size": 281,
+      "sha": "f9abd200d1792f9e999829735e6c2dda1503e620"
+    },
+    "81_Y-Publishing/Editorial Calendar.md": {
+      "size": 339,
+      "sha": "369ec1ec09cdf1b77889d57963f3c45213d341be"
+    },
+    "81_Y-Publishing/Newsletter YOS.md": {
+      "size": 304,
+      "sha": "8a2e4a27da0dafe23730d47004fbc7e17e8d2917"
+    },
+    "81_Y-Publishing/Podcast YOS.md": {
+      "size": 299,
+      "sha": "3c1e04c578e5bb2142dc9a50f7c10dc6ebf379c8"
+    },
+    "81_Y-Publishing/Research Database.md": {
+      "size": 327,
+      "sha": "fea7e4a30b33f45ba704796e26233239213a258b"
+    },
+    "81_Y-Publishing/Social Strategy.md": {
+      "size": 327,
+      "sha": "85f6a20de5a55074787acb9d2cdb3f996002d49c"
+    },
+    "81_Y-Publishing/Y-Publishing Brand.md": {
+      "size": 267,
+      "sha": "f34b150eab604d19b5ec8cab5233d517ff411948"
+    },
+    "81_Y-Publishing/Y-Publishing Landing Page.md": {
+      "size": 256,
+      "sha": "623ee562dd011c46a5fb864a0dccf51212e9fb26"
+    },
+    "81_Y-Publishing/Y-Publishing Log.md": {
+      "size": 262,
+      "sha": "54262cc217ad85e127d1e4d6f3d83d906f6c77da"
+    },
+    "90_Reality_Interfaces/AI Systems/Canva AI.md": {
+      "size": 231,
+      "sha": "9d8e44ab1f83bf57b63286564994ead7f9c2ab8a"
+    },
+    "90_Reality_Interfaces/AI Systems/Claude Sonnet.md": {
+      "size": 249,
+      "sha": "88eadd5c11530dcb3cfff2db4017f1da85552abc"
+    },
+    "90_Reality_Interfaces/AI Systems/ElevenLabs TTS.md": {
+      "size": 216,
+      "sha": "5cdb2f5b8ba73ef83b947adad4946047c8b80a9c"
+    },
+    "90_Reality_Interfaces/AI Systems/Firecrawl.md": {
+      "size": 267,
+      "sha": "0fe8539d7b9fd25e037aca80c59d7ae73f03b853"
+    },
+    "90_Reality_Interfaces/AI Systems/Flux Image Gen.md": {
+      "size": 269,
+      "sha": "b94b76bc0d29f67329236b74945976c615e422d2"
+    },
+    "90_Reality_Interfaces/AI Systems/GPT-5.md": {
+      "size": 245,
+      "sha": "047f8a16b74512faa876929368a20ac5601baf73"
+    },
+    "90_Reality_Interfaces/AI Systems/Gemini Flash.md": {
+      "size": 236,
+      "sha": "c890ca522f54af6b185803ae8fd24d1cfe3c5b11"
+    },
+    "90_Reality_Interfaces/AI Systems/Grok xAI.md": {
+      "size": 262,
+      "sha": "ae9e05186c35d490472f7904ba4488e422bec184"
+    },
+    "90_Reality_Interfaces/AI Systems/HeyGen Avatars.md": {
+      "size": 255,
+      "sha": "0a68b3897caeb7f3daf2a0f5d99cdd9051efb9a9"
+    },
+    "90_Reality_Interfaces/AI Systems/Hume TTS.md": {
+      "size": 252,
+      "sha": "a7e9327aa69d7a926922ddef5eab965f6fa47460"
+    },
+    "90_Reality_Interfaces/AI Systems/Llama 3.1.md": {
+      "size": 239,
+      "sha": "a7d16e102d7a2ac83a019339dd01fddf2d6bcb63"
+    },
+    "90_Reality_Interfaces/AI Systems/MiniMax Video.md": {
+      "size": 252,
+      "sha": "89599280f8e9d347dc2974c3a1e2d55fc6862943"
+    },
+    "90_Reality_Interfaces/AI Systems/Mistral 7B.md": {
+      "size": 282,
+      "sha": "022006f940785000e5f9972cd684792e4bc85225"
+    },
+    "90_Reality_Interfaces/AI Systems/Perplexity Sonar.md": {
+      "size": 258,
+      "sha": "be8bdc345af55bac167c8c2f1b4fd0ba0de8d87f"
+    },
+    "90_Reality_Interfaces/AI Systems/Replicate API.md": {
+      "size": 266,
+      "sha": "f27b973bba04413f5a2e47245879baab287c6d39"
+    },
+    "90_Reality_Interfaces/AI Systems/Whisper STT.md": {
+      "size": 233,
+      "sha": "7ecdec3906741600d822ac64ad51e7a4c965bbfc"
+    },
+    "90_Reality_Interfaces/Dashboard TV Mode.md": {
+      "size": 377,
+      "sha": "86ee989910e565cd911763e1b56d1d205e0d66ea"
+    },
+    "90_Reality_Interfaces/GitHub Public Profile.md": {
+      "size": 263,
+      "sha": "90b9866eb113f3fdcf2e09b467d686ce8e84537e"
+    },
+    "90_Reality_Interfaces/Notion Public Pages.md": {
+      "size": 335,
+      "sha": "74c5e14a511cde082b0716832402eb6dea32b289"
+    },
+    "90_Reality_Interfaces/Obsidian Mobile.md": {
+      "size": 280,
+      "sha": "b366b0658d88c1fd60934b631196dec471f2f4b0"
+    },
+    "90_Reality_Interfaces/Telegram Bot YOS.md": {
+      "size": 303,
+      "sha": "59d9dda3f3bb12d398f2e27b95c5af733c3fb010"
+    },
+    "90_Reality_Interfaces/Voice Interface YOS.md": {
+      "size": 346,
+      "sha": "4c800218dfed64850a13448ff90ad7250cdd6758"
+    },
+    "90_Reality_Interfaces/Y-WORLD iOS App.md": {
+      "size": 338,
+      "sha": "3feec5875609e27f48f328b8ecf1cfcc75ba3f6b"
+    },
+    "90_Reality_Interfaces/Y-WORLD.net Vision.md": {
+      "size": 969,
+      "sha": "182cf9afd34ac08c10ea5b2761b8c10453096597"
+    },
+    "90_Reality_Interfaces/Y-WORLD.net.md": {
+      "size": 276,
+      "sha": "657465fb576070437f91721f3ebf48a3e426d224"
+    }
+  }
+}
