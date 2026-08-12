@@ -1,0 +1,42 @@
+capability_id: YOS_MEMORY_PRESERVE_SAVE
+status: ACTIVE
+owner: 03_Modules/YOS_Memory
+scope: global
+intent: durable_memory_write
+aliases:
+  - préserve
+  - preserve
+  - save
+  - archive
+  - remember this
+  - capture le delta
+semantics:
+  default_scope: current_delta
+  transcript_dump: false
+  summary_only: false
+  infer_project: true
+  inspect_git_before_write: true
+  amend_existing_first: true
+  preserve_provenance: true
+  preserve_contradiction: true
+  preserve_supersession: true
+stages:
+  - CAPTURE
+  - DISTILL
+  - RECONCILE
+  - PERSIST
+  - VERIFY
+state:
+  recommended_path: .yos/state/preserve.json
+  advance_boundary_only_after_remote_verification: true
+routing:
+  semantic_distillation: ChatGPT_Guardian_Architect
+  project_context: Project_Pilot
+  broad_git_execution: Manus_YOS_Agency
+  code_execution: Codex
+  reconciliation_policy: KAP_KRE_existing_synthesis_policies
+  checkpoint_escalation: key-memory-preserve
+  offline_fallback: yj000018/new-to-be-merged/Git-Recovery-Queue
+receipt:
+  success_requires_verified_remote_sha: true
+  offline_status: "STAGED — NOT COMMITTED"
