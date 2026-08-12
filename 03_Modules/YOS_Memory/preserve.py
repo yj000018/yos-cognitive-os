@@ -31,6 +31,22 @@ def is_preserve_command(text: str) -> bool:
     return folded.startswith("preserve") or folded.startswith("save") or folded.startswith("archive") or folded.startswith("remember this") or folded.startswith("capture le delta") or folded.startswith("capture the delta")
 
 
+def parse_preserve_request(text: str) -> dict[str, object]:
+    if not is_preserve_command(text):
+        raise ValueError("not a Preserve/Save request")
+    folded = _fold(text)
+    checkpoint = any(token in folded for token in ("checkpoint", "handoff", "transfer pack", "point de reprise"))
+    if checkpoint:
+        scope = "checkpoint"
+    elif "decision" in folded:
+        scope = "decision"
+    elif "session" in folded or "tout ce qui est nouveau" in folded:
+        scope = "session"
+    else:
+        scope = "current_delta"
+    return {"requested_scope": scope, "checkpoint": checkpoint}
+
+
 def fingerprint(text: str) -> str:
     return sha256(_fold(text).encode("utf-8")).hexdigest()
 
