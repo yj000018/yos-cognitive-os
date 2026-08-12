@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://y-os.local/schemas/preserve-state.schema.json",
+  "title": "Y-OS Preserve State",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "last_marker": {"type": ["string", "null"]},
+    "last_git_sha": {"type": ["string", "null"]},
+    "last_transaction_id": {"type": ["string", "null"]},
+    "preserved_fingerprints": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "pending_queue_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  },
+  "required": ["last_marker", "last_git_sha", "last_transaction_id", "preserved_fingerprints", "pending_queue_ids"]
+}
