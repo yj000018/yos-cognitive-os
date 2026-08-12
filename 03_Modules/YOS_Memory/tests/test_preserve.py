@@ -72,6 +72,22 @@ class PreserveTests(unittest.TestCase):
         self.assertIsNotNone(tx.offline_queue_package_id)
         self.assertFalse(tx.remote_verified)
 
+    def test_direct_contradiction_is_explicit_and_preserves_history(self):
+        candidate = Candidate("c2", "Do not use design A", topic="routing", target_path="routing.md", relation="contradiction")
+        truth = {"routing.md": GitDocument("routing.md", "Use design A")}
+        tx = plan_preservation([candidate], truth, PreservationState())
+        self.assertEqual(tx.reconciliation["conflicting"], ["c2"])
+        self.assertTrue(tx.amend[0].preserve_history)
+
+    def test_natural_modifiers_parse_decision_scope_and_checkpoint(self):
+        from preserve import parse_preserve_request
+        decisions = parse_preserve_request("préserve seulement les décisions")
+        checkpoint = parse_preserve_request("archive cette étape comme checkpoint")
+        self.assertEqual(decisions["requested_scope"], "decision")
+        self.assertFalse(decisions["checkpoint"])
+        self.assertEqual(checkpoint["requested_scope"], "checkpoint")
+        self.assertTrue(checkpoint["checkpoint"])
+
     def test_boundary_makes_successive_preserves_differential(self):
         state = PreservationState(last_marker="m1", preserved_fingerprints=set())
         first = Candidate("c1", "First durable idea", marker="m2", topic="YOS", proposed_path="first.md")
