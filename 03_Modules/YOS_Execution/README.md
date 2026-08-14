@@ -3,13 +3,13 @@
 CO-002 is an opt-in architecture pilot proving the smallest Canonical Object execution round trip.
 
 ```text
-pack.execution → YARP-compatible pilot envelope → deterministic executor → pack.result + artifact.evidence → ExecutionTrace
+pack.execution → YARP-inspired pilot envelope → deterministic executor → pack.result + artifact.evidence → ExecutionTrace
 ```
 
 ## Authority boundaries
 
 - YARP remains owned by `yj000018/YOS/01_BACKBONE/YARP`.
-- CO-002 reuses YARP v1 envelope identity/correlation conventions only; it does **not** claim that generic `pack.execution` is a canonical YARP v1 `EXECUTE_MP` message.
+- CO-002 reuses YARP v1 identity/correlation conventions as a pilot projection only; the resulting envelope is **not** asserted to be a canonical YARP v1 message.
 - Canonical YARP v1 `EXECUTE_MP` remains Mega-Prompt-specific (`mp_id`, `mp_content`, `mp_mode`, `correlation_id`).
 - EHS remains owner of production execution/result payload semantics; these pilot profiles are projections only.
 - Execution Trace is a derived read model, not a Task Ledger and has no lifecycle authority.
