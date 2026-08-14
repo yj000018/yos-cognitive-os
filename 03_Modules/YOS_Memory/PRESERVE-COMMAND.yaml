@@ -37,6 +37,18 @@ routing:
   reconciliation_policy: KAP_KRE_existing_synthesis_policies
   checkpoint_escalation: key-memory-preserve
   offline_fallback: yj000018/new-to-be-merged/Git-Recovery-Queue
+canonical_object_projection:
+  status: CO-001_PILOT
+  mode: opt_in_additive
+  module: 03_Modules/YOS_Memory/canonical_objects.py
+  profiles:
+    - pack.conversation_delta
+    - event.preservation
+  common_schema: 03_Modules/YOS_Memory/canonical_object.schema.json
+  profile_schema: 03_Modules/YOS_Memory/preserve_canonical_profiles.schema.json
+  transport_identity_separate: true
+  git_io: false
+  conversation_parsing: false
 receipt:
   success_requires_verified_remote_sha: true
   offline_status: "STAGED — NOT COMMITTED"
