@@ -11,7 +11,7 @@ for path in (str(MODULE_DIR), str(MEMORY_DIR)):
     if path not in sys.path:
         sys.path.insert(0, path)
 
-from canonical_execution import ExecutionRequest, build_evidence_object, build_execution_object, build_execution_trace, build_result_object
+from canonical_execution import ExecutionIntegrityError, ExecutionRequest, build_evidence_object, build_execution_object, build_execution_trace, build_result_object
 from test_executor import DeterministicExecutor
 from yarp_adapter import YarpEnvelope, YarpTransportError, build_execution_transport_envelope, retry_envelope
 
@@ -71,6 +71,21 @@ class RoundTripTests(unittest.TestCase):
         execution = build_execution_object(request(), created_by="co-002-test")
         good = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         malformed = YarpEnvelope(**{**good.__dict__, "envelope_id": "bad"})
+        with self.assertRaises(YarpTransportError):
+            self.executor.execute(malformed, execution)
+
+    def test_mutated_canonical_payload_is_rejected_before_execution(self):
+        execution = build_execution_object(request(), created_by="co-002-test")
+        envelope = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        execution.payload["capability"] = "fail"
+        with self.assertRaises(ExecutionIntegrityError):
+            self.executor.execute(envelope, execution)
+
+    def test_envelope_execution_snapshot_must_match_canonical_object(self):
+        execution = build_execution_object(request(), created_by="co-002-test")
+        good = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        tampered_payload = {**good.payload, "execution": {**good.payload["execution"], "capability": "fail"}}
+        malformed = YarpEnvelope(**{**good.__dict__, "payload": tampered_payload})
         with self.assertRaises(YarpTransportError):
             self.executor.execute(malformed, execution)
 
