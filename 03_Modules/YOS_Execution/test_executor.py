@@ -12,11 +12,11 @@ from yarp_adapter import YarpEnvelope, YarpTransportError, validate_yarp_envelop
 class DeterministicExecutor:
     def execute(self, envelope: YarpEnvelope, execution: CanonicalObject) -> ExecutionReceipt:
         validate_yarp_envelope(envelope)
+        verify_canonical_object_integrity(execution)
         if envelope.payload.get("canonical_object_id") != execution.object_id:
             raise YarpTransportError("envelope canonical_object_id does not match execution")
         if envelope.payload.get("execution") != execution.payload:
             raise YarpTransportError("envelope execution snapshot does not match canonical object")
-        verify_canonical_object_integrity(execution)
 
         capability = execution.payload.get("capability")
         inputs = execution.payload.get("input_payload")
