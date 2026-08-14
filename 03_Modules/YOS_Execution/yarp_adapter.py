@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
@@ -76,7 +77,7 @@ def build_execution_transport_envelope(execution: CanonicalObject, *, sender_id:
         attempt_number=attempt_number,
         ttl_seconds=300,
         transport_id="co-002-in-process",
-        payload={"canonical_object_id": execution.object_id, "execution": execution.payload},
+        payload={"canonical_object_id": execution.object_id, "execution": deepcopy(execution.payload)},
     )
     validate_yarp_envelope(envelope)
     return envelope
@@ -98,7 +99,7 @@ def retry_envelope(previous: YarpEnvelope) -> YarpEnvelope:
         attempt_number=number,
         ttl_seconds=previous.ttl_seconds,
         transport_id=previous.transport_id,
-        payload=previous.payload,
+        payload=deepcopy(previous.payload),
     )
     validate_yarp_envelope(envelope)
     return envelope
