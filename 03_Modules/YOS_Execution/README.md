@@ -10,11 +10,15 @@ pack.execution → YARP-compatible pilot envelope → deterministic executor →
 
 - YARP remains owned by `yj000018/YOS/01_BACKBONE/YARP`.
 - CO-002 reuses YARP v1 envelope identity/correlation conventions only; it does **not** claim that generic `pack.execution` is a canonical YARP v1 `EXECUTE_MP` message.
-- Canonical YARP v1 `EXECUTE_MP` remains Mega-Prompt-specific (`mp_id`, `mp_content`, `mp_mode`, `correlation_id`). Generalizing YARP to generic Canonical Objects requires a separate gate in the YARP owner domain.
+- Canonical YARP v1 `EXECUTE_MP` remains Mega-Prompt-specific (`mp_id`, `mp_content`, `mp_mode`, `correlation_id`).
 - EHS remains owner of production execution/result payload semantics; these pilot profiles are projections only.
 - Execution Trace is a derived read model, not a Task Ledger and has no lifecycle authority.
 - The deterministic executor has no external-world authority: no network, shell, browser, Home Assistant, device, provider, or BUS actions.
 - CO-001 Preserve and `YOS_Memory` are consumed read-only.
+
+## Follow-up gate
+
+Generalizing YARP from Mega-Prompt-specific `EXECUTE_MP` semantics to generic Canonical Object transport is explicitly deferred to a separate YARP-owner-domain architecture gate. CO-002 must not silently widen YARP v1.
 
 ## Identity
 
