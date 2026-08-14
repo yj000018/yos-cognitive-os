@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "canonical_object.schema.json",
+  "title": "Y-OS Canonical Object Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["object_id", "object_type", "schema_version", "created_at", "created_by", "provenance", "lineage", "context_refs", "payload", "integrity", "governance", "record_state"],
+  "properties": {
+    "object_id": {"type": "string", "minLength": 1},
+    "object_type": {"type": "string", "minLength": 1},
+    "schema_version": {"type": "string", "const": "1.0"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "created_by": {"type": "string", "minLength": 1},
+    "provenance": {"type": "object"},
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_refs", "derived_from", "transformed_by", "supersedes", "superseded_by", "related_objects"],
+      "properties": {
+        "source_refs": {"type": "array", "items": {"type": "string"}},
+        "derived_from": {"type": "array", "items": {"type": "string"}},
+        "transformed_by": {"type": "array", "items": {"type": "string"}},
+        "supersedes": {"type": "array", "items": {"type": "string"}},
+        "superseded_by": {"type": "array", "items": {"type": "string"}},
+        "related_objects": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "context_refs": {"type": "array", "items": {"type": "string"}},
+    "payload": {"type": "object"},
+    "integrity": {
+      "type": "object",
+      "required": ["content_sha256"],
+      "properties": {"content_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}
+    },
+    "governance": {"type": "object"},
+    "record_state": {"type": "string", "enum": ["draft", "active", "historical", "invalidated"]}
+  }
+}
