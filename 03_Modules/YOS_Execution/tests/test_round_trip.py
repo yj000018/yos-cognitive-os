@@ -13,7 +13,7 @@ for path in (str(MODULE_DIR), str(MEMORY_DIR)):
 
 from canonical_execution import ExecutionRequest, build_evidence_object, build_execution_object, build_execution_trace, build_result_object
 from test_executor import DeterministicExecutor
-from yarp_adapter import YarpEnvelope, YarpTransportError, build_execute_envelope, retry_envelope
+from yarp_adapter import YarpEnvelope, YarpTransportError, build_execution_transport_envelope, retry_envelope
 
 CORRELATION = "YARP-CORR-11111111-1111-4111-8111-111111111111"
 
@@ -28,7 +28,7 @@ class RoundTripTests(unittest.TestCase):
 
     def test_success_round_trip_and_trace(self):
         execution = build_execution_object(request(), created_by="co-002-test")
-        envelope = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        envelope = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         receipt = self.executor.execute(envelope, execution)
         result = build_result_object(execution, receipt, created_by="co-002-test")
         evidence = build_evidence_object(result, receipt, created_by="co-002-test")
@@ -47,7 +47,7 @@ class RoundTripTests(unittest.TestCase):
 
     def test_retry_keeps_one_semantic_execution(self):
         execution = build_execution_object(request(), created_by="co-002-test")
-        first = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        first = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         second = retry_envelope(first)
         receipt = self.executor.execute(second, execution)
         result = build_result_object(execution, receipt, created_by="co-002-test")
@@ -60,7 +60,7 @@ class RoundTripTests(unittest.TestCase):
 
     def test_controlled_execution_failure_becomes_result(self):
         execution = build_execution_object(request("fail", {"message": "boom"}), created_by="co-002-test")
-        envelope = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        envelope = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         receipt = self.executor.execute(envelope, execution)
         result = build_result_object(execution, receipt, created_by="co-002-test")
         self.assertEqual("failure", receipt.outcome)
@@ -69,7 +69,7 @@ class RoundTripTests(unittest.TestCase):
 
     def test_transport_failure_raises_before_domain_execution(self):
         execution = build_execution_object(request(), created_by="co-002-test")
-        good = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        good = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         malformed = YarpEnvelope(**{**good.__dict__, "envelope_id": "bad"})
         with self.assertRaises(YarpTransportError):
             self.executor.execute(malformed, execution)
