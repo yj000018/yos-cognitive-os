@@ -121,6 +121,28 @@ class PreserveProjectionTests(unittest.TestCase):
         )
         self.assertIn("decision-A", obj.lineage.supersedes)
 
+    def test_contradiction_preserves_git_target_in_lineage(self):
+        candidate = Candidate(
+            "c1",
+            "Do not use A",
+            topic="routing",
+            target_path="routing.md",
+            relation="contradiction",
+        )
+        tx = plan_preservation(
+            [candidate],
+            {"routing.md": GitDocument("routing.md", "Use A")},
+            PreservationState(),
+        )
+        obj = build_conversation_delta_object(
+            transaction=tx,
+            candidates=[candidate],
+            created_by="chatgpt",
+            source_refs=("session:42",),
+        )
+        self.assertTrue(obj.payload["mutations"][0]["preserve_history"])
+        self.assertIn("git:routing.md", obj.lineage.related_objects)
+
     def test_offline_event_never_implies_remote_verification(self):
         candidate = Candidate("c1", "Delta", topic="YOS", proposed_path="x.md")
         tx = plan_preservation([candidate], {}, PreservationState(), github_available=False)
