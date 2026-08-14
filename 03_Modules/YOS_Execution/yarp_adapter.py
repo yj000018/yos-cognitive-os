@@ -45,8 +45,15 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def _attempt_id(number: int) -> str:
-    return f"YARP-ATT-{_uuid()}-{number:03d}"
+def _attempt_id(number: int, *, base_uuid: str | None = None) -> str:
+    return f"YARP-ATT-{base_uuid or _uuid()}-{number:03d}"
+
+
+def _attempt_base_uuid(attempt_id: str) -> str:
+    match = re.fullmatch(rf"YARP-ATT-({UUID_RE})-[0-9]{{3}}", attempt_id)
+    if not match:
+        raise YarpTransportError("invalid attempt_id")
+    return match.group(1)
 
 
 def build_execution_transport_envelope(execution: CanonicalObject, *, sender_id: str, receiver_id: str, attempt_number: int = 1, conversation_id: str | None = None) -> YarpEnvelope:
@@ -77,6 +84,7 @@ def build_execution_transport_envelope(execution: CanonicalObject, *, sender_id:
 
 def retry_envelope(previous: YarpEnvelope) -> YarpEnvelope:
     number = previous.attempt_number + 1
+    base_uuid = _attempt_base_uuid(previous.attempt_id)
     envelope = YarpEnvelope(
         yarp_version=previous.yarp_version,
         envelope_id=f"YARP-ENV-{_uuid()}",
@@ -86,7 +94,7 @@ def retry_envelope(previous: YarpEnvelope) -> YarpEnvelope:
         sender_id=previous.sender_id,
         receiver_id=previous.receiver_id,
         sent_at=_now(),
-        attempt_id=_attempt_id(number),
+        attempt_id=_attempt_id(number, base_uuid=base_uuid),
         attempt_number=number,
         ttl_seconds=previous.ttl_seconds,
         transport_id=previous.transport_id,
