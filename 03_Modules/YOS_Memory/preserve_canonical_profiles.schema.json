@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "preserve_canonical_profiles.schema.json",
+  "title": "Y-OS Preserve Canonical Object Profiles",
+  "definitions": {
+    "conversation_delta_payload": {
+      "type": "object",
+      "required": ["transaction_id", "status", "candidate_count", "candidates", "reconciliation", "mutations"],
+      "properties": {
+        "transaction_id": {"type": "string", "minLength": 1},
+        "status": {"type": "string"},
+        "candidate_count": {"type": "integer", "minimum": 0},
+        "candidates": {"type": "array", "items": {"type": "object"}},
+        "reconciliation": {"type": "object"},
+        "mutations": {"type": "array", "items": {"type": "object"}},
+        "final_marker": {"type": ["string", "null"]},
+        "offline_queue_package_id": {"type": ["string", "null"]}
+      }
+    },
+    "preservation_event_payload": {
+      "type": "object",
+      "required": ["transaction_id", "status", "conversation_delta_object_id"],
+      "properties": {
+        "transaction_id": {"type": "string", "minLength": 1},
+        "status": {"type": "string"},
+        "conversation_delta_object_id": {"type": "string", "minLength": 1},
+        "offline_queue_package_id": {"type": ["string", "null"]},
+        "verified_remote_sha": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}
