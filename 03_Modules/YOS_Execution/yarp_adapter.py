@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from copy import deepcopy
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
@@ -12,7 +13,8 @@ UUID_RE = r"[0-9a-f-]{36}"
 ENVELOPE_RE = re.compile(rf"^YARP-ENV-{UUID_RE}$")
 CORRELATION_RE = re.compile(rf"^YARP-CORR-{UUID_RE}$")
 ATTEMPT_RE = re.compile(rf"^YARP-ATT-{UUID_RE}-[0-9]{{3}}$")
-SUPPORTED_MESSAGE_TYPES = {"EXECUTE_MP"}
+PILOT_MESSAGE_TYPE = "CO002_EXECUTION_PILOT"
+SUPPORTED_MESSAGE_TYPES = {PILOT_MESSAGE_TYPE}
 
 
 class YarpTransportError(ValueError):
@@ -44,15 +46,28 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def _attempt_id(number: int) -> str:
-    return f"YARP-ATT-{_uuid()}-{number:03d}"
+def _attempt_id(number: int, *, base_uuid: str | None = None) -> str:
+    return f"YARP-ATT-{base_uuid or _uuid()}-{number:03d}"
 
 
-def build_execute_envelope(execution: CanonicalObject, *, sender_id: str, receiver_id: str, attempt_number: int = 1, conversation_id: str | None = None) -> YarpEnvelope:
+def _attempt_base_uuid(attempt_id: str) -> str:
+    match = re.fullmatch(rf"YARP-ATT-({UUID_RE})-[0-9]{{3}}", attempt_id)
+    if not match:
+        raise YarpTransportError("invalid attempt_id")
+    return match.group(1)
+
+
+def build_execution_transport_envelope(execution: CanonicalObject, *, sender_id: str, receiver_id: str, attempt_number: int = 1, conversation_id: str | None = None) -> YarpEnvelope:
+    """Build a CO-002 pilot envelope using YARP identity/correlation conventions.
+
+    This is deliberately not an EXECUTE_MP message. YARP v1 defines EXECUTE_MP
+    specifically for Mega Prompts, while CO-002 transports a generic canonical
+    pack.execution object. Generalizing YARP message semantics is a later gate.
+    """
     envelope = YarpEnvelope(
-        yarp_version="1.0",
+        yarp_version="1.0-envelope-compatible-pilot",
         envelope_id=f"YARP-ENV-{_uuid()}",
-        message_type="EXECUTE_MP",
+        message_type=PILOT_MESSAGE_TYPE,
         correlation_id=execution.payload["correlation_id"],
         conversation_id=conversation_id,
         sender_id=sender_id,
@@ -62,7 +77,7 @@ def build_execute_envelope(execution: CanonicalObject, *, sender_id: str, receiv
         attempt_number=attempt_number,
         ttl_seconds=300,
         transport_id="co-002-in-process",
-        payload={"canonical_object_id": execution.object_id, "execution": execution.payload},
+        payload={"canonical_object_id": execution.object_id, "execution": deepcopy(execution.payload)},
     )
     validate_yarp_envelope(envelope)
     return envelope
@@ -70,6 +85,7 @@ def build_execute_envelope(execution: CanonicalObject, *, sender_id: str, receiv
 
 def retry_envelope(previous: YarpEnvelope) -> YarpEnvelope:
     number = previous.attempt_number + 1
+    base_uuid = _attempt_base_uuid(previous.attempt_id)
     envelope = YarpEnvelope(
         yarp_version=previous.yarp_version,
         envelope_id=f"YARP-ENV-{_uuid()}",
@@ -79,21 +95,21 @@ def retry_envelope(previous: YarpEnvelope) -> YarpEnvelope:
         sender_id=previous.sender_id,
         receiver_id=previous.receiver_id,
         sent_at=_now(),
-        attempt_id=_attempt_id(number),
+        attempt_id=_attempt_id(number, base_uuid=base_uuid),
         attempt_number=number,
         ttl_seconds=previous.ttl_seconds,
         transport_id=previous.transport_id,
-        payload=previous.payload,
+        payload=deepcopy(previous.payload),
     )
     validate_yarp_envelope(envelope)
     return envelope
 
 
 def validate_yarp_envelope(envelope: YarpEnvelope) -> None:
-    if envelope.yarp_version != "1.0":
-        raise YarpTransportError("unsupported YARP version")
+    if envelope.yarp_version != "1.0-envelope-compatible-pilot":
+        raise YarpTransportError("unsupported CO-002 envelope profile")
     if envelope.message_type not in SUPPORTED_MESSAGE_TYPES:
-        raise YarpTransportError("unsupported message type")
+        raise YarpTransportError("unsupported CO-002 pilot message type")
     if not ENVELOPE_RE.fullmatch(envelope.envelope_id):
         raise YarpTransportError("invalid envelope_id")
     if not CORRELATION_RE.fullmatch(envelope.correlation_id):

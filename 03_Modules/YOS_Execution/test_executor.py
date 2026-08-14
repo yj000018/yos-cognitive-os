@@ -4,7 +4,7 @@ from hashlib import sha256
 from typing import Any
 import json
 
-from canonical_execution import ExecutionReceipt
+from canonical_execution import ExecutionReceipt, verify_canonical_object_integrity
 from canonical_objects import CanonicalObject
 from yarp_adapter import YarpEnvelope, YarpTransportError, validate_yarp_envelope
 
@@ -12,11 +12,20 @@ from yarp_adapter import YarpEnvelope, YarpTransportError, validate_yarp_envelop
 class DeterministicExecutor:
     def execute(self, envelope: YarpEnvelope, execution: CanonicalObject) -> ExecutionReceipt:
         validate_yarp_envelope(envelope)
+        verify_canonical_object_integrity(execution)
         if envelope.payload.get("canonical_object_id") != execution.object_id:
             raise YarpTransportError("envelope canonical_object_id does not match execution")
-        capability = execution.payload["capability"]
-        inputs = execution.payload["input_payload"]
+        if envelope.payload.get("execution") != execution.payload:
+            raise YarpTransportError("envelope execution snapshot does not match canonical object")
+
+        capability = execution.payload.get("capability")
+        inputs = execution.payload.get("input_payload")
+        if not isinstance(inputs, dict):
+            return self._receipt(execution, envelope, None, {"code": "CO002_INVALID_INPUT", "message": "input_payload must be an object"}, "failure")
+
         if capability == "echo":
+            if "value" not in inputs:
+                return self._receipt(execution, envelope, None, {"code": "CO002_INVALID_INPUT", "message": "echo requires value"}, "failure")
             output, error, outcome = {"echo": inputs["value"]}, None, "success"
         elif capability == "add":
             a, b = inputs.get("a"), inputs.get("b")
@@ -29,6 +38,10 @@ class DeterministicExecutor:
             output, error, outcome = None, {"code": "CO002_CONTROLLED_FAILURE", "message": message}, "failure"
         else:
             output, error, outcome = None, {"code": "CO002_UNSUPPORTED_CAPABILITY", "message": str(capability)[:128]}, "failure"
+        return self._receipt(execution, envelope, output, error, outcome)
+
+    @staticmethod
+    def _receipt(execution: CanonicalObject, envelope: YarpEnvelope, output: dict[str, Any] | None, error: dict[str, Any] | None, outcome: str) -> ExecutionReceipt:
         semantic: dict[str, Any] = {
             "execution_object_id": execution.object_id,
             "attempt_id": envelope.attempt_id,

@@ -3,16 +3,22 @@
 CO-002 is an opt-in architecture pilot proving the smallest Canonical Object execution round trip.
 
 ```text
-pack.execution → YARP envelope → deterministic executor → pack.result + artifact.evidence → ExecutionTrace
+pack.execution → YARP-inspired pilot envelope → deterministic executor → pack.result + artifact.evidence → ExecutionTrace
 ```
 
 ## Authority boundaries
 
 - YARP remains owned by `yj000018/YOS/01_BACKBONE/YARP`.
+- CO-002 reuses YARP v1 identity/correlation conventions as a pilot projection only; the resulting envelope is **not** asserted to be a canonical YARP v1 message.
+- Canonical YARP v1 `EXECUTE_MP` remains Mega-Prompt-specific (`mp_id`, `mp_content`, `mp_mode`, `correlation_id`).
 - EHS remains owner of production execution/result payload semantics; these pilot profiles are projections only.
 - Execution Trace is a derived read model, not a Task Ledger and has no lifecycle authority.
 - The deterministic executor has no external-world authority: no network, shell, browser, Home Assistant, device, provider, or BUS actions.
 - CO-001 Preserve and `YOS_Memory` are consumed read-only.
+
+## Follow-up gate
+
+Generalizing YARP from Mega-Prompt-specific `EXECUTE_MP` semantics to generic Canonical Object transport is explicitly deferred to a separate YARP-owner-domain architecture gate. CO-002 must not silently widen YARP v1.
 
 ## Identity
 
@@ -20,7 +26,7 @@ pack.execution → YARP envelope → deterministic executor → pack.result + ar
 
 ## Error boundary
 
-A malformed YARP envelope raises `YarpTransportError` before execution and produces no domain result. An executor-domain failure produces an explicit `pack.result` with `outcome = failure`.
+A malformed CO-002 transport envelope raises `YarpTransportError` before execution and produces no domain result. An executor-domain failure produces an explicit `pack.result` with `outcome = failure`.
 
 ## Rollback
 

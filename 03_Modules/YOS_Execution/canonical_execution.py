@@ -9,6 +9,17 @@ import json
 from canonical_objects import CanonicalLineage, CanonicalObject, SCHEMA_VERSION, content_sha256
 
 
+class ExecutionIntegrityError(ValueError):
+    pass
+
+
+def verify_canonical_object_integrity(obj: CanonicalObject) -> None:
+    expected = obj.integrity.get("content_sha256")
+    actual = content_sha256(obj.payload)
+    if not expected or expected != actual:
+        raise ExecutionIntegrityError(f"canonical object integrity mismatch: {obj.object_id}")
+
+
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 

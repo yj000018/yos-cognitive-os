@@ -11,25 +11,28 @@ for path in (str(MODULE_DIR), str(MEMORY_DIR)):
     if path not in sys.path:
         sys.path.insert(0, path)
 
-from canonical_execution import ExecutionRequest, build_evidence_object, build_execution_object, build_execution_trace, build_result_object
+from canonical_execution import ExecutionIntegrityError, ExecutionRequest, build_evidence_object, build_execution_object, build_execution_trace, build_result_object
 from test_executor import DeterministicExecutor
-from yarp_adapter import YarpEnvelope, YarpTransportError, build_execute_envelope, retry_envelope
+from yarp_adapter import YarpEnvelope, YarpTransportError, build_execution_transport_envelope, retry_envelope
 
 CORRELATION = "YARP-CORR-11111111-1111-4111-8111-111111111111"
 
 
 def request(capability="echo", payload=None):
-    return ExecutionRequest("task-42", "run-7", "trace-9", CORRELATION, capability, payload or {"value": "hello"}, ("execution_receipt",))
+    return ExecutionRequest("task-42", "run-7", "trace-9", CORRELATION, capability, {"value": "hello"} if payload is None else payload, ("execution_receipt",))
 
 
 class RoundTripTests(unittest.TestCase):
     def setUp(self):
         self.executor = DeterministicExecutor()
 
+    def execute(self, req: ExecutionRequest):
+        execution = build_execution_object(req, created_by="co-002-test")
+        envelope = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        return execution, envelope, self.executor.execute(envelope, execution)
+
     def test_success_round_trip_and_trace(self):
-        execution = build_execution_object(request(), created_by="co-002-test")
-        envelope = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
-        receipt = self.executor.execute(envelope, execution)
+        execution, envelope, receipt = self.execute(request())
         result = build_result_object(execution, receipt, created_by="co-002-test")
         evidence = build_evidence_object(result, receipt, created_by="co-002-test")
         trace = build_execution_trace(execution, result, (evidence,), (envelope,))
@@ -47,7 +50,7 @@ class RoundTripTests(unittest.TestCase):
 
     def test_retry_keeps_one_semantic_execution(self):
         execution = build_execution_object(request(), created_by="co-002-test")
-        first = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        first = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         second = retry_envelope(first)
         receipt = self.executor.execute(second, execution)
         result = build_result_object(execution, receipt, created_by="co-002-test")
@@ -59,18 +62,45 @@ class RoundTripTests(unittest.TestCase):
         self.assertEqual(2, len(trace.attempt_ids))
 
     def test_controlled_execution_failure_becomes_result(self):
-        execution = build_execution_object(request("fail", {"message": "boom"}), created_by="co-002-test")
-        envelope = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
-        receipt = self.executor.execute(envelope, execution)
+        execution, _envelope, receipt = self.execute(request("fail", {"message": "boom"}))
         result = build_result_object(execution, receipt, created_by="co-002-test")
         self.assertEqual("failure", receipt.outcome)
         self.assertEqual("failure", result.payload["outcome"])
         self.assertEqual("CO002_CONTROLLED_FAILURE", result.payload["error"]["code"])
 
+    def test_invalid_domain_input_becomes_failure_receipt_not_exception(self):
+        execution, _envelope, receipt = self.execute(request("echo", {"unexpected": "value"}))
+        result = build_result_object(execution, receipt, created_by="co-002-test")
+        self.assertEqual("failure", receipt.outcome)
+        self.assertEqual("CO002_INVALID_INPUT", receipt.error["code"])
+        self.assertEqual("failure", result.payload["outcome"])
+
+    def test_unsupported_capability_becomes_failure_receipt_not_exception(self):
+        execution, _envelope, receipt = self.execute(request("unknown-capability", {}))
+        result = build_result_object(execution, receipt, created_by="co-002-test")
+        self.assertEqual("failure", receipt.outcome)
+        self.assertEqual("CO002_UNSUPPORTED_CAPABILITY", receipt.error["code"])
+        self.assertEqual("failure", result.payload["outcome"])
+
     def test_transport_failure_raises_before_domain_execution(self):
         execution = build_execution_object(request(), created_by="co-002-test")
-        good = build_execute_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        good = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
         malformed = YarpEnvelope(**{**good.__dict__, "envelope_id": "bad"})
+        with self.assertRaises(YarpTransportError):
+            self.executor.execute(malformed, execution)
+
+    def test_mutated_canonical_payload_is_rejected_before_execution(self):
+        execution = build_execution_object(request(), created_by="co-002-test")
+        envelope = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        execution.payload["capability"] = "fail"
+        with self.assertRaises(ExecutionIntegrityError):
+            self.executor.execute(envelope, execution)
+
+    def test_envelope_execution_snapshot_must_match_canonical_object(self):
+        execution = build_execution_object(request(), created_by="co-002-test")
+        good = build_execution_transport_envelope(execution, sender_id="agent-chatgpt-ag", receiver_id="agent-test-executor")
+        tampered_payload = {**good.payload, "execution": {**good.payload["execution"], "capability": "fail"}}
+        malformed = YarpEnvelope(**{**good.__dict__, "payload": tampered_payload})
         with self.assertRaises(YarpTransportError):
             self.executor.execute(malformed, execution)
 
