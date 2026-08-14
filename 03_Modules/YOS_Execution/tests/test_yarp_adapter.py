@@ -17,6 +17,10 @@ from yarp_adapter import build_execution_transport_envelope, retry_envelope, val
 CORRELATION = "YARP-CORR-11111111-1111-4111-8111-111111111111"
 
 
+def attempt_base(attempt_id: str) -> str:
+    return attempt_id.rsplit("-", 1)[0]
+
+
 class YarpAdapterTests(unittest.TestCase):
     def setUp(self):
         self.execution = build_execution_object(
@@ -34,6 +38,7 @@ class YarpAdapterTests(unittest.TestCase):
         self.assertEqual(first.correlation_id, second.correlation_id)
         self.assertNotEqual(first.envelope_id, second.envelope_id)
         self.assertNotEqual(first.attempt_id, second.attempt_id)
+        self.assertEqual(attempt_base(first.attempt_id), attempt_base(second.attempt_id))
         self.assertEqual(2, second.attempt_number)
         self.assertEqual(self.execution.object_id, second.payload["canonical_object_id"])
         self.assertRegex(first.envelope_id, r"^YARP-ENV-[0-9a-f-]{36}$")
