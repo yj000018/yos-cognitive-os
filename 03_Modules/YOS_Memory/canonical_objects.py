@@ -113,6 +113,7 @@ def build_conversation_delta_object(*, transaction: Any, candidates: list[Any], 
         for c in candidates
     ]
     supersedes = tuple(dict.fromkeys(c.supersedes for c in candidates if c.supersedes))
+    related_objects = tuple(dict.fromkeys(f"git:{m.path}" for m in [*transaction.amend, *transaction.create]))
     payload = {
         "transaction_id": transaction.transaction_id,
         "status": transaction.status,
@@ -130,7 +131,12 @@ def build_conversation_delta_object(*, transaction: Any, candidates: list[Any], 
         created_at=_utc_now_iso(),
         created_by=created_by,
         provenance={"producer": "YOS_Memory.Preserve", "transaction_id": transaction.transaction_id},
-        lineage=CanonicalLineage(source_refs=source_refs, transformed_by=("YOS_Memory.Preserve",), supersedes=supersedes),
+        lineage=CanonicalLineage(
+            source_refs=source_refs,
+            transformed_by=("YOS_Memory.Preserve",),
+            supersedes=supersedes,
+            related_objects=related_objects,
+        ),
         context_refs=context_refs,
         payload=payload,
         integrity={"content_sha256": content_sha256(payload)},
