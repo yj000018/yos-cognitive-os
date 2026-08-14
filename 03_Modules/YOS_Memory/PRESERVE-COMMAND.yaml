@@ -3,10 +3,12 @@ status: ACTIVE
 owner: 03_Modules/YOS_Memory
 scope: global
 intent: durable_memory_write
-aliases:
-  - préserve
+canonical_commands:
   - preserve
   - save
+canonical_synonymy: strict
+aliases:
+  - préserve
   - archive
   - remember this
   - capture le delta
@@ -30,6 +32,7 @@ state:
   recommended_path: .yos/state/preserve.json
   advance_boundary_only_after_remote_verification: true
 routing:
+  kernel_hook: L1_Constitution_Custom_Instructions
   semantic_distillation: ChatGPT_Guardian_Architect
   project_context: Project_Pilot
   broad_git_execution: Manus_YOS_Agency
