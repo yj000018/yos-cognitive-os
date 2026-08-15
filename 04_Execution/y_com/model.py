@@ -7,6 +7,7 @@ ALLOWED_ACTS = frozenset({
     "CHOOSE",
     "REQUEST_CHOICE",
     "RECOMMEND",
+    "CANCEL",
 })
 
 ALLOWED_DIRECTIONS = frozenset({"human_to_ai", "ai_to_human"})
