@@ -26,8 +26,8 @@ def make_interaction_act(
         raise ValueError(f"unsupported direction: {direction}")
     if act not in ALLOWED_ACTS:
         raise ValueError(f"unsupported Y-COM act: {act}")
-    if not 0.0 <= confidence <= 1.0:
-        raise ValueError("confidence must be between 0.0 and 1.0")
+    if isinstance(confidence, bool) or not 0.0 <= confidence <= 1.0:
+        raise ValueError("confidence must be a number between 0.0 and 1.0")
 
     return {
         "version": "0.1",

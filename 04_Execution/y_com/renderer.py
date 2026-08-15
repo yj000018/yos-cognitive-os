@@ -18,7 +18,7 @@ def render_text(acts: list[dict]) -> str:
 
     recommended_id = None
     if recommendations:
-        recommended_id = recommendations[0].get("value", {}).get("option_id")
+        recommended_id = str(recommendations[0].get("value", {}).get("option_id"))
         if recommended_id not in {str(option["id"]) for option in options}:
             raise ValueError("recommended option does not exist")
 
