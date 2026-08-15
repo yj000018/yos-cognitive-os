@@ -16,7 +16,7 @@ The envelope contains:
 - `context` — bounded contextual hints;
 - `object` — normalized payload surface/object;
 - `routing` — neutral placeholders for later cognition/routing enrichment;
-- `provenance` — source reference.
+- `provenance` — stable source reference identifying the ingress occurrence.
 
 ## Ownership boundary
 
@@ -28,4 +28,4 @@ It does **not** transport machine messages. That belongs to MTP/BUS.
 
 ## Determinism
 
-For the same normalized ingress identity, `event_id` is stable. `received_at` is intentionally not part of identity so an adapter can attach observation time without changing the normalized object identity.
+For the same normalized ingress identity, `event_id` is stable. Every adapter must supply a non-empty `raw_source_ref` so repeated identical surfaces remain distinguishable occurrences. `received_at` and downstream `context` enrichment are intentionally not part of identity.

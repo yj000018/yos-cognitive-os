@@ -74,7 +74,7 @@
       "additionalProperties": false,
       "required": ["raw_source_ref"],
       "properties": {
-        "raw_source_ref": {"type": ["string", "null"]}
+        "raw_source_ref": {"type": "string", "minLength": 1}
       }
     }
   }

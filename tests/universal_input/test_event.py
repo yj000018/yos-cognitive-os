@@ -39,9 +39,19 @@ class UniversalInputEventTests(unittest.TestCase):
         }
         self.assertEqual(make_input_event(**kwargs)["event_id"], make_input_event(**kwargs)["event_id"])
 
+    def test_source_ref_is_required_to_distinguish_event_occurrences(self):
+        with self.assertRaises(ValueError):
+            make_input_event(channel_type="text", body="O", source_ref=None)
+
+    def test_context_enrichment_does_not_change_ingress_identity(self):
+        base = dict(channel_type="text", body="O", source_ref="chat:message-1")
+        first = make_input_event(**base, context={"project": "A"})
+        second = make_input_event(**base, context={"project": "B"})
+        self.assertEqual(first["event_id"], second["event_id"])
+
     def test_unknown_channel_is_rejected(self):
         with self.assertRaises(ValueError):
-            make_input_event(channel_type="telepathy", body="O")
+            make_input_event(channel_type="telepathy", body="O", source_ref="test:1")
 
 
 if __name__ == "__main__":

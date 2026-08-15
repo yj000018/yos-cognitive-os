@@ -29,7 +29,7 @@ def make_input_event(
     *,
     channel_type: str,
     body: str | None,
-    source_ref: str | None = None,
+    source_ref: str,
     received_at: str | None = None,
     object_type: str = "text",
     object_metadata: dict | None = None,
@@ -39,6 +39,8 @@ def make_input_event(
         raise ValueError(f"unsupported input channel: {channel_type}")
     if body is not None and not isinstance(body, str):
         raise ValueError("body must be a string or None")
+    if not isinstance(source_ref, str) or not source_ref.strip():
+        raise ValueError("source_ref must be a non-empty string")
 
     metadata = dict(object_metadata or {})
     event_identity = {
@@ -47,7 +49,6 @@ def make_input_event(
         "source_ref": source_ref,
         "object_type": object_type,
         "object_metadata": metadata,
-        "context": dict(context or {}),
     }
 
     return {
