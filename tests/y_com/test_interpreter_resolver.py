@@ -14,6 +14,16 @@ class InterpreterResolverTests(unittest.TestCase):
             with self.subTest(surface=surface):
                 self.assertEqual(classify_surface(surface), "AFFIRMATIVE")
 
+    def test_negative_surface_aliases_are_equivalent(self):
+        for surface in ("N", "n", "non", "Non", "no", "NO"):
+            with self.subTest(surface=surface):
+                self.assertEqual(classify_surface(surface), "NEGATIVE")
+
+    def test_cancel_surface_aliases_are_equivalent(self):
+        for surface in ("X", "x", "stop", "STOP", "annule", "Annule", "cancel", "CANCEL"):
+            with self.subTest(surface=surface):
+                self.assertEqual(classify_surface(surface), "CANCEL")
+
     def test_choice_context_accepts_explicit_recommendation(self):
         act = interpret_interaction(
             surface="O",
@@ -51,6 +61,71 @@ class InterpreterResolverTests(unittest.TestCase):
             },
         )
         self.assertEqual(act["act"], "CONTINUE")
+
+    def test_binary_context_resolves_negative_to_reject(self):
+        act = interpret_interaction(
+            surface="N",
+            modality="text",
+            interaction_context={
+                "question_kind": "binary",
+                "active_question_id": "q-neg-1",
+                "recommended_option_id": None,
+            },
+        )
+        self.assertEqual(act["act"], "REJECT")
+        self.assertEqual(act["context"], {"active_question_id": "q-neg-1"})
+
+    def test_recommended_choice_resolves_negative_to_reject(self):
+        act = interpret_interaction(
+            surface="non",
+            modality="voice",
+            interaction_context={
+                "question_kind": "choice",
+                "active_question_id": "q-neg-2",
+                "recommended_option_id": "2",
+            },
+        )
+        self.assertEqual(act["act"], "REJECT")
+        self.assertEqual(act["value"], {"option_id": "2"})
+
+    def test_negative_without_rejectable_context_is_unresolved(self):
+        act = interpret_interaction(
+            surface="N",
+            modality="text",
+            interaction_context={
+                "question_kind": None,
+                "active_question_id": None,
+                "recommended_option_id": None,
+            },
+        )
+        self.assertIsNone(act)
+
+    def test_current_flow_resolves_cancel(self):
+        act = interpret_interaction(
+            surface="X",
+            modality="text",
+            interaction_context={
+                "question_kind": None,
+                "active_question_id": None,
+                "recommended_option_id": None,
+                "current_flow_id": "flow-1",
+            },
+        )
+        self.assertEqual(act["act"], "CANCEL")
+        self.assertEqual(act["context"], {"current_flow_id": "flow-1"})
+
+    def test_cancel_without_current_flow_is_unresolved(self):
+        act = interpret_interaction(
+            surface="X",
+            modality="text",
+            interaction_context={
+                "question_kind": None,
+                "active_question_id": None,
+                "recommended_option_id": None,
+                "current_flow_id": None,
+            },
+        )
+        self.assertIsNone(act)
 
     def test_choice_without_recommendation_is_unresolved(self):
         act = interpret_interaction(
