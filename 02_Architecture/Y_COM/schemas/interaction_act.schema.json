@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yos.local/schemas/y-com/interaction_act.schema.json",
+  "title": "Y-COM InteractionAct v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "direction", "act", "value", "confidence", "source", "context"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "direction": {"enum": ["human_to_ai", "ai_to_human"]},
+    "act": {"enum": ["ACCEPT", "REJECT", "CONTINUE", "CHOOSE", "REQUEST_CHOICE", "RECOMMEND"]},
+    "value": {},
+    "confidence": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["modality", "surface"],
+      "properties": {
+        "modality": {"type": "string"},
+        "surface": {"type": ["string", "null"]}
+      }
+    },
+    "context": {"type": "object"}
+  }
+}
