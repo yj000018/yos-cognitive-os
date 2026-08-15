@@ -9,7 +9,7 @@ from y_com.model import ALLOWED_ACTS, make_interaction_act
 
 
 class InteractionActModelTests(unittest.TestCase):
-    def test_v01_vocabulary_is_exact(self):
+    def test_v02_vocabulary_is_exact(self):
         self.assertEqual(
             ALLOWED_ACTS,
             frozenset({
@@ -19,8 +19,20 @@ class InteractionActModelTests(unittest.TestCase):
                 "CHOOSE",
                 "REQUEST_CHOICE",
                 "RECOMMEND",
+                "CANCEL",
             }),
         )
+
+    def test_cancel_is_a_valid_interaction_act(self):
+        act = make_interaction_act(
+            direction="human_to_ai",
+            act="CANCEL",
+            modality="text",
+            surface="X",
+            context={"current_flow_id": "flow-1"},
+        )
+        self.assertEqual(act["act"], "CANCEL")
+        self.assertEqual(act["context"], {"current_flow_id": "flow-1"})
 
     def test_make_interaction_act_returns_canonical_shape(self):
         act = make_interaction_act(
