@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yos.local/schemas/universal_input_event.schema.json",
+  "title": "Y-OS Universal Input Event v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "received_at",
+    "channel",
+    "mode",
+    "intent",
+    "context",
+    "object",
+    "routing",
+    "provenance"
+  ],
+  "properties": {
+    "event_id": {"type": "string", "pattern": "^evt_[0-9a-f]{24}$"},
+    "received_at": {"type": ["string", "null"]},
+    "channel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "metadata"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["text", "voice", "email", "share", "messaging", "browser", "api", "sensor"]
+        },
+        "metadata": {"type": "object"}
+      }
+    },
+    "mode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source"],
+      "properties": {
+        "value": {"type": "string"},
+        "source": {"type": "string"}
+      }
+    },
+    "intent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source"],
+      "properties": {
+        "value": {"type": "string"},
+        "source": {"type": "string"}
+      }
+    },
+    "context": {"type": "object"},
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "body", "metadata"],
+      "properties": {
+        "type": {"type": "string"},
+        "body": {"type": ["string", "null"]},
+        "metadata": {"type": "object"}
+      }
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["workflow", "agents", "destinations"],
+      "properties": {
+        "workflow": {"type": ["string", "null"]},
+        "agents": {"type": "array"},
+        "destinations": {"type": "array"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw_source_ref"],
+      "properties": {
+        "raw_source_ref": {"type": ["string", "null"]}
+      }
+    }
+  }
+}
