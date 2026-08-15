@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from .resolver import resolve_affirmative, resolve_cancel, resolve_negative
+from .resolver import resolve_affirmative, resolve_cancel, resolve_choice, resolve_negative
 
 _AFFIRMATIVE_SURFACES = frozenset({"o", "oui", "ok"})
 _NEGATIVE_SURFACES = frozenset({"n", "non", "no"})
@@ -15,6 +15,8 @@ def classify_surface(surface: str) -> str | None:
         return "NEGATIVE"
     if normalized in _CANCEL_SURFACES:
         return "CANCEL"
+    if normalized.isdecimal():
+        return "CHOICE"
     return None
 
 
@@ -34,6 +36,12 @@ def interpret_interaction(*, surface: str, modality: str, interaction_context: d
         )
     if candidate == "CANCEL":
         return resolve_cancel(
+            modality=modality,
+            surface=surface,
+            interaction_context=interaction_context,
+        )
+    if candidate == "CHOICE":
+        return resolve_choice(
             modality=modality,
             surface=surface,
             interaction_context=interaction_context,
