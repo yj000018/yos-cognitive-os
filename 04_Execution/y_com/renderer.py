@@ -2,6 +2,10 @@ from __future__ import annotations
 
 
 def render_text(acts: list[dict]) -> str:
+    supported = {"REQUEST_CHOICE", "RECOMMEND"}
+    if any(act.get("act") not in supported for act in acts):
+        raise ValueError("v0.1 text renderer received an unsupported interaction act")
+
     requests = [act for act in acts if act.get("act") == "REQUEST_CHOICE"]
     recommendations = [act for act in acts if act.get("act") == "RECOMMEND"]
 

@@ -57,6 +57,19 @@ class RendererTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             render_text([request, recommend])
 
+    def test_renderer_rejects_unsupported_extra_act(self):
+        request = make_interaction_act(
+            direction="ai_to_human",
+            act="REQUEST_CHOICE",
+            value={"options": [{"id": "1", "label": "A"}]},
+        )
+        extra = make_interaction_act(
+            direction="human_to_ai",
+            act="ACCEPT",
+        )
+        with self.assertRaises(ValueError):
+            render_text([request, extra])
+
 
 if __name__ == "__main__":
     unittest.main()
