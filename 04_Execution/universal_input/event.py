@@ -39,6 +39,10 @@ def make_input_event(
         raise ValueError(f"unsupported input channel: {channel_type}")
     if body is not None and not isinstance(body, str):
         raise ValueError("body must be a string or None")
+    if received_at is not None and not isinstance(received_at, str):
+        raise ValueError("received_at must be a string or None")
+    if not isinstance(object_type, str):
+        raise ValueError("object_type must be a string")
     if not isinstance(source_ref, str) or not source_ref.strip():
         raise ValueError("source_ref must be a non-empty string")
 

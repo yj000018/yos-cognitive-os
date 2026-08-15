@@ -53,6 +53,24 @@ class UniversalInputEventTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             make_input_event(channel_type="telepathy", body="O", source_ref="test:1")
 
+    def test_non_string_received_at_is_rejected(self):
+        with self.assertRaises(ValueError):
+            make_input_event(
+                channel_type="text",
+                body="O",
+                source_ref="chat:message-2",
+                received_at=1723730400,
+            )
+
+    def test_non_string_object_type_is_rejected(self):
+        with self.assertRaises(ValueError):
+            make_input_event(
+                channel_type="text",
+                body="O",
+                source_ref="chat:message-3",
+                object_type=123,
+            )
+
 
 if __name__ == "__main__":
     unittest.main()
