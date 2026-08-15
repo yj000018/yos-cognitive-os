@@ -18,6 +18,8 @@ class UniversalInputSchemaTests(unittest.TestCase):
             set(schema["properties"]["channel"]["properties"]["type"]["enum"]),
             {"text", "voice", "email", "share", "messaging", "browser", "api", "sensor"},
         )
+        self.assertIn("confidence", schema["properties"]["mode"]["required"])
+        self.assertIn("confidence", schema["properties"]["intent"]["required"])
 
 
 if __name__ == "__main__":

@@ -61,10 +61,12 @@ def make_input_event(
         "mode": {
             "value": "yos",
             "source": "default",
+            "confidence": 1.0,
         },
         "intent": {
             "value": "auto",
             "source": "default",
+            "confidence": 1.0,
         },
         "context": dict(context or {}),
         "object": {

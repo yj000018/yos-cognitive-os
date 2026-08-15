@@ -33,19 +33,21 @@
     "mode": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["value", "source"],
+      "required": ["value", "source", "confidence"],
       "properties": {
         "value": {"type": "string"},
-        "source": {"type": "string"}
+        "source": {"type": "string"},
+        "confidence": {"type": "number", "minimum": 0.0, "maximum": 1.0}
       }
     },
     "intent": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["value", "source"],
+      "required": ["value", "source", "confidence"],
       "properties": {
         "value": {"type": "string"},
-        "source": {"type": "string"}
+        "source": {"type": "string"},
+        "confidence": {"type": "number", "minimum": 0.0, "maximum": 1.0}
       }
     },
     "context": {"type": "object"},

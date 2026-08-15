@@ -25,8 +25,8 @@ class UniversalInputEventTests(unittest.TestCase):
         self.assertTrue(event["event_id"].startswith("evt_"))
         self.assertEqual(event["received_at"], "2026-08-15T14:37:00+02:00")
         self.assertEqual(event["channel"]["type"], "text")
-        self.assertEqual(event["mode"], {"value": "yos", "source": "default"})
-        self.assertEqual(event["intent"], {"value": "auto", "source": "default"})
+        self.assertEqual(event["mode"], {"value": "yos", "source": "default", "confidence": 1.0})
+        self.assertEqual(event["intent"], {"value": "auto", "source": "default", "confidence": 1.0})
         self.assertEqual(event["object"], {"type": "text", "body": "O", "metadata": {}})
         self.assertEqual(event["provenance"]["raw_source_ref"], "chat:message-1")
 
