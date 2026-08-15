@@ -1,0 +1,28 @@
+name: Universal Input v0.1 Verification
+
+on:
+  push:
+    paths:
+      - '02_Architecture/Universal_Input_Layer/**'
+      - '04_Execution/universal_input/**'
+      - '04_Execution/y_com/**'
+      - 'tests/universal_input/**'
+      - '.github/workflows/universal-input-v0.1-tests.yml'
+  pull_request:
+    paths:
+      - '02_Architecture/Universal_Input_Layer/**'
+      - '04_Execution/universal_input/**'
+      - '04_Execution/y_com/**'
+      - 'tests/universal_input/**'
+      - '.github/workflows/universal-input-v0.1-tests.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests/universal_input -v
+      - run: python -m json.tool 02_Architecture/Universal_Input_Layer/schemas/universal_input_event.schema.json >/dev/null
