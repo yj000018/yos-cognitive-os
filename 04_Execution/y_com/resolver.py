@@ -3,6 +3,33 @@ from __future__ import annotations
 from .model import make_interaction_act
 
 
+def resolve_choice(*, modality: str, surface: str, interaction_context: dict) -> dict | None:
+    if interaction_context.get("question_kind") != "choice":
+        return None
+
+    option_ids = interaction_context.get("active_option_ids")
+    if not isinstance(option_ids, list):
+        return None
+
+    option_id = surface.strip()
+    if option_id not in option_ids:
+        return None
+
+    context = {}
+    question_id = interaction_context.get("active_question_id")
+    if question_id is not None:
+        context["active_question_id"] = question_id
+
+    return make_interaction_act(
+        direction="human_to_ai",
+        act="CHOOSE",
+        value={"option_id": option_id},
+        modality=modality,
+        surface=surface,
+        context=context,
+    )
+
+
 def resolve_affirmative(*, modality: str, surface: str, interaction_context: dict) -> dict | None:
     kind = interaction_context.get("question_kind")
     question_id = interaction_context.get("active_question_id")
