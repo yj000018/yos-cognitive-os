@@ -9,6 +9,29 @@ from y_com.universal_input_adapter import interaction_from_input_event
 
 
 class UniversalInputAdapterTests(unittest.TestCase):
+    def test_text_and_voice_numeric_choices_converge_on_choose(self):
+        context = {
+            "question_kind": "choice",
+            "active_question_id": "q-choice",
+            "recommended_option_id": "1",
+            "active_option_ids": ["1", "2", "3"],
+        }
+        text_act = interaction_from_input_event(
+            {"channel": {"type": "text"}, "object": {"body": "2"}},
+            interaction_context=context,
+        )
+        voice_act = interaction_from_input_event(
+            {"channel": {"type": "voice"}, "object": {"body": "2"}},
+            interaction_context=context,
+        )
+
+        self.assertEqual(text_act["act"], "CHOOSE")
+        self.assertEqual(voice_act["act"], "CHOOSE")
+        self.assertEqual(text_act["value"], {"option_id": "2"})
+        self.assertEqual(voice_act["value"], {"option_id": "2"})
+        self.assertEqual(text_act["source"]["modality"], "text")
+        self.assertEqual(voice_act["source"]["modality"], "voice")
+
     def test_text_and_voice_inputs_converge_on_same_semantic_act(self):
         context = {
             "question_kind": "choice",
