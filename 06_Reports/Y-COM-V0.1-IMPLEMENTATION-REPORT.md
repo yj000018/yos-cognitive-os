@@ -38,8 +38,9 @@ PASS
 - Task 2 commit: `8a0550f27f48de1d4d3acbfc3f04e944bcca0154`
 - Task 3 commit: `c2d2621e3ea68ccb24da7b5ed4c6cf58a6807485`
 - Task 4 commit: `915a0a1da2bab5e7530a9a986be5f728e98b69a4`
-- GitHub Actions run: to be recorded after the verification commit is pushed
-- feature/final commit SHA: the containing verification commit / later CI evidence commit
+- verification/code commit: `08e4b518a6803e20d031a9e4d8fa82811f7e02c7`
+- GitHub Actions: `Y-COM v0.1 Verification`, run `31881826947`, conclusion `success`
+- verified CI head SHA: `08e4b518a6803e20d031a9e4d8fa82811f7e02c7`
 
 ## Doctrine registry
 The legacy `00_Control_Plane/CANONICAL-DOCTRINE-REGISTRY.md` was intentionally not modified in this slice. The stable boundary is documented under `02_Architecture/Y_COM/`; mutating the broad legacy doctrine registry is unnecessary for the executable kernel and would widen scope.
