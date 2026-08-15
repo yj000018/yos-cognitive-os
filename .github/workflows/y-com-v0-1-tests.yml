@@ -1,0 +1,26 @@
+name: Y-COM v0.1 Verification
+
+on:
+  push:
+    paths:
+      - '02_Architecture/Y_COM/**'
+      - '04_Execution/y_com/**'
+      - 'tests/y_com/**'
+      - '.github/workflows/y-com-v0-1-tests.yml'
+  pull_request:
+    paths:
+      - '02_Architecture/Y_COM/**'
+      - '04_Execution/y_com/**'
+      - 'tests/y_com/**'
+      - '.github/workflows/y-com-v0-1-tests.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests/y_com -v
+      - run: python -m json.tool 02_Architecture/Y_COM/schemas/interaction_act.schema.json >/dev/null
